@@ -1,0 +1,198 @@
+Script started on Thursday 07 February 2019 04:08:29 PM IST
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  mkdir rithu
+mkdir: cannot create directory ‘rithu’: File exists
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  mkdir shanu
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  ls
+cecs17d41.07.02.19.txt  [0m[01;34mrithu[0m  [01;34mshanu[0m
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  ls -l
+total 8
+-rw-rw-r-- 1 rithumariajose rithumariajose    0 Feb  7 16:08 cecs17d41.07.02.19.txt
+drwxrwxr-x 2 rithumariajose rithumariajose 4096 Feb  7 15:36 [0m[01;34mrithu[0m
+drwxrwxr-x 2 rithumariajose rithumariajose 4096 Feb  7 16:09 [01;34mshanu[0m
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  ls -lt
+total 8
+drwxrwxr-x 2 rithumariajose rithumariajose 4096 Feb  7 16:09 [0m[01;34mshanu[0m
+-rw-rw-r-- 1 rithumariajose rithumariajose    0 Feb  7 16:08 cecs17d41.07.02.19.txt
+drwxrwxr-x 2 rithumariajose rithumariajose 4096 Feb  7 15:36 [01;34mrithu[0m
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  ls -ltr
+total 8
+drwxrwxr-x 2 rithumariajose rithumariajose 4096 Feb  7 15:36 [0m[01;34mrithu[0m
+-rw-rw-r-- 1 rithumariajose rithumariajose    0 Feb  7 16:08 cecs17d41.07.02.19.txt
+drwxrwxr-x 2 rithumariajose rithumariajose 4096 Feb  7 16:09 [01;34mshanu[0m
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  cat >test.txt
+Rithu is a good girls . She is the best girl in the world.
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  cat test.txt
+Rithu is a good girl. She is the best girl in the world.
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  ls -ly[Kt
+total 12
+-rw-rw-r-- 1 rithumariajose rithumariajose   57 Feb  7 16:11 test.txt
+drwxrwxr-x 2 rithumariajose rithumariajose 4096 Feb  7 16:09 [0m[01;34mshanu[0m
+-rw-rw-r-- 1 rithumariajose rithumariajose    0 Feb  7 16:08 cecs17d41.07.02.19.txt
+drwxrwxr-x 2 rithumariajose rithumariajose 4096 Feb  7 15:36 [01;34mrithu[0m
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  alias c="cat"
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  c >test2.txt
+Hello World
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  unalias c
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  unalias c[Cc >test2.txt
+c: command not found
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  ^z
+bash: :s^z: substitution failed
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  ~ /.bash_aliases
+bash: /home/rithumariajose: Is a directory
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  field separator : 
+The program 'field' is currently not installed. To run 'field' please ask your administrator to install the package 'rheolef'
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  sort -n fn[K[Kshanu
+sort: read failed: shanu: Is a directory
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  sort -n shanu[Cfield separator : [C[2P~ /.bash_aliases[C[4Pc >test2.txt[C[3Punalias c[Cc >test2.txt[Calias c="cat"[C[7Pls -lt[Ccat test.txt[C[C[C[C[C>test.txt[C[6Pls -ltr[K[K[Kmkdir shanurithu[Cscript ceccs17d41.07.02.19[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat >pottan.txt
+HEY HEY HEY           28154176936591
+sdgkgi
+hjhr8t7hg
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  sort -n pottan.txt
+hjhr8t7hg
+sdgkgi
+28154176936591
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  sort -nk7 pottan.txt
+28154176936591
+hjhr8t7hg
+sdgkgi
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  sort -mk7 pottan.txt
+28154176936591
+sdgkgi
+hjhr8t7hg
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  sort -t'$\t'-k7 pottan.txt
+sort: multi-character tab ‘$\\t-k7’
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  field separator: TAB
+The program 'field' is currently not installed. To run 'field' please ask your administrator to install the package 'rheolef'
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  cut -f3 pottan.txt
+28154176936591
+sdgkgi
+hjhr8t7hg
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  cut -f-3
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  cut -f-3 pottan.txt
+28154176936591
+sdgkgi
+hjhr8t7hg
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  cut f1 -3
+cut: invalid option -- '3'
+Try 'cut --help' for more information.
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  cut f1-3
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  cat > a.txt
+wegf
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  cat >b.txt
+jksdgv
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  paste a.txt b.txt
+wegf	jksdgv
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  join a.txt b.txt
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  join -1 2 -2 3 a,txt b.txt
+join: a,txt: No such file or directory
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  join -1 2 -2 3 a,txt b.txt[C[C[C[C[C[C[10Pa.[C[C[C[C[C[C[C[C[C -j2
+ wegf jksdgv
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  grep rithumariajose test,[K.txt
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  grep rithumariajose test.txtDtest.txtEtest.txt[1Ptest.txtetest.txtstest.txtktest.txt[Ctest.txtotest.txtptest.txt[C[C/Desktoptest.txt[C[C[C[C[C[C[C[C[C[C test.txt/test.txt[1Ptest.txt[1Ptest.txt/test.txt
+grep: /Desktop/test.txt: No such file or directory
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  grep rithumariajose /Desktop/test.txt[K[K[K[K[K[K[K[Kpottan.txt
+grep: /Desktop/pottan.txt: No such file or directory
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  cat > junk.txt
+cool
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  cat > junk.txt[Cgrep rithumariajose /Desktop/pottan.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txtj.txtu.txtn.txtk.txt
+grep: /Desktop/junk.txt: No such file or directory
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  grep rithumariajose /Desktop/junk.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kajose/ [K[K /[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K-c
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  ln -s
+ln: missing file operand
+Try 'ln --help' for more information.
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  ln --help
+Usage: ln [OPTION]... [-T] TARGET LINK_NAME   (1st form)
+  or:  ln [OPTION]... TARGET                  (2nd form)
+  or:  ln [OPTION]... TARGET... DIRECTORY     (3rd form)
+  or:  ln [OPTION]... -t DIRECTORY TARGET...  (4th form)
+In the 1st form, create a link to TARGET with the name LINK_NAME.
+In the 2nd form, create a link to TARGET in the current directory.
+In the 3rd and 4th forms, create links to each TARGET in DIRECTORY.
+Create hard links by default, symbolic links with --symbolic.
+By default, each destination (name of new link) should not already exist.
+When creating hard links, each TARGET must exist.  Symbolic links
+can hold arbitrary text; if later resolved, a relative link is
+interpreted in relation to its parent directory.
+
+Mandatory arguments to long options are mandatory for short options too.
+      --backup[=CONTROL]      make a backup of each existing destination file
+  -b                          like --backup but does not accept an argument
+  -d, -F, --directory         allow the superuser to attempt to hard link
+                                directories (note: will probably fail due to
+                                system restrictions, even for the superuser)
+  -f, --force                 remove existing destination files
+  -i, --interactive           prompt whether to remove destinations
+  -L, --logical               dereference TARGETs that are symbolic links
+  -n, --no-dereference        treat LINK_NAME as a normal file if
+                                it is a symbolic link to a directory
+  -P, --physical              make hard links directly to symbolic links
+  -r, --relative              create symbolic links relative to link location
+  -s, --symbolic              make symbolic links instead of hard links
+  -S, --suffix=SUFFIX         override the usual backup suffix
+  -t, --target-directory=DIRECTORY  specify the DIRECTORY in which to create
+                                the links
+  -T, --no-target-directory   treat LINK_NAME as a normal file always
+  -v, --verbose               print name of each linked file
+      --help     display this help and exit
+      --version  output version information and exit
+
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+Using -s ignores -L and -P.  Otherwise, the last option specified controls
+behavior when a TARGET is a symbolic link, defaulting to -P.
+
+GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
+Full documentation at: <http://www.gnu.org/software/coreutils/ln>
+or available locally via: info '(coreutils) ln invocation'
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  man
+What manual page do you want?
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  ls
+a.txt  cecs17d41.07.02.19.txt  pottan.txt  [0m[01;34mshanu[0m      test.txt
+b.txt  junk.txt                [01;34mrithu[0m       test2.txt
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  free'[K
+              total        used        free      shared  buff/cache   available
+Mem:        1884060      999600      254176      247568      630284      381740
+Swap:       4881404      121512     4759892
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  ifconfig -a
+enp4s0    Link encap:Ethernet  HWaddr 10:78:d2:50:d0:2e  
+          inet addr:192.168.0.128  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::9f7:3966:4022:1207/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:274900 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:54435 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:125463857 (125.4 MB)  TX bytes:5532616 (5.5 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:39656 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:39656 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:2624863 (2.6 MB)  TX bytes:2624863 (2.6 MB)
+
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  exit[K[K[K[Kgrep[K[K[K[Kcat > bread.txt
+foof d 123   is good.
+porotta chicken curry chicken biriyani
+food food food
+food is life
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  grep -i "food" bread.txt
+[01;31m[Kfood[m[K is good.
+[01;31m[Kfood[m[K [01;31m[Kfood[m[K [01;31m[Kfood[m[K
+[01;31m[Kfood[m[K is life
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Desktop[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Desktop[00m$  exit
+exit
+
+Script done on Thursday 07 February 2019 04:44:11 PM IST
