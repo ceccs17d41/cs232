@@ -1,0 +1,595 @@
+Script started on Thursday 14 February 2019 02:52:02 PM IST
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Downloads[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Downloads[00m$ ls
+result_CHN.pdf  results.txt
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Downloads[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Downloads[00m$ pdf to text[K[K[K[K[K[K[K[Ktotext result_CHN.pdf -layout
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Downloads[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Downloads[00m$ ls
+result_CHN.pdf  result_CHN.txt  results.txt
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Downloads[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Downloads[00m$ lspdftotext result_CHN.pdf -layoutls[Kgit push -u origin masterremote add origin https://github.com/ceccs17d41/cs232.gitt[A]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Downloads[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Downloads[00m$ [C[C[C[C[35Ppush -u origin master
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kpdftotext result_CHN.pdf -layoutls[K[Kcat > S4D.txt
+                COLLEGE OF ENGINEERING, CHENGANNUR
+B. Tech CS    Semester: IV (A. Y - 2018-19)Admn : 2017-18   Batch : D
+
+Sl No.   Admn No.    Uty Reg No.                    Name
+   1.      411/17   CHN17CS004     ABIN THOMAS
+   2.      412/17   CHN17CS006     ADERSH A
+   3.      347/17   CHN17CS013     ALEN ANTO ABRAHAM
+   4.      168/17   CHN17CS017     AMAL XAVIER
+   5.      434/17   CHN17CS018     AMRITA AJITH
+   6.      420/17   CHN17CS019     ANAKHA B M
+   7.      394/17   CHN17CS021     ANIJA J
+   8.       26/17   CHN17CS022     ANJALI LAKSHMI
+   9.      382/17   CHN17CS023     ANUJA DEV R
+   10.     119/17   CHN17CS024     ANUROSE K THOMAS
+   11.     311/17   CHN17CS027     ARCHANA ROSE BIJU
+   12.     459/17   CHN17CS029     ARUN R
+   13.     386/17   CHN17CS030     ASHISH MATHEW JOHN
+   14.     388/17   CHN17CS032     ASWIN K
+   15.     113/17   CHN17CS034     ATHIRA SURESH
+   16.     456/17   CHN17CS037     AZHAR K
+   17.     197/17   CHN17CS038     BAMISHA A
+   18.     181/17   CHN17CS041     DARSANA M
+   19.     104/17   CHN17CS044     DEEPAK R
+   20.     160/17   CHN17CS045     DEVIKA KRISHNA
+   21.     172/17   CHN17CS048     GEORGI K JOSEPH
+   22.     121/17   CHN17CS051     GOUTHAM G
+   23.     378/17   CHN17CS052     GOVIND J NAIR
+   24.     143/17   CHN17CS053     GRESHMA SHAJI
+   25.     182/17   CHN17CS054     HARIDEV S
+   26.     154/17   CHN17CS055     HARIKRISHNAN S KARTHA
+   27.     445/17   CHN17CS057     JATHIN SURESH
+   28.      03/17   CHN17CS058     JENY SUSAN RAJAN
+   29.      36/17   CHN17CS063     JOEL JOSEPH
+   30.     151/17   CHN17CS064     JOHAN SAM THOMAS
+   31.     400/17   CHN17CS070     LENA GRACE JOSEPH
+   32.      17/17   CHN17CS071     LINTA MARIAM DANIEL
+   33.     393/17   CHN17CS074     MEGHA ELSA SHIBU
+   34.     389/17   CHN17CS076     MOHAMED SHAHIL K
+   35.     134/17   CHN17CS077     MONIYA MOHAN
+   36.     131/17   CHN17CS080     NIKHIL M TOMY
+   37.      10/17   CHN17CS083     NIRMAL K GEORGE MATHEW
+   38.     441/17   CHN17CS085     NITHYA VENUGOPAL
+   39.     142/17   CHN17CS088     N S ATHUL ANAND
+   40.     169/17   CHN17CS090     PRANAY PRINCE
+   41.     278/17   CHN17CS093     RITHU MARIA JOSE
+   42.     187/17   CHN17CS094     RITTY THOMAS
+   43.     423/17   CHN17CS095     ROSHIN ROY
+   44.     156/17   CHN17CS097     SACHIN R
+   45.     290/17   CHN17CS100     SAYOOJ K
+   46.     139/17   CHN17CS101     SHABEERDAS C
+   47.     115/17   CHN17CS104     SHYLESH S
+   48.     443/17   CHN17CS106     SNEHA JAYAN
+   49.     108/17   CHN17CS109     SREELAL S
+   50.     185/17   CHN17CS110     STEPHEN THOMAS
+   51.     315/17   CHN17CS111     SURYA MERIN PHILIP
+   52.     170/17   CHN17CS113     THWALIB NAZIR
+   53.     381/17   CHN17CS114     VARGHESE P P
+   54.     102/17   CHN17CS115     VIMAL K R
+   55.     192/17   CHN17CS116     VISAKH SEBASTIAN
+   56.     116/17   CHN17CS117     VISHAK P V
+   57.     357/17   CHN17CS118     VISHNU V
+   58.     404/17   CHN17CS119     VYSHAKH R
+   59.     476/17   LCHN17CS122    AMRUTHA S
+   60.     469/17   LCHN17CS124    JACOB MATHEW
+   61.     480/17   LCHN17CS121    AISWARYA J
+   62.     475/17   LCHN17CS123    HARIKRISHNAN U
+^L
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Downloads[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Downloads[00m$ cat S4D.txt
+                COLLEGE OF ENGINEERING, CHENGANNUR
+B. Tech CS    Semester: IV (A. Y - 2018-19)Admn : 2017-18   Batch : D
+
+Sl No.   Admn No.    Uty Reg No.                    Name
+   1.      411/17   CHN17CS004     ABIN THOMAS
+   2.      412/17   CHN17CS006     ADERSH A
+   3.      347/17   CHN17CS013     ALEN ANTO ABRAHAM
+   4.      168/17   CHN17CS017     AMAL XAVIER
+   5.      434/17   CHN17CS018     AMRITA AJITH
+   6.      420/17   CHN17CS019     ANAKHA B M
+   7.      394/17   CHN17CS021     ANIJA J
+   8.       26/17   CHN17CS022     ANJALI LAKSHMI
+   9.      382/17   CHN17CS023     ANUJA DEV R
+   10.     119/17   CHN17CS024     ANUROSE K THOMAS
+   11.     311/17   CHN17CS027     ARCHANA ROSE BIJU
+   12.     459/17   CHN17CS029     ARUN R
+   13.     386/17   CHN17CS030     ASHISH MATHEW JOHN
+   14.     388/17   CHN17CS032     ASWIN K
+   15.     113/17   CHN17CS034     ATHIRA SURESH
+   16.     456/17   CHN17CS037     AZHAR K
+   17.     197/17   CHN17CS038     BAMISHA A
+   18.     181/17   CHN17CS041     DARSANA M
+   19.     104/17   CHN17CS044     DEEPAK R
+   20.     160/17   CHN17CS045     DEVIKA KRISHNA
+   21.     172/17   CHN17CS048     GEORGI K JOSEPH
+   22.     121/17   CHN17CS051     GOUTHAM G
+   23.     378/17   CHN17CS052     GOVIND J NAIR
+   24.     143/17   CHN17CS053     GRESHMA SHAJI
+   25.     182/17   CHN17CS054     HARIDEV S
+   26.     154/17   CHN17CS055     HARIKRISHNAN S KARTHA
+   27.     445/17   CHN17CS057     JATHIN SURESH
+   28.      03/17   CHN17CS058     JENY SUSAN RAJAN
+   29.      36/17   CHN17CS063     JOEL JOSEPH
+   30.     151/17   CHN17CS064     JOHAN SAM THOMAS
+   31.     400/17   CHN17CS070     LENA GRACE JOSEPH
+   32.      17/17   CHN17CS071     LINTA MARIAM DANIEL
+   33.     393/17   CHN17CS074     MEGHA ELSA SHIBU
+   34.     389/17   CHN17CS076     MOHAMED SHAHIL K
+   35.     134/17   CHN17CS077     MONIYA MOHAN
+   36.     131/17   CHN17CS080     NIKHIL M TOMY
+   37.      10/17   CHN17CS083     NIRMAL K GEORGE MATHEW
+   38.     441/17   CHN17CS085     NITHYA VENUGOPAL
+   39.     142/17   CHN17CS088     N S ATHUL ANAND
+   40.     169/17   CHN17CS090     PRANAY PRINCE
+   41.     278/17   CHN17CS093     RITHU MARIA JOSE
+   42.     187/17   CHN17CS094     RITTY THOMAS
+   43.     423/17   CHN17CS095     ROSHIN ROY
+   44.     156/17   CHN17CS097     SACHIN R
+   45.     290/17   CHN17CS100     SAYOOJ K
+   46.     139/17   CHN17CS101     SHABEERDAS C
+   47.     115/17   CHN17CS104     SHYLESH S
+   48.     443/17   CHN17CS106     SNEHA JAYAN
+   49.     108/17   CHN17CS109     SREELAL S
+   50.     185/17   CHN17CS110     STEPHEN THOMAS
+   51.     315/17   CHN17CS111     SURYA MERIN PHILIP
+   52.     170/17   CHN17CS113     THWALIB NAZIR
+   53.     381/17   CHN17CS114     VARGHESE P P
+   54.     102/17   CHN17CS115     VIMAL K R
+   55.     192/17   CHN17CS116     VISAKH SEBASTIAN
+   56.     116/17   CHN17CS117     VISHAK P V
+   57.     357/17   CHN17CS118     VISHNU V
+   58.     404/17   CHN17CS119     VYSHAKH R
+   59.     476/17   LCHN17CS122    AMRUTHA S
+   60.     469/17   LCHN17CS124    JACOB MATHEW
+   61.     480/17   LCHN17CS121    AISWARYA J
+   62.     475/17   LCHN17CS123    HARIKRISHNAN U
+
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Downloads[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Downloads[00m$ cat[K[K[Kcaat[K[Kt sr[K4[K[KS4D.txt | column -t
+\COLLEGE  OF      ENGINEERING,  CHENGANNUR
+B.       Tech    CS            Semester:     IV         (A.      Y       -     2018-19)Admn  :  2017-18  Batch  :  D
+Sl       No.     Admn          No.           Uty        Reg      No.     Name
+1.       411/17  CHN17CS004    ABIN          THOMAS
+2.       412/17  CHN17CS006    ADERSH        A
+3.       347/17  CHN17CS013    ALEN          ANTO       ABRAHAM
+4.       168/17  CHN17CS017    AMAL          XAVIER
+5.       434/17  CHN17CS018    AMRITA        AJITH
+6.       420/17  CHN17CS019    ANAKHA        B          M
+7.       394/17  CHN17CS021    ANIJA         J
+8.       26/17   CHN17CS022    ANJALI        LAKSHMI
+9.       382/17  CHN17CS023    ANUJA         DEV        R
+10.      119/17  CHN17CS024    ANUROSE       K          THOMAS
+11.      311/17  CHN17CS027    ARCHANA       ROSE       BIJU
+12.      459/17  CHN17CS029    ARUN          R
+13.      386/17  CHN17CS030    ASHISH        MATHEW     JOHN
+14.      388/17  CHN17CS032    ASWIN         K
+15.      113/17  CHN17CS034    ATHIRA        SURESH
+16.      456/17  CHN17CS037    AZHAR         K
+17.      197/17  CHN17CS038    BAMISHA       A
+18.      181/17  CHN17CS041    DARSANA       M
+19.      104/17  CHN17CS044    DEEPAK        R
+20.      160/17  CHN17CS045    DEVIKA        KRISHNA
+21.      172/17  CHN17CS048    GEORGI        K          JOSEPH
+22.      121/17  CHN17CS051    GOUTHAM       G
+23.      378/17  CHN17CS052    GOVIND        J          NAIR
+24.      143/17  CHN17CS053    GRESHMA       SHAJI
+25.      182/17  CHN17CS054    HARIDEV       S
+26.      154/17  CHN17CS055    HARIKRISHNAN  S          KARTHA
+27.      445/17  CHN17CS057    JATHIN        SURESH
+28.      03/17   CHN17CS058    JENY          SUSAN      RAJAN
+29.      36/17   CHN17CS063    JOEL          JOSEPH
+30.      151/17  CHN17CS064    JOHAN         SAM        THOMAS
+31.      400/17  CHN17CS070    LENA          GRACE      JOSEPH
+32.      17/17   CHN17CS071    LINTA         MARIAM     DANIEL
+33.      393/17  CHN17CS074    MEGHA         ELSA       SHIBU
+34.      389/17  CHN17CS076    MOHAMED       SHAHIL     K
+35.      134/17  CHN17CS077    MONIYA        MOHAN
+36.      131/17  CHN17CS080    NIKHIL        M          TOMY
+37.      10/17   CHN17CS083    NIRMAL        K          GEORGE   MATHEW
+38.      441/17  CHN17CS085    NITHYA        VENUGOPAL
+39.      142/17  CHN17CS088    N             S          ATHUL    ANAND
+40.      169/17  CHN17CS090    PRANAY        PRINCE
+41.      278/17  CHN17CS093    RITHU         MARIA      JOSE
+42.      187/17  CHN17CS094    RITTY         THOMAS
+43.      423/17  CHN17CS095    ROSHIN        ROY
+44.      156/17  CHN17CS097    SACHIN        R
+45.      290/17  CHN17CS100    SAYOOJ        K
+46.      139/17  CHN17CS101    SHABEERDAS    C
+47.      115/17  CHN17CS104    SHYLESH       S
+48.      443/17  CHN17CS106    SNEHA         JAYAN
+49.      108/17  CHN17CS109    SREELAL       S
+50.      185/17  CHN17CS110    STEPHEN       THOMAS
+51.      315/17  CHN17CS111    SURYA         MERIN      PHILIP
+52.      170/17  CHN17CS113    THWALIB       NAZIR
+53.      381/17  CHN17CS114    VARGHESE      P          P
+54.      102/17  CHN17CS115    VIMAL         K          R
+55.      192/17  CHN17CS116    VISAKH        SEBASTIAN
+56.      116/17  CHN17CS117    VISHAK        P          V
+57.      357/17  CHN17CS118    VISHNU        V
+58.      404/17  CHN17CS119    VYSHAKH       R
+59.      476/17  LCHN17CS122   AMRUTHA       S
+60.      469/17  LCHN17CS124   JACOB         MATHEW
+61.      480/17  LCHN17CS121   AISWARYA      J
+62.      475/17  LCHN17CS123   HARIKRISHNAN  U
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Downloads[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Downloads[00m$ \cat S4D.txt | column -t\[K[K[K[K[K[K[K[K[K[Ka[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgrep CHN SL4[K[K4D.txt 
+   1.      411/17   [01;31m[KCHN[m[K17CS004     ABIN THOMAS
+   2.      412/17   [01;31m[KCHN[m[K17CS006     ADERSH A
+   3.      347/17   [01;31m[KCHN[m[K17CS013     ALEN ANTO ABRAHAM
+   4.      168/17   [01;31m[KCHN[m[K17CS017     AMAL XAVIER
+   5.      434/17   [01;31m[KCHN[m[K17CS018     AMRITA AJITH
+   6.      420/17   [01;31m[KCHN[m[K17CS019     ANAKHA B M
+   7.      394/17   [01;31m[KCHN[m[K17CS021     ANIJA J
+   8.       26/17   [01;31m[KCHN[m[K17CS022     ANJALI LAKSHMI
+   9.      382/17   [01;31m[KCHN[m[K17CS023     ANUJA DEV R
+   10.     119/17   [01;31m[KCHN[m[K17CS024     ANUROSE K THOMAS
+   11.     311/17   [01;31m[KCHN[m[K17CS027     ARCHANA ROSE BIJU
+   12.     459/17   [01;31m[KCHN[m[K17CS029     ARUN R
+   13.     386/17   [01;31m[KCHN[m[K17CS030     ASHISH MATHEW JOHN
+   14.     388/17   [01;31m[KCHN[m[K17CS032     ASWIN K
+   15.     113/17   [01;31m[KCHN[m[K17CS034     ATHIRA SURESH
+   16.     456/17   [01;31m[KCHN[m[K17CS037     AZHAR K
+   17.     197/17   [01;31m[KCHN[m[K17CS038     BAMISHA A
+   18.     181/17   [01;31m[KCHN[m[K17CS041     DARSANA M
+   19.     104/17   [01;31m[KCHN[m[K17CS044     DEEPAK R
+   20.     160/17   [01;31m[KCHN[m[K17CS045     DEVIKA KRISHNA
+   21.     172/17   [01;31m[KCHN[m[K17CS048     GEORGI K JOSEPH
+   22.     121/17   [01;31m[KCHN[m[K17CS051     GOUTHAM G
+   23.     378/17   [01;31m[KCHN[m[K17CS052     GOVIND J NAIR
+   24.     143/17   [01;31m[KCHN[m[K17CS053     GRESHMA SHAJI
+   25.     182/17   [01;31m[KCHN[m[K17CS054     HARIDEV S
+   26.     154/17   [01;31m[KCHN[m[K17CS055     HARIKRISHNAN S KARTHA
+   27.     445/17   [01;31m[KCHN[m[K17CS057     JATHIN SURESH
+   28.      03/17   [01;31m[KCHN[m[K17CS058     JENY SUSAN RAJAN
+   29.      36/17   [01;31m[KCHN[m[K17CS063     JOEL JOSEPH
+   30.     151/17   [01;31m[KCHN[m[K17CS064     JOHAN SAM THOMAS
+   31.     400/17   [01;31m[KCHN[m[K17CS070     LENA GRACE JOSEPH
+   32.      17/17   [01;31m[KCHN[m[K17CS071     LINTA MARIAM DANIEL
+   33.     393/17   [01;31m[KCHN[m[K17CS074     MEGHA ELSA SHIBU
+   34.     389/17   [01;31m[KCHN[m[K17CS076     MOHAMED SHAHIL K
+   35.     134/17   [01;31m[KCHN[m[K17CS077     MONIYA MOHAN
+   36.     131/17   [01;31m[KCHN[m[K17CS080     NIKHIL M TOMY
+   37.      10/17   [01;31m[KCHN[m[K17CS083     NIRMAL K GEORGE MATHEW
+   38.     441/17   [01;31m[KCHN[m[K17CS085     NITHYA VENUGOPAL
+   39.     142/17   [01;31m[KCHN[m[K17CS088     N S ATHUL ANAND
+   40.     169/17   [01;31m[KCHN[m[K17CS090     PRANAY PRINCE
+   41.     278/17   [01;31m[KCHN[m[K17CS093     RITHU MARIA JOSE
+   42.     187/17   [01;31m[KCHN[m[K17CS094     RITTY THOMAS
+   43.     423/17   [01;31m[KCHN[m[K17CS095     ROSHIN ROY
+   44.     156/17   [01;31m[KCHN[m[K17CS097     SACHIN R
+   45.     290/17   [01;31m[KCHN[m[K17CS100     SAYOOJ K
+   46.     139/17   [01;31m[KCHN[m[K17CS101     SHABEERDAS C
+   47.     115/17   [01;31m[KCHN[m[K17CS104     SHYLESH S
+   48.     443/17   [01;31m[KCHN[m[K17CS106     SNEHA JAYAN
+   49.     108/17   [01;31m[KCHN[m[K17CS109     SREELAL S
+   50.     185/17   [01;31m[KCHN[m[K17CS110     STEPHEN THOMAS
+   51.     315/17   [01;31m[KCHN[m[K17CS111     SURYA MERIN PHILIP
+   52.     170/17   [01;31m[KCHN[m[K17CS113     THWALIB NAZIR
+   53.     381/17   [01;31m[KCHN[m[K17CS114     VARGHESE P P
+   54.     102/17   [01;31m[KCHN[m[K17CS115     VIMAL K R
+   55.     192/17   [01;31m[KCHN[m[K17CS116     VISAKH SEBASTIAN
+   56.     116/17   [01;31m[KCHN[m[K17CS117     VISHAK P V
+   57.     357/17   [01;31m[KCHN[m[K17CS118     VISHNU V
+   58.     404/17   [01;31m[KCHN[m[K17CS119     VYSHAKH R
+   59.     476/17   L[01;31m[KCHN[m[K17CS122    AMRUTHA S
+   60.     469/17   L[01;31m[KCHN[m[K17CS124    JACOB MATHEW
+   61.     480/17   L[01;31m[KCHN[m[K17CS121    AISWARYA J
+   62.     475/17   L[01;31m[KCHN[m[K17CS123    HARIKRISHNAN U
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Downloads[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Downloads[00m$ grep CHN S4D.txt | awk '{print $3}'
+CHN17CS004
+CHN17CS006
+CHN17CS013
+CHN17CS017
+CHN17CS018
+CHN17CS019
+CHN17CS021
+CHN17CS022
+CHN17CS023
+CHN17CS024
+CHN17CS027
+CHN17CS029
+CHN17CS030
+CHN17CS032
+CHN17CS034
+CHN17CS037
+CHN17CS038
+CHN17CS041
+CHN17CS044
+CHN17CS045
+CHN17CS048
+CHN17CS051
+CHN17CS052
+CHN17CS053
+CHN17CS054
+CHN17CS055
+CHN17CS057
+CHN17CS058
+CHN17CS063
+CHN17CS064
+CHN17CS070
+CHN17CS071
+CHN17CS074
+CHN17CS076
+CHN17CS077
+CHN17CS080
+CHN17CS083
+CHN17CS085
+CHN17CS088
+CHN17CS090
+CHN17CS093
+CHN17CS094
+CHN17CS095
+CHN17CS097
+CHN17CS100
+CHN17CS101
+CHN17CS104
+CHN17CS106
+CHN17CS109
+CHN17CS110
+CHN17CS111
+CHN17CS113
+CHN17CS114
+CHN17CS115
+CHN17CS116
+CHN17CS117
+CHN17CS118
+CHN17CS119
+LCHN17CS122
+LCHN17CS124
+LCHN17CS121
+LCHN17CS123
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Downloads[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Downloads[00m$ grep CHN S4D.txt | awk '{print $3}'?[K > output
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Downloads[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Downloads[00m$ cat output 
+CHN17CS004
+CHN17CS006
+CHN17CS013
+CHN17CS017
+CHN17CS018
+CHN17CS019
+CHN17CS021
+CHN17CS022
+CHN17CS023
+CHN17CS024
+CHN17CS027
+CHN17CS029
+CHN17CS030
+CHN17CS032
+CHN17CS034
+CHN17CS037
+CHN17CS038
+CHN17CS041
+CHN17CS044
+CHN17CS045
+CHN17CS048
+CHN17CS051
+CHN17CS052
+CHN17CS053
+CHN17CS054
+CHN17CS055
+CHN17CS057
+CHN17CS058
+CHN17CS063
+CHN17CS064
+CHN17CS070
+CHN17CS071
+CHN17CS074
+CHN17CS076
+CHN17CS077
+CHN17CS080
+CHN17CS083
+CHN17CS085
+CHN17CS088
+CHN17CS090
+CHN17CS093
+CHN17CS094
+CHN17CS095
+CHN17CS097
+CHN17CS100
+CHN17CS101
+CHN17CS104
+CHN17CS106
+CHN17CS109
+CHN17CS110
+CHN17CS111
+CHN17CS113
+CHN17CS114
+CHN17CS115
+CHN17CS116
+CHN17CS117
+CHN17CS118
+CHN17CS119
+LCHN17CS122
+LCHN17CS124
+LCHN17CS121
+LCHN17CS123
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Downloads[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Downloads[00m$ sed '/\[Ks\[K[K[Ks/L*/./\[K[K[K/g[K' output 
+CHN17CS004
+CHN17CS006
+CHN17CS013
+CHN17CS017
+CHN17CS018
+CHN17CS019
+CHN17CS021
+CHN17CS022
+CHN17CS023
+CHN17CS024
+CHN17CS027
+CHN17CS029
+CHN17CS030
+CHN17CS032
+CHN17CS034
+CHN17CS037
+CHN17CS038
+CHN17CS041
+CHN17CS044
+CHN17CS045
+CHN17CS048
+CHN17CS051
+CHN17CS052
+CHN17CS053
+CHN17CS054
+CHN17CS055
+CHN17CS057
+CHN17CS058
+CHN17CS063
+CHN17CS064
+CHN17CS070
+CHN17CS071
+CHN17CS074
+CHN17CS076
+CHN17CS077
+CHN17CS080
+CHN17CS083
+CHN17CS085
+CHN17CS088
+CHN17CS090
+CHN17CS093
+CHN17CS094
+CHN17CS095
+CHN17CS097
+CHN17CS100
+CHN17CS101
+CHN17CS104
+CHN17CS106
+CHN17CS109
+CHN17CS110
+CHN17CS111
+CHN17CS113
+CHN17CS114
+CHN17CS115
+CHN17CS116
+CHN17CS117
+CHN17CS118
+CHN17CS119
+CHN17CS122
+CHN17CS124
+CHN17CS121
+CHN17CS123
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Downloads[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Downloads[00m$ sed 's/L*//' output [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat output 
+CHN17CS004
+CHN17CS006
+CHN17CS013
+CHN17CS017
+CHN17CS018
+CHN17CS019
+CHN17CS021
+CHN17CS022
+CHN17CS023
+CHN17CS024
+CHN17CS027
+CHN17CS029
+CHN17CS030
+CHN17CS032
+CHN17CS034
+CHN17CS037
+CHN17CS038
+CHN17CS041
+CHN17CS044
+CHN17CS045
+CHN17CS048
+CHN17CS051
+CHN17CS052
+CHN17CS053
+CHN17CS054
+CHN17CS055
+CHN17CS057
+CHN17CS058
+CHN17CS063
+CHN17CS064
+CHN17CS070
+CHN17CS071
+CHN17CS074
+CHN17CS076
+CHN17CS077
+CHN17CS080
+CHN17CS083
+CHN17CS085
+CHN17CS088
+CHN17CS090
+CHN17CS093
+CHN17CS094
+CHN17CS095
+CHN17CS097
+CHN17CS100
+CHN17CS101
+CHN17CS104
+CHN17CS106
+CHN17CS109
+CHN17CS110
+CHN17CS111
+CHN17CS113
+CHN17CS114
+CHN17CS115
+CHN17CS116
+CHN17CS117
+CHN17CS118
+CHN17CS119
+LCHN17CS122
+LCHN17CS124
+LCHN17CS121
+LCHN17CS123
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Downloads[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Downloads[00m$ cat output [9@sed 's/L*//'[C[C[C[C[C[C[C[C?[K> output2
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Downloads[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Downloads[00m$ sed 's/L*//' output > output2|[K
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Downloads[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Downloads[00m$ cat output2
+CHN17CS004
+CHN17CS006
+CHN17CS013
+CHN17CS017
+CHN17CS018
+CHN17CS019
+CHN17CS021
+CHN17CS022
+CHN17CS023
+CHN17CS024
+CHN17CS027
+CHN17CS029
+CHN17CS030
+CHN17CS032
+CHN17CS034
+CHN17CS037
+CHN17CS038
+CHN17CS041
+CHN17CS044
+CHN17CS045
+CHN17CS048
+CHN17CS051
+CHN17CS052
+CHN17CS053
+CHN17CS054
+CHN17CS055
+CHN17CS057
+CHN17CS058
+CHN17CS063
+CHN17CS064
+CHN17CS070
+CHN17CS071
+CHN17CS074
+CHN17CS076
+CHN17CS077
+CHN17CS080
+CHN17CS083
+CHN17CS085
+CHN17CS088
+CHN17CS090
+CHN17CS093
+CHN17CS094
+CHN17CS095
+CHN17CS097
+CHN17CS100
+CHN17CS101
+CHN17CS104
+CHN17CS106
+CHN17CS109
+CHN17CS110
+CHN17CS111
+CHN17CS113
+CHN17CS114
+CHN17CS115
+CHN17CS116
+CHN17CS117
+CHN17CS118
+CHN17CS119
+CHN17CS122
+CHN17CS124
+CHN17CS121
+CHN17CS123
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Downloads[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Downloads[00m$ ^C
+]0;rithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11: ~/Downloads[01;32mrithumariajose@cec-HCL-Desktop-Invalid-entry-length-16-Fixed-up-to-11[00m:[01;34m~/Downloads[00m$ exit
+exit
+
+Script done on Thursday 14 February 2019 05:02:18 PM IST
