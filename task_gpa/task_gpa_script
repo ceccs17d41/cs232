@@ -1,0 +1,221 @@
+Script started on Thursday 14 March 2019 09:11:33 AM IST
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpas4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa$ mkdir student_details
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpas4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa$ cds[K student_details/
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpa/student_detailss4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa/student_details$ curl -fL "http://14.139.189.212/s4d/s4d.txt" | grep "CHN" | awk '{s=""; f or (i=3; i<=NF; i++) s=s $i " "; print s }' | sed '/^L.*/d' > s4d_student_registor_number_and_name.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcurl -fL "http://192.168.0.2/s4d/s4d.txt" | grep "CHN" | awk '{s=""; for  (i=3; i<=NF; i++) s=s $i " "; print s }' | sed '/^L.*/d' > s4d_student_registor_number_and_name.txt
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3181  100  3181    0     0   174k      0 --:--:-- --:--:-- --:--:--  182k
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpa/student_detailss4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa/student_details$ cd ..
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpas4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa$ mkdir s1
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpas4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa$ cd s1
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpa/s1s4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa/s1$ curl -fLo "result.pdf" "https://ktu.edu.in/eu/att/attachments.htm?download=file&id=G9J U3qvNaL1Bbd97S4x8QAIqBvHCL9A4lNbTXzgGtuc%3D" > /dev/null
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 24357  100 24357    0     0  50906      0 --:--:-- --:--:-- --:--:-- 50849
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpa/s1s4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa/s1$ pdftotext -nopgbrk result.pdf
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpa/s1s4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa/s1$ grep --no-group-separator -A3 'CHN17CS' result.txt | tr '\n' ' ' | sed 's/\ CHN/\nCHN/ g' > result_one_per_line.txt
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpa/s1s4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa/s1$ cd ..
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpas4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa$ mkdir s22[K
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpas4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa$ cd s2
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpa/s2s4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa/s2$ curl -fLo "result.pdf" "https://ktu.edu.in/eu/att/attachments.htm?download=file&id=M0B UnlNAAnhrVifaH56UXPBWJkDw2vvqDcL9YR03Q0s%3D" > /dev/null
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 29005  100 29005    0     0   615k      0 --:--:-- --:--:-- --:--:--  629k
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpa/s2s4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa/s2$ pdftotext -nopgbrk result.pdf
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpa/s2s4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa/s2$ grep --no-group-separator -A3 'CHN17CS' result.txt | tr '\n' ' ' | sed 's/\ CHN/\nCHN/ g' > result_one_per_line.txt
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpa/s2s4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa/s2$ cd ..
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpas4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa$ printf  "SGPA OF S1\n\n" > s1/s1_result.txt
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpas4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa$ join student_details/s4d_student_registor_number_and_name.txt s1/result_one_per_line.txt  | ./compute_gpa/compute_gpa >> s1/s1_result.txt
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpas4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa$ printf  "SGPA OF S2\n\n" > s2/s2_result.txt
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpas4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa$ join student_details/s4d_student_registor_number_and_name.txt s2/result_one_per_line.txt  | ./compute_gpa/compute_gpa >> s2/s2_result.txt
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpas4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa$ mkdir cgpa
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpas4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa$ cd cgpa
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpa/cgpas4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa/cgpa$ join ../s1/result_one_per_line.txt ../s2/result_one_per_line.txt > s1_s2_with_reg.tx t
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpa/cgpas4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa/cgpa$ join ../student_details/s4d_student_registor_number_and_name.txt s1_s2_with_reg.txt  | ../compute_gpa/compute_gpa  > cgpa.txt
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpa/cgpas4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa/cgpa$ c[Ks1/s[K[K[K[Kcat s1/s1re[K[K_res[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpas4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa$ cat s1/s1_result.txt 
+SGPA OF S1
+
+CHN17CS004|ABIN THOMAS|7.722222
+CHN17CS006|ADERSH A|8.555555
+CHN17CS013|ALEN ANTO ABRAHAM|7.277778
+CHN17CS017|AMAL XAVIER|8.722222
+CHN17CS018|AMRITA AJITH|3.944444
+CHN17CS019|ANAKHA B M|8.833333
+CHN17CS021|ANIJA J|7.555555
+CHN17CS022|ANJALI LAKSHMI|3.277778
+CHN17CS023|ANUJA DEV R|5.000000
+CHN17CS024|ANUROSE K THOMAS|8.888889
+CHN17CS027|ARCHANA ROSE BIJU|8.222222
+CHN17CS029|ARUN R|4.888889
+CHN17CS030|ASHISH MATHEW JOHN|8.944445
+CHN17CS032|ASWIN K|6.611111
+CHN17CS034|ATHIRA SURESH|6.944445
+CHN17CS037|AZHAR K|6.111111
+CHN17CS038|BAMISHA A|4.222222
+CHN17CS041|DARSANA M|7.111111
+CHN17CS044|DEEPAK R|8.333333
+CHN17CS045|DEVIKA KRISHNA|4.444445
+CHN17CS048|GEORGI K JOSEPH|8.666667
+CHN17CS051|GOUTHAM G|7.944445
+CHN17CS052|GOVIND J NAIR|5.333333
+CHN17CS053|GRESHMA SHAJI|8.888889
+CHN17CS054|HARIDEV S|7.000000
+CHN17CS055|HARIKRISHNAN S KARTHA|6.666667
+CHN17CS057|JATHIN SURESH|8.555555
+CHN17CS058|JENY SUSAN RAJAN|8.055555
+CHN17CS063|JOEL JOSEPH|8.111111
+CHN17CS064|JOHAN SAM THOMAS|7.888889
+CHN17CS070|LENA GRACE JOSEPH|8.444445
+CHN17CS071|LINTA MARIAM DANIEL|5.000000
+CHN17CS074|MEGHA ELSA SHIBU|3.666667
+CHN17CS076|MOHAMED SHAHIL K|5.444445
+CHN17CS077|MONIYA MOHAN|8.333333
+CHN17CS080|NIKHIL M TOMY|8.277778
+CHN17CS083|NIRMAL K GEORGE MATHEW|7.277778
+CHN17CS085|NITHYA VENUGOPAL|8.722222
+CHN17CS088|N S ATHUL ANAND|5.333333
+CHN17CS090|PRANAY PRINCE|6.000000
+CHN17CS093|RITHU MARIA JOSE|7.833333
+CHN17CS094|RITTY THOMAS|8.333333
+CHN17CS095|ROSHIN ROY|8.388889
+CHN17CS097|SACHIN R|8.888889
+CHN17CS100|SAYOOJ K|6.833333
+CHN17CS101|SHABEERDAS C|6.888889
+CHN17CS104|SHYLESH S|7.888889
+CHN17CS106|SNEHA JAYAN|5.777778
+CHN17CS109|SREELAL S|3.388889
+CHN17CS110|STEPHEN THOMAS|7.388889
+CHN17CS111|SURYA MERIN PHILIP|7.333333
+CHN17CS113|THWALIB NAZIR|6.555555
+CHN17CS114|VARGHESE P P|7.777778
+CHN17CS115|VIMAL K R|8.444445
+CHN17CS116|VISAKH SEBASTIAN|7.555555
+CHN17CS117|VISHAK P V|8.166667
+CHN17CS118|VISHNU V|8.444445
+CHN17CS119|VYSHAKH R|5.888889
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpas4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa$ cat s2/s2_result.txt 
+SGPA OF S2
+
+CHN17CS004|ABIN THOMAS|8.722222
+CHN17CS006|ADERSH A|9.111111
+CHN17CS013|ALEN ANTO ABRAHAM|8.722222
+CHN17CS017|AMAL XAVIER|8.777778
+CHN17CS018|AMRITA AJITH|4.250000
+CHN17CS019|ANAKHA B M|9.055555
+CHN17CS021|ANIJA J|8.055555
+CHN17CS022|ANJALI LAKSHMI|4.400000
+CHN17CS023|ANUJA DEV R|3.833333
+CHN17CS024|ANUROSE K THOMAS|8.722222
+CHN17CS027|ARCHANA ROSE BIJU|8.333333
+CHN17CS029|ARUN R|4.818182
+CHN17CS030|ASHISH MATHEW JOHN|9.277778
+CHN17CS032|ASWIN K|7.111111
+CHN17CS034|ATHIRA SURESH|7.444445
+CHN17CS037|AZHAR K|5.400000
+CHN17CS038|BAMISHA A|4.333333
+CHN17CS041|DARSANA M|8.350000
+CHN17CS044|DEEPAK R|9.166667
+CHN17CS045|DEVIKA KRISHNA|4.800000
+CHN17CS048|GEORGI K JOSEPH|8.944445
+CHN17CS051|GOUTHAM G|8.222222
+CHN17CS052|GOVIND J NAIR|6.681818
+CHN17CS053|GRESHMA SHAJI|9.111111
+CHN17CS054|HARIDEV S|8.400000
+CHN17CS055|HARIKRISHNAN S KARTHA|7.555555
+CHN17CS057|JATHIN SURESH|9.722222
+CHN17CS058|JENY SUSAN RAJAN|9.444445
+CHN17CS063|JOEL JOSEPH|8.666667
+CHN17CS064|JOHAN SAM THOMAS|8.444445
+CHN17CS070|LENA GRACE JOSEPH|8.833333
+CHN17CS071|LINTA MARIAM DANIEL|5.045455
+CHN17CS074|MEGHA ELSA SHIBU|4.500000
+CHN17CS076|MOHAMED SHAHIL K|6.666667
+CHN17CS077|MONIYA MOHAN|9.222222
+CHN17CS080|NIKHIL M TOMY|8.222222
+CHN17CS083|NIRMAL K GEORGE MATHEW|6.500000
+CHN17CS085|NITHYA VENUGOPAL|8.000000
+CHN17CS088|N S ATHUL ANAND|6.363636
+CHN17CS090|PRANAY PRINCE|5.450000
+CHN17CS093|RITHU MARIA JOSE|8.666667
+CHN17CS094|RITTY THOMAS|9.388889
+CHN17CS095|ROSHIN ROY|9.166667
+CHN17CS097|SACHIN R|9.111111
+CHN17CS100|SAYOOJ K|7.500000
+CHN17CS101|SHABEERDAS C|7.777778
+CHN17CS104|SHYLESH S|8.166667
+CHN17CS106|SNEHA JAYAN|6.250000
+CHN17CS109|SREELAL S|2.750000
+CHN17CS110|STEPHEN THOMAS|8.055555
+CHN17CS111|SURYA MERIN PHILIP|9.111111
+CHN17CS113|THWALIB NAZIR|7.944445
+CHN17CS114|VARGHESE P P|8.388889
+CHN17CS115|VIMAL K R|7.944445
+CHN17CS116|VISAKH SEBASTIAN|8.388889
+CHN17CS117|VISHAK P V|9.000000
+CHN17CS118|VISHNU V|9.444445
+CHN17CS119|VYSHAKH R|7.250000
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpas4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa$ cat cgpa/cgpa.txt 
+CHN17CS004|ABIN THOMAS|8.222222
+CHN17CS006|ADERSH A|8.833333
+CHN17CS013|ALEN ANTO ABRAHAM|8.000000
+CHN17CS017|AMAL XAVIER|8.750000
+CHN17CS018|AMRITA AJITH|4.105263
+CHN17CS019|ANAKHA B M|8.944445
+CHN17CS021|ANIJA J|7.805555
+CHN17CS022|ANJALI LAKSHMI|3.868421
+CHN17CS023|ANUJA DEV R|4.416667
+CHN17CS024|ANUROSE K THOMAS|8.805555
+CHN17CS027|ARCHANA ROSE BIJU|8.277778
+CHN17CS029|ARUN R|4.850000
+CHN17CS030|ASHISH MATHEW JOHN|9.111111
+CHN17CS032|ASWIN K|6.861111
+CHN17CS034|ATHIRA SURESH|7.194445
+CHN17CS037|AZHAR K|5.736842
+CHN17CS038|BAMISHA A|4.277778
+CHN17CS041|DARSANA M|7.763158
+CHN17CS044|DEEPAK R|8.750000
+CHN17CS045|DEVIKA KRISHNA|4.631579
+CHN17CS048|GEORGI K JOSEPH|8.805555
+CHN17CS051|GOUTHAM G|8.083333
+CHN17CS052|GOVIND J NAIR|6.075000
+CHN17CS053|GRESHMA SHAJI|9.000000
+CHN17CS054|HARIDEV S|7.736842
+CHN17CS055|HARIKRISHNAN S KARTHA|7.111111
+CHN17CS057|JATHIN SURESH|9.138889
+CHN17CS058|JENY SUSAN RAJAN|8.750000
+CHN17CS063|JOEL JOSEPH|8.388889
+CHN17CS064|JOHAN SAM THOMAS|8.166667
+CHN17CS070|LENA GRACE JOSEPH|8.638889
+CHN17CS071|LINTA MARIAM DANIEL|5.025000
+CHN17CS074|MEGHA ELSA SHIBU|4.083333
+CHN17CS076|MOHAMED SHAHIL K|6.055555
+CHN17CS077|MONIYA MOHAN|8.777778
+CHN17CS080|NIKHIL M TOMY|8.250000
+CHN17CS083|NIRMAL K GEORGE MATHEW|6.888889
+CHN17CS085|NITHYA VENUGOPAL|8.361111
+CHN17CS088|N S ATHUL ANAND|5.900000
+CHN17CS090|PRANAY PRINCE|5.710526
+CHN17CS093|RITHU MARIA JOSE|8.250000
+CHN17CS094|RITTY THOMAS|8.861111
+CHN17CS095|ROSHIN ROY|8.777778
+CHN17CS097|SACHIN R|9.000000
+CHN17CS100|SAYOOJ K|7.166667
+CHN17CS101|SHABEERDAS C|7.333333
+CHN17CS104|SHYLESH S|8.027778
+CHN17CS106|SNEHA JAYAN|6.026316
+CHN17CS109|SREELAL S|3.023809
+CHN17CS110|STEPHEN THOMAS|7.722222
+CHN17CS111|SURYA MERIN PHILIP|8.222222
+CHN17CS113|THWALIB NAZIR|7.250000
+CHN17CS114|VARGHESE P P|8.083333
+CHN17CS115|VIMAL K R|8.194445
+CHN17CS116|VISAKH SEBASTIAN|7.972222
+CHN17CS117|VISHAK P V|8.583333
+CHN17CS118|VISHNU V|8.944445
+CHN17CS119|VYSHAKH R|6.605263
+]0;s4d2@ceclab2-Veriton-Series: ~/projects/cs232/task_gpas4d2@ceclab2-Veriton-Series:~/projects/cs232/task_gpa$ exit
+exit
+
+Script done on Thursday 14 March 2019 09:19:53 AM IST
