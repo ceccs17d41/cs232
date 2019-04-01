@@ -1,0 +1,55 @@
+Script started on Monday 01 April 2019 09:29:37 AM IST
+]0;rithumariajose@cec-HCL-Desktop: ~[01;32mrithumariajose@cec-HCL-Desktop[00m:[01;34m~[00m$ sftp cs17d41@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d41@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+ceccs17d41.07.02.19.txt     ceccs17d41.14.03.19.txt     data                        examples.desktop            task_gpa.sh                 
+task_gpa_script             
+sftp> mkdir dataa
+sftp> ls
+ceccs17d41.07.02.19.txt     ceccs17d41.14.03.19.txt     data                        dataa                       examples.desktop            
+task_gpa.sh                 task_gpa_script             
+sftp> lcd /home/rithumariajose/Desktop/rithu
+sftp> put /home/rithumariajose/Desktop/rithu/*
+Uploading /home/rithumariajose/Desktop/rithu/ceccs17d41.07.02.19.txt to /home/cs17d41/ceccs17d41.07.02.19.txt
+/home/rithumariajose/Desktop/rithu/ceccs17d41.07.02.19.txt                                                     0%    0     0.0KB/s   --:-- ETA/home/rithumariajose/Desktop/rithu/ceccs17d41.07.02.19.txt                                                   100%   18KB  18.4KB/s   00:00    
+Uploading /home/rithumariajose/Desktop/rithu/task_gpa.sh to /home/cs17d41/task_gpa.sh
+/home/rithumariajose/Desktop/rithu/task_gpa.sh                                                                 0%    0     0.0KB/s   --:-- ETA/home/rithumariajose/Desktop/rithu/task_gpa.sh                                                               100% 1703     1.7KB/s   00:00    
+Uploading /home/rithumariajose/Desktop/rithu/task_gpa/ to /home/cs17d41/task_gpa
+/home/rithumariajose/Desktop/rithu/task_gpa/ is not a regular file
+sftp> ls
+ceccs17d41.07.02.19.txt     ceccs17d41.14.03.19.txt     data                        dataa                       examples.desktop            
+task_gpa.sh                 task_gpa_script             
+sftp> put /home/rithumariajose/Desktop/rithu/task_gpa/*
+Uploading /home/rithumariajose/Desktop/rithu/task_gpa/ceccs17d41.14.03.19.txt to /home/cs17d41/ceccs17d41.14.03.19.txt
+/home/rithumariajose/Desktop/rithu/task_gpa/ceccs17d41.14.03.19.txt                                            0%    0     0.0KB/s   --:-- ETA/home/rithumariajose/Desktop/rithu/task_gpa/ceccs17d41.14.03.19.txt                                          100%   14KB  13.9KB/s   00:00    
+Uploading /home/rithumariajose/Desktop/rithu/task_gpa/cgpa/ to /home/cs17d41/cgpa
+/home/rithumariajose/Desktop/rithu/task_gpa/cgpa/ is not a regular file
+Uploading /home/rithumariajose/Desktop/rithu/task_gpa/compute_gpa/ to /home/cs17d41/compute_gpa
+/home/rithumariajose/Desktop/rithu/task_gpa/compute_gpa/ is not a regular file
+Uploading /home/rithumariajose/Desktop/rithu/task_gpa/s1/ to /home/cs17d41/s1
+/home/rithumariajose/Desktop/rithu/task_gpa/s1/ is not a regular file
+Uploading /home/rithumariajose/Desktop/rithu/task_gpa/s2/ to /home/cs17d41/s2
+/home/rithumariajose/Desktop/rithu/task_gpa/s2/ is not a regular file
+Uploading /home/rithumariajose/Desktop/rithu/task_gpa/student_details/ to /home/cs17d41/student_details
+/home/rithumariajose/Desktop/rithu/task_gpa/student_details/ is not a regular file
+Uploading /home/rithumariajose/Desktop/rithu/task_gpa/task_gpa.sh to /home/cs17d41/task_gpa.sh
+/home/rithumariajose/Desktop/rithu/task_gpa/task_gpa.sh                                                        0%    0     0.0KB/s   --:-- ETA/home/rithumariajose/Desktop/rithu/task_gpa/task_gpa.sh                                                      100% 1703     1.7KB/s   00:00    
+Uploading /home/rithumariajose/Desktop/rithu/task_gpa/task_gpa_script to /home/cs17d41/task_gpa_script
+/home/rithumariajose/Desktop/rithu/task_gpa/task_gpa_script                                                    0%    0     0.0KB/s   --:-- ETA/home/rithumariajose/Desktop/rithu/task_gpa/task_gpa_script                                                  100%   14KB  13.7KB/s   00:00    
+sftp> ls
+ceccs17d41.07.02.19.txt     ceccs17d41.14.03.19.txt     data                        dataa                       examples.desktop            
+task_gpa.sh                 task_gpa_script             
+sftp> get task_gpa.sh
+Fetching /home/cs17d41/task_gpa.sh to task_gpa.sh
+/home/cs17d41/task_gpa.sh                                                                                      0%    0     0.0KB/s   --:-- ETA/home/cs17d41/task_gpa.sh                                                                                    100% 1703     1.7KB/s   00:00    
+sftp> exit
+]0;rithumariajose@cec-HCL-Desktop: ~[01;32mrithumariajose@cec-HCL-Desktop[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Monday 01 April 2019 09:33:03 AM IST
