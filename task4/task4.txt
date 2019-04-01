@@ -1,0 +1,101 @@
+Script started on Monday 01 April 2019 09:59:56 AM IST
+]0;rithumariajose@cec-HCL-Desktop: ~[01;32mrithumariajose@cec-HCL-Desktop[00m:[01;34m~[00m$ ssh cs17d41@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d41@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+$ ls
+ceccs17d41.07.02.19.txt  data	examples.desktop  task5		   task_gpa.sh
+ceccs17d41.14.03.19.txt  dataa	task2		  task_gpa_script
+$ cd dataa
+$ ls
+$ mkdir tab
+$ ls
+tab
+$ cd ..
+$ ls
+ceccs17d41.07.02.19.txt  data	examples.desktop  task5		   task_gpa.sh
+ceccs17d41.14.03.19.txt  dataa	task2		  task_gpa_script
+$ cd task5
+$ ls
+ftp.txt
+$ cd ..
+$ cd task2
+$ ls
+task_gpa.zip
+$ cd ..
+$ exit
+Connection to 192.168.0.30 closed.
+]0;rithumariajose@cec-HCL-Desktop: ~[01;32mrithumariajose@cec-HCL-Desktop[00m:[01;34m~[00m$ rsync -a .//[KDesktop/rithu/ceccs17d41.07.02.19.t xt cs17d47@14.139.189.217:~/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K1@14.139.189.217:~/
+ssh: connect to host 14.139.189.217 port 22: Network is unreachable
+rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.1]
+]0;rithumariajose@cec-HCL-Desktop: ~[01;32mrithumariajose@cec-HCL-Desktop[00m:[01;34m~[00m$ rsync -a ./Desktop/rithu/ceccs17d41.07.02.19.txxt cs17d41@14.139.189.217:~/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K192.168.0.30
+]0;rithumariajose@cec-HCL-Desktop: ~[01;32mrithumariajose@cec-HCL-Desktop[00m:[01;34m~[00m$ rsync -a ./Desktop/rithu/ceccs17d41.07.02.19.txxt cs17d41@192.168.0.30:~/
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d41@192.168.0.30's password: 
+]0;rithumariajose@cec-HCL-Desktop: ~[01;32mrithumariajose@cec-HCL-Desktop[00m:[01;34m~[00m$ ssh cs17d41@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d41@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Apr  1 10:00:27 2019 from 192.168.0.225
+$ ls
+ceccs17d41.07.02.19.txt  data	examples.desktop  task5		   task_gpa.sh
+ceccs17d41.14.03.19.txt  dataa	task2		  task_gpa_script
+$ exit
+Connection to 192.168.0.30 closed.
+]0;rithumariajose@cec-HCL-Desktop: ~[01;32mrithumariajose@cec-HCL-Desktop[00m:[01;34m~[00m$ scp cs[K[Ktask4.txt cc[Ks17d41@192.168.0.30 [K:
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d41@192.168.0.30's password: 
+task4.txt                                     100%    0     0.0KB/s   00:00    
+]0;rithumariajose@cec-HCL-Desktop: ~[01;32mrithumariajose@cec-HCL-Desktop[00m:[01;34m~[00m$ ss[K[Kscp task4.txt cs17d41@192.168.0.30:[11Psh cs17d41@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d41@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Apr  1 10:31:44 2019 from 192.168.0.225
+$ ls
+ceccs17d41.07.02.19.txt  data	examples.desktop  task4.txt  task_gpa_script
+ceccs17d41.14.03.19.txt  dataa	task2		  task5      task_gpa.sh
+$ exit
+Connection to 192.168.0.30 closed.
+]0;rithumariajose@cec-HCL-Desktop: ~[01;32mrithumariajose@cec-HCL-Desktop[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Monday 01 April 2019 10:48:35 AM IST
