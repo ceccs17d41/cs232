@@ -1,0 +1,49 @@
+Script started on Monday 08 April 2019 11:00:34 AM IST
+]0;rithumariajose@cec-HCL-Desktop: ~[01;32mrithumariajose@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo in[Kfconfig
+[sudo] password for rithumariajose: 
+enp4s0    Link encap:Ethernet  HWaddr 10:78:d2:50:d0:2e  
+          inet addr:192.168.0.82  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::9f7:3966:4022:1207/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:19375 errors:0 dropped:1 overruns:0 frame:0
+          TX packets:4965 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:5147577 (5.1 MB)  TX bytes:623057 (623.0 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4848 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4848 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:321600 (321.6 KB)  TX bytes:321600 (321.6 KB)
+
+]0;rithumariajose@cec-HCL-Desktop: ~[01;32mrithumariajose@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo inconfig[K[K[K[K[K[K[Kfconfig enp4s0 up
+]0;rithumariajose@cec-HCL-Desktop: ~[01;32mrithumariajose@cec-HCL-Desktop[00m:[01;34m~[00m$ ping http://www.google.com[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K192.168.0.82
+PING 192.168.0.82 (192.168.0.82) 56(84) bytes of data.
+64 bytes from 192.168.0.82: icmp_seq=1 ttl=64 time=0.032 ms
+64 bytes from 192.168.0.82: icmp_seq=2 ttl=64 time=0.033 ms
+64 bytes from 192.168.0.82: icmp_seq=3 ttl=64 time=0.035 ms
+64 bytes from 192.168.0.82: icmp_seq=4 ttl=64 time=0.032 ms
+64 bytes from 192.168.0.82: icmp_seq=5 ttl=64 time=0.032 ms
+64 bytes from 192.168.0.82: icmp_seq=6 ttl=64 time=0.033 ms
+64 bytes from 192.168.0.82: icmp_seq=7 ttl=64 time=0.033 ms
+64 bytes from 192.168.0.82: icmp_seq=8 ttl=64 time=0.036 ms
+64 bytes from 192.168.0.82: icmp_seq=9 ttl=64 time=0.033 ms
+64 bytes from 192.168.0.82: icmp_seq=10 ttl=64 time=0.033 ms
+64 bytes from 192.168.0.82: icmp_seq=11 ttl=64 time=0.035 ms
+^C
+--- 192.168.0.82 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 10235ms
+rtt min/avg/max/mdev = 0.032/0.033/0.036/0.005 ms
+]0;rithumariajose@cec-HCL-Desktop: ~[01;32mrithumariajose@cec-HCL-Desktop[00m:[01;34m~[00m$ root[K[Kute -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 enp4s0
+192.168.0.0     0.0.0.0         255.255.255.0   U     100    0        0 enp4s0
+]0;rithumariajose@cec-HCL-Desktop: ~[01;32mrithumariajose@cec-HCL-Desktop[00m:[01;34m~[00m$ route -nping 192.168.0.82http://www.google.com[11Pgoogle.comsudo ifconfig enp4s0 up[K enp4s0 up[K[Kdown
+]0;rithumariajose@cec-HCL-Desktop: ~[01;32mrithumariajose@cec-HCL-Desktop[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Monday 08 April 2019 11:03:44 AM IST
