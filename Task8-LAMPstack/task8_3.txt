@@ -1,0 +1,2503 @@
+Script started on 2019-04-25 10:01:47+05:30
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sduo[K[K[Kudo apt update
+[sudo] password for ceclab2: 
+[33m
+0% [Working][0m[33m
+0% [Connecting to in.archive.ubuntu.com] [Connecting to security.ubuntu.com (20[0m[33m
+0% [Connecting to in.archive.ubuntu.com (91.189.91.23)] [Connecting to security[0m
+                                                                               
+Get:1 http://security.ubuntu.com/ubuntu cosmic-security InRelease [88.7 kB]
+[33m
+                                                                               
+0% [Waiting for headers] [1 InRelease 978 B/88.7 kB 1%][0m
+                                                       
+Hit:2 http://in.archive.ubuntu.com/ubuntu cosmic InRelease
+[33m
+                                                       
+0% [1 InRelease 12.6 kB/88.7 kB 14%][0m[33m
+0% [2 InRelease gpgv 242 kB] [Waiting for headers] [1 InRelease 12.6 kB/88.7 kB[0m[33m
+                                                                               
+0% [Waiting for headers] [1 InRelease 26.7 kB/88.7 kB 30%][0m
+                                                          
+Get:3 http://in.archive.ubuntu.com/ubuntu cosmic-updates InRelease [88.7 kB]
+[33m
+0% [3 InRelease 996 B/88.7 kB 1%] [1 InRelease 33.2 kB/88.7 kB 37%][0m[33m
+0% [3 InRelease 13.9 kB/88.7 kB 16%] [1 InRelease 34.5 kB/88.7 kB 39%][0m[33m
+0% [3 InRelease 15.2 kB/88.7 kB 17%] [1 InRelease 34.5 kB/88.7 kB 39%][0m[33m
+0% [3 InRelease 16.5 kB/88.7 kB 19%] [1 InRelease 48.6 kB/88.7 kB 55%][0m[33m
+0% [3 InRelease 16.5 kB/88.7 kB 19%] [1 InRelease 70.5 kB/88.7 kB 79%][0m[33m
+0% [3 InRelease 26.8 kB/88.7 kB 30%] [1 InRelease 73.1 kB/88.7 kB 82%][0m[33m
+0% [3 InRelease 33.2 kB/88.7 kB 37%] [1 InRelease 73.1 kB/88.7 kB 82%][0m[33m
+                                                                      
+0% [3 InRelease 52.5 kB/88.7 kB 59%][0m[33m
+0% [1 InRelease gpgv 88.7 kB] [3 InRelease 52.5 kB/88.7 kB 59%][0m[33m
+                                                               
+0% [3 InRelease 70.5 kB/88.7 kB 80%][0m[33m
+0% [Waiting for headers] [Waiting for headers][0m[33m
+0% [3 InRelease gpgv 88.7 kB] [Waiting for headers] [Waiting for headers][0m
+                                                                         
+Get:4 http://security.ubuntu.com/ubuntu cosmic-security/main i386 Packages [133 kB]
+[33m
+0% [3 InRelease gpgv 88.7 kB] [Waiting for headers] [4 Packages 1,079 B/133 kB [0m[33m
+0% [Waiting for headers] [4 Packages 6,231 B/133 kB 5%]      30.1 kB/s 1min 34s[0m
+                                                                               
+Get:5 http://in.archive.ubuntu.com/ubuntu cosmic-backports InRelease [74.6 kB]
+[33m
+                                                                               
+0% [5 InRelease 996 B/74.6 kB 1%] [4 Packages 21.7 kB/133 kB 16%][0m[33m
+0% [5 InRelease 20.3 kB/74.6 kB 27%] [4 Packages 28.1 kB/133 kB 21%][0m[33m
+0% [5 InRelease 25.5 kB/74.6 kB 34%] [4 Packages 33.3 kB/133 kB 25%][0m[33m
+0% [5 InRelease 25.5 kB/74.6 kB 34%] [4 Packages 33.3 kB/133 kB 25%][0m[33m
+0% [5 InRelease 35.8 kB/74.6 kB 48%] [4 Packages 37.1 kB/133 kB 28%][0m[33m
+0% [5 InRelease 40.9 kB/74.6 kB 55%] [4 Packages 37.1 kB/133 kB 28%][0m[33m
+0% [5 InRelease 65.4 kB/74.6 kB 88%] [4 Packages 73.2 kB/133 kB 55%][0m[33m
+                                                                    
+0% [5 InRelease 65.4 kB/74.6 kB 88%] [4 Packages 105 kB/133 kB 79%][0m[33m
+0% [4 Packages 105 kB/133 kB 79%]                            30.1 kB/s 1min 31s[0m[33m
+                                                                               
+0% [5 InRelease gpgv 74.6 kB] [4 Packages 105 kB/133 kB 79%][0m[33m
+0% [5 InRelease gpgv 74.6 kB] [Waiting for headers]          30.1 kB/s 1min 30s[0m[33m
+0% [4 Packages store 0 B] [5 InRelease gpgv 74.6 kB] [Waiting for headers] [Wai[0m[33m
+                                                                               
+0% [5 InRelease gpgv 74.6 kB] [Waiting for headers] [Waiting for headers][0m[33m
+27% [Waiting for headers] [Waiting for headers]              30.1 kB/s 1min 30s[0m
+                                                                               
+Get:6 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main i386 Packages [262 kB]
+[33m
+27% [6 Packages 1,079 B/262 kB 0%] [Waiting for headers]     30.1 kB/s 1min 30s[0m
+                                                                               
+Get:7 http://security.ubuntu.com/ubuntu cosmic-security/main amd64 Packages [165 kB]
+[33m
+                                                                               
+27% [6 Packages 3,655 B/262 kB 1%] [7 Packages 1,079 B/165 kB 1%][0m[33m
+28% [6 Packages 14.0 kB/262 kB 5%] [7 Packages 14.0 kB/165 kB 8%][0m[33m
+29% [6 Packages 23.0 kB/262 kB 9%] [7 Packages 26.8 kB/165 kB 16%][0m[33m
+29% [6 Packages 29.4 kB/262 kB 11%] [7 Packages 34.6 kB/165 kB 21%][0m[33m
+29% [6 Packages 35.9 kB/262 kB 14%] [7 Packages 50.0 kB/165 kB 30%][0m[33m
+30% [6 Packages 47.4 kB/262 kB 18%] [7 Packages 59.0 kB/165 kB 36%][0m[33m
+30% [6 Packages 56.5 kB/262 kB 22%] [7 Packages 69.3 kB/165 kB 42%][0m[33m
+31% [6 Packages 64.2 kB/262 kB 24%] [7 Packages 78.4 kB/165 kB 47%][0m[33m
+31% [6 Packages 73.2 kB/262 kB 28%] [7 Packages 82.2 kB/165 kB 50%][0m[33m
+31% [6 Packages 73.2 kB/262 kB 28%] [7 Packages 82.2 kB/165 kB 50%][0m[33m
+32% [6 Packages 74.5 kB/262 kB 28%] [7 Packages 91.2 kB/165 kB 55%][0m[33m
+32% [6 Packages 83.5 kB/262 kB 32%] [7 Packages 91.2 kB/165 kB 55%][0m[33m
+32% [6 Packages 83.5 kB/262 kB 32%] [7 Packages 91.2 kB/165 kB 55%][0m[33m
+                                                                   
+32% [6 Packages 86.1 kB/262 kB 33%] [7 Packages 107 kB/165 kB 65%][0m[33m
+33% [6 Packages 86.1 kB/262 kB 33%] [7 Packages 157 kB/165 kB 95%][0m[33m
+                                                                  
+34% [6 Packages 120 kB/262 kB 46%] [7 Packages 158 kB/165 kB 96%][0m[33m
+35% [6 Packages 127 kB/262 kB 48%] [7 Packages 158 kB/165 kB 96%][0m[33m
+35% [6 Packages 138 kB/262 kB 52%] [Waiting for headers]      35.4 kB/s 1min 8s[0m
+                                                                               
+Get:8 http://security.ubuntu.com/ubuntu cosmic-security/main Translation-en [62.9 kB]
+[33m
+                                                                               
+35% [6 Packages 138 kB/262 kB 52%] [8 Translation-en 8,200 B/62.9 kB 13%][0m[33m
+35% [7 Packages store 0 B] [6 Packages 138 kB/262 kB 52%] [8 Translation-en 8,2[0m[33m
+                                                                               
+35% [6 Packages 138 kB/262 kB 52%] [8 Translation-en 8,200 B/62.9 kB 13%][0m[33m
+36% [6 Packages 140 kB/262 kB 53%] [8 Translation-en 15.9 kB/62.9 kB 25%][0m[33m
+37% [6 Packages 163 kB/262 kB 62%] [8 Translation-en 55.9 kB/62.9 kB 89%][0m[33m
+38% [6 Packages 169 kB/262 kB 64%] [Waiting for headers]      35.4 kB/s 1min 5s[0m
+                                                                               
+Get:9 http://security.ubuntu.com/ubuntu cosmic-security/main amd64 DEP-11 Metadata [204 B]
+
+                                                                               
+Get:10 http://security.ubuntu.com/ubuntu cosmic-security/universe i386 Packages [158 kB]
+[33m
+                                                                               
+38% [6 Packages 169 kB/262 kB 64%] [10 Packages 80 B/158 kB 0%][0m[33m
+38% [8 Translation-en store 0 B] [6 Packages 169 kB/262 kB 64%] [10 Packages 80[0m[33m
+                                                                               
+38% [6 Packages 169 kB/262 kB 64%] [10 Packages 80 B/158 kB 0%][0m[33m
+38% [9 Components-amd64 store 0 B] [6 Packages 169 kB/262 kB 64%] [10 Packages [0m[33m
+                                                                               
+38% [6 Packages 169 kB/262 kB 64%] [10 Packages 80 B/158 kB 0%][0m[33m
+39% [6 Packages 181 kB/262 kB 69%] [10 Packages 16.8 kB/158 kB 11%][0m[33m
+39% [6 Packages 193 kB/262 kB 74%] [10 Packages 32.3 kB/158 kB 20%][0m[33m
+40% [6 Packages 201 kB/262 kB 77%] [10 Packages 46.4 kB/158 kB 29%][0m[33m
+40% [6 Packages 210 kB/262 kB 80%] [10 Packages 59.3 kB/158 kB 38%][0m[33m
+41% [6 Packages 221 kB/262 kB 84%] [10 Packages 72.2 kB/158 kB 46%][0m[33m
+41% [6 Packages 238 kB/262 kB 91%] [10 Packages 72.2 kB/158 kB 46%][0m[33m
+                                                                   
+43% [6 Packages 250 kB/262 kB 95%] [10 Packages 106 kB/158 kB 67%][0m[33m
+43% [6 Packages 257 kB/262 kB 98%] [10 Packages 117 kB/158 kB 74%][0m[33m
+43% [Waiting for headers] [10 Packages 122 kB/158 kB 78%]         55.4 kB/s 38s[0m[33m
+43% [6 Packages store 0 B] [Waiting for headers] [10 Packages 122 kB/158 kB 78%[0m
+                                                                               
+Get:11 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 Packages [299 kB]
+[33m
+43% [6 Packages store 0 B] [11 Packages 0 B/299 kB 0%] [10 Packages 125 kB/158 [0m[33m
+                                                                               
+44% [11 Packages 1,286 B/299 kB 0%] [10 Packages 125 kB/158 kB 79%][0m[33m
+44% [11 Packages 12.9 kB/299 kB 4%] [10 Packages 143 kB/158 kB 91%][0m[33m
+45% [11 Packages 27.0 kB/299 kB 9%] [Waiting for headers]         55.4 kB/s 36s[0m
+                                                                               
+Get:12 http://security.ubuntu.com/ubuntu cosmic-security/universe amd64 Packages [158 kB]
+[33m
+                                                                               
+45% [11 Packages 27.0 kB/299 kB 9%] [12 Packages 523 B/158 kB 0%][0m[33m
+45% [10 Packages store 0 B] [11 Packages 27.0 kB/299 kB 9%] [12 Packages 523 B/[0m[33m
+                                                                               
+45% [11 Packages 27.0 kB/299 kB 9%] [12 Packages 1,811 B/158 kB 1%][0m[33m
+46% [11 Packages 38.6 kB/299 kB 13%] [12 Packages 21.1 kB/158 kB 13%][0m[33m
+47% [11 Packages 48.9 kB/299 kB 16%] [12 Packages 35.3 kB/158 kB 22%][0m[33m
+47% [11 Packages 59.2 kB/299 kB 20%] [12 Packages 49.5 kB/158 kB 31%][0m[33m
+48% [11 Packages 73.4 kB/299 kB 25%] [12 Packages 71.4 kB/158 kB 45%][0m[33m
+49% [11 Packages 94.0 kB/299 kB 31%] [12 Packages 98.4 kB/158 kB 62%][0m[33m
+                                                                     
+51% [11 Packages 113 kB/299 kB 38%] [12 Packages 128 kB/158 kB 81%][0m[33m
+52% [11 Packages 130 kB/299 kB 44%] [12 Packages 150 kB/158 kB 95%][0m[33m
+52% [11 Packages 137 kB/299 kB 46%] [Waiting for headers]         55.4 kB/s 32s[0m
+                                                                               
+Get:13 http://security.ubuntu.com/ubuntu cosmic-security/universe Translation-en [92.2 kB]
+[33m
+                                                                               
+52% [11 Packages 137 kB/299 kB 46%] [13 Translation-en 875 B/92.2 kB 1%][0m[33m
+52% [12 Packages store 0 B] [11 Packages 137 kB/299 kB 46%] [13 Translation-en [0m[33m
+                                                                               
+52% [11 Packages 138 kB/299 kB 46%] [13 Translation-en 875 B/92.2 kB 1%][0m[33m
+53% [11 Packages 153 kB/299 kB 51%] [13 Translation-en 24.1 kB/92.2 kB 26%][0m[33m
+54% [11 Packages 166 kB/299 kB 56%] [13 Translation-en 42.1 kB/92.2 kB 46%][0m[33m
+55% [11 Packages 179 kB/299 kB 60%] [13 Translation-en 60.1 kB/92.2 kB 65%][0m[33m
+55% [11 Packages 192 kB/299 kB 64%] [13 Translation-en 61.4 kB/92.2 kB 67%][0m[33m
+55% [11 Packages 196 kB/299 kB 66%] [13 Translation-en 61.4 kB/92.2 kB 67%][0m[33m
+56% [11 Packages 196 kB/299 kB 66%] [13 Translation-en 85.9 kB/92.2 kB 93%][0m
+                                                                           
+Get:14 http://security.ubuntu.com/ubuntu cosmic-security/universe amd64 DEP-11 Metadata [24.7 kB]
+[33m
+57% [11 Packages 196 kB/299 kB 66%] [14 Components-amd64 24.7 kB/24.7 kB 100%][0m[33m
+57% [13 Translation-en store 0 B] [11 Packages 196 kB/299 kB 66%] [Waiting for [0m
+                                                                               
+Get:15 http://security.ubuntu.com/ubuntu cosmic-security/universe DEP-11 48x48 Icons [11.4 kB]
+[33m
+57% [13 Translation-en store 0 B] [11 Packages 196 kB/299 kB 66%] [15 icons-48x[0m[33m
+                                                                               
+57% [11 Packages 196 kB/299 kB 66%] [15 icons-48x48 5,985 B/11.4 kB 53%][0m[33m
+57% [14 Components-amd64 store 0 B] [11 Packages 196 kB/299 kB 66%] [15 icons-4[0m[33m
+                                                                               
+57% [11 Packages 196 kB/299 kB 66%] [15 icons-48x48 5,985 B/11.4 kB 53%][0m[33m
+58% [11 Packages 231 kB/299 kB 77%] [15 icons-48x48 9,849 B/11.4 kB 87%][0m[33m
+58% [11 Packages 231 kB/299 kB 77%] [15 icons-48x48 9,849 B/11.4 kB 87%][0m[33m
+58% [11 Packages 231 kB/299 kB 77%] [Waiting for headers]         68.5 kB/s 22s[0m
+                                                                               
+Get:16 http://security.ubuntu.com/ubuntu cosmic-security/universe DEP-11 64x64 Icons [62.2 kB]
+[33m
+                                                                               
+59% [11 Packages 231 kB/299 kB 77%] [16 icons-64x64 16.3 kB/62.2 kB 26%][0m[33m
+59% [15 icons-48x48 store 0 B] [11 Packages 231 kB/299 kB 77%] [16 icons-64x64 [0m[33m
+                                                                               
+59% [11 Packages 231 kB/299 kB 77%] [16 icons-64x64 16.3 kB/62.2 kB 26%][0m[33m
+60% [11 Packages 250 kB/299 kB 84%] [Waiting for headers]         68.5 kB/s 21s[0m
+                                                                               
+Get:17 http://security.ubuntu.com/ubuntu cosmic-security/multiverse amd64 DEP-11 Metadata [2,464 B]
+[33m
+                                                                               
+60% [11 Packages 250 kB/299 kB 84%] [17 Components-amd64 234 B/2,464 B 9%][0m[33m
+60% [16 icons-64x64 store 0 B] [11 Packages 250 kB/299 kB 84%] [17 Components-a[0m[33m
+                                                                               
+60% [11 Packages 250 kB/299 kB 84%] [17 Components-amd64 234 B/2,464 B 9%][0m[33m
+60% [11 Packages 250 kB/299 kB 84%]                               68.5 kB/s 21s[0m[33m
+                                                                               
+60% [17 Components-amd64 store 0 B] [11 Packages 250 kB/299 kB 84%][0m[33m
+61% [11 Packages 250 kB/299 kB 84%]                               68.5 kB/s 21s[0m[33m
+62% [11 Packages 295 kB/299 kB 99%]                               68.5 kB/s 20s[0m
+                                                                               
+Get:18 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main Translation-en [120 kB]
+[33m
+62% [18 Translation-en 13 B/120 kB 0%]                            68.5 kB/s 20s[0m[33m
+62% [11 Packages store 0 B] [18 Translation-en 13 B/120 kB 0%]    68.5 kB/s 20s[0m[33m
+62% [18 Translation-en 2,589 B/120 kB 2%]                         68.5 kB/s 20s[0m[33m
+62% [18 Translation-en 15.5 kB/120 kB 13%]                        68.5 kB/s 20s[0m[33m
+63% [18 Translation-en 33.5 kB/120 kB 28%]                        68.5 kB/s 20s[0m[33m
+63% [18 Translation-en 54.1 kB/120 kB 45%]                        68.5 kB/s 20s[0m[33m
+64% [18 Translation-en 74.7 kB/120 kB 62%]                        54.3 kB/s 24s[0m[33m
+64% [18 Translation-en 96.6 kB/120 kB 80%]                        54.3 kB/s 24s[0m[33m
+65% [18 Translation-en 117 kB/120 kB 97%]                         54.3 kB/s 24s[0m
+                                                                               
+Get:19 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 DEP-11 Metadata [143 kB]
+[33m
+65% [19 Components-amd64 384 B/143 kB 0%]                         54.3 kB/s 24s[0m[33m
+                                                                               
+65% [18 Translation-en store 0 B] [19 Components-amd64 384 B/143 kB 0%][0m[33m
+65% [19 Components-amd64 1,672 B/143 kB 1%]                       54.3 kB/s 24s[0m[33m
+66% [19 Components-amd64 24.9 kB/143 kB 17%]                      54.3 kB/s 23s[0m[33m
+66% [19 Components-amd64 44.2 kB/143 kB 31%]                      54.3 kB/s 23s[0m[33m
+67% [19 Components-amd64 67.4 kB/143 kB 47%]                      54.3 kB/s 22s[0m[33m
+68% [19 Components-amd64 94.4 kB/143 kB 66%]                      54.3 kB/s 22s[0m[33m
+68% [19 Components-amd64 110 kB/143 kB 77%]                       54.3 kB/s 22s[0m[33m
+69% [19 Components-amd64 134 kB/143 kB 94%]                       54.3 kB/s 21s[0m[33m
+69% [Waiting for headers]                                         54.3 kB/s 21s[0m
+                                                                               
+Get:20 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main DEP-11 48x48 Icons [36.2 kB]
+[33m
+69% [20 icons-48x48 417 B/36.2 kB 1%]                             54.3 kB/s 21s[0m[33m
+                                                                               
+69% [19 Components-amd64 store 0 B] [20 icons-48x48 1,705 B/36.2 kB 5%][0m[33m
+69% [20 icons-48x48 2,993 B/36.2 kB 8%]                           54.3 kB/s 21s[0m[33m
+70% [20 icons-48x48 23.6 kB/36.2 kB 65%]                          54.3 kB/s 20s[0m[33m
+70% [Waiting for headers]                                         54.3 kB/s 20s[0m
+                                                                               
+Get:21 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main DEP-11 64x64 Icons [56.1 kB]
+[33m
+70% [21 icons-64x64 49 B/56.1 kB 0%]                              54.3 kB/s 20s[0m[33m
+70% [20 icons-48x48 store 0 B] [21 icons-64x64 49 B/56.1 kB 0%]   54.3 kB/s 20s[0m[33m
+70% [21 icons-64x64 49 B/56.1 kB 0%]                              54.3 kB/s 20s[0m[33m
+71% [21 icons-64x64 20.7 kB/56.1 kB 37%]                          54.3 kB/s 20s[0m[33m
+71% [21 icons-64x64 40.0 kB/56.1 kB 71%]                          42.9 kB/s 25s[0m[33m
+71% [21 icons-64x64 46.4 kB/56.1 kB 83%]                          42.9 kB/s 25s[0m[33m
+71% [21 icons-64x64 46.4 kB/56.1 kB 83%]                          42.9 kB/s 25s[0m[33m
+71% [21 icons-64x64 50.3 kB/56.1 kB 90%]                          42.9 kB/s 25s[0m[33m
+71% [21 icons-64x64 50.3 kB/56.1 kB 90%]                          42.9 kB/s 25s[0m[33m
+71% [Working]                                                     42.9 kB/s 24s[0m
+                                                                               
+Get:22 http://in.archive.ubuntu.com/ubuntu cosmic-updates/universe amd64 Packages [350 kB]
+[33m
+72% [22 Packages 30.1 kB/350 kB 9%]                               42.9 kB/s 24s[0m[33m
+72% [21 icons-64x64 store 0 B] [22 Packages 30.1 kB/350 kB 9%]    42.9 kB/s 24s[0m[33m
+72% [22 Packages 30.1 kB/350 kB 9%]                               42.9 kB/s 24s[0m[33m
+73% [22 Packages 43.0 kB/350 kB 12%]                              42.9 kB/s 23s[0m[33m
+74% [22 Packages 84.2 kB/350 kB 24%]                              42.9 kB/s 22s[0m[33m
+74% [22 Packages 101 kB/350 kB 29%]                               42.9 kB/s 22s[0m[33m
+75% [22 Packages 120 kB/350 kB 34%]                               42.9 kB/s 22s[0m[33m
+75% [22 Packages 137 kB/350 kB 39%]                               42.9 kB/s 21s[0m[33m
+75% [22 Packages 147 kB/350 kB 42%]                               42.9 kB/s 21s[0m[33m
+75% [22 Packages 147 kB/350 kB 42%]                               42.9 kB/s 21s[0m[33m
+76% [22 Packages 170 kB/350 kB 49%]                               30.8 kB/s 29s[0m[33m
+77% [22 Packages 218 kB/350 kB 62%]                               30.8 kB/s 27s[0m[33m
+78% [22 Packages 239 kB/350 kB 68%]                               30.8 kB/s 26s[0m[33m
+78% [22 Packages 249 kB/350 kB 71%]                               30.8 kB/s 26s[0m[33m
+78% [22 Packages 249 kB/350 kB 71%]                               30.8 kB/s 26s[0m[33m
+79% [22 Packages 306 kB/350 kB 87%]                               30.8 kB/s 24s[0m[33m
+80% [22 Packages 334 kB/350 kB 96%]                               30.8 kB/s 23s[0m
+                                                                               
+Get:23 http://in.archive.ubuntu.com/ubuntu cosmic-updates/universe i386 Packages [346 kB]
+[33m
+81% [23 Packages 1,034 B/346 kB 0%]                               30.8 kB/s 23s[0m[33m
+81% [22 Packages store 0 B] [23 Packages 1,034 B/346 kB 0%]       30.8 kB/s 23s[0m[33m
+81% [23 Packages 6,186 B/346 kB 2%]                               30.8 kB/s 23s[0m[33m
+81% [23 Packages 29.4 kB/346 kB 8%]                               30.8 kB/s 22s[0m[33m
+82% [23 Packages 53.8 kB/346 kB 16%]                              30.8 kB/s 21s[0m[33m
+83% [23 Packages 75.7 kB/346 kB 22%]                              30.8 kB/s 20s[0m[33m
+83% [23 Packages 104 kB/346 kB 30%]                               30.8 kB/s 19s[0m[33m
+84% [23 Packages 134 kB/346 kB 39%]                               30.8 kB/s 19s[0m[33m
+85% [23 Packages 161 kB/346 kB 46%]                               53.2 kB/s 10s[0m[33m
+85% [23 Packages 187 kB/346 kB 54%]                               53.2 kB/s 10s[0m[33m
+86% [23 Packages 214 kB/346 kB 62%]                                53.2 kB/s 9s[0m[33m
+86% [23 Packages 220 kB/346 kB 64%]                                53.2 kB/s 9s[0m[33m
+87% [23 Packages 244 kB/346 kB 71%]                                53.2 kB/s 8s[0m[33m
+88% [23 Packages 266 kB/346 kB 77%]                                53.2 kB/s 8s[0m[33m
+88% [23 Packages 301 kB/346 kB 87%]                                53.2 kB/s 7s[0m[33m
+89% [23 Packages 328 kB/346 kB 95%]                                53.2 kB/s 7s[0m[33m
+90% [Waiting for headers]                                          53.2 kB/s 7s[0m
+                                                                               
+Get:24 http://in.archive.ubuntu.com/ubuntu cosmic-updates/universe Translation-en [147 kB]
+[33m
+90% [24 Translation-en 169 B/147 kB 0%]                            53.2 kB/s 7s[0m[33m
+90% [23 Packages store 0 B] [24 Translation-en 169 B/147 kB 0%]    53.2 kB/s 7s[0m[33m
+90% [24 Translation-en 2,745 B/147 kB 2%]                          53.2 kB/s 6s[0m[33m
+90% [24 Translation-en 23.4 kB/147 kB 16%]                         53.2 kB/s 6s[0m[33m
+91% [24 Translation-en 41.4 kB/147 kB 28%]                         53.2 kB/s 6s[0m[33m
+91% [24 Translation-en 42.7 kB/147 kB 29%]                         53.2 kB/s 6s[0m[33m
+91% [24 Translation-en 44.0 kB/147 kB 30%]                         53.2 kB/s 6s[0m[33m
+92% [24 Translation-en 76.2 kB/147 kB 52%]                         40.5 kB/s 7s[0m[33m
+92% [24 Translation-en 76.2 kB/147 kB 52%]                         40.5 kB/s 7s[0m[33m
+93% [24 Translation-en 138 kB/147 kB 94%]                          40.5 kB/s 5s[0m[33m
+93% [Waiting for headers]                                          40.5 kB/s 5s[0m
+                                                                               
+Get:25 http://in.archive.ubuntu.com/ubuntu cosmic-updates/universe amd64 DEP-11 Metadata [70.3 kB]
+[33m
+94% [25 Components-amd64 33.0 kB/70.3 kB 47%]                      40.5 kB/s 4s[0m[33m
+                                                                               
+94% [24 Translation-en store 0 B] [25 Components-amd64 33.0 kB/70.3 kB 47%][0m[33m
+95% [25 Components-amd64 35.5 kB/70.3 kB 51%]                      40.5 kB/s 4s[0m[33m
+95% [25 Components-amd64 61.3 kB/70.3 kB 87%]                      40.5 kB/s 4s[0m[33m
+95% [Waiting for headers]                                          40.5 kB/s 3s[0m[33m
+95% [25 Components-amd64 store 0 B] [Waiting for headers]          40.5 kB/s 3s[0m
+                                                                               
+Get:26 http://in.archive.ubuntu.com/ubuntu cosmic-updates/universe DEP-11 48x48 Icons [43.3 kB]
+[33m
+                                                                               
+95% [25 Components-amd64 store 0 B] [26 icons-48x48 1,138 B/43.3 kB 3%][0m[33m
+96% [26 icons-48x48 1,138 B/43.3 kB 3%]                            40.5 kB/s 3s[0m[33m
+96% [26 icons-48x48 8,866 B/43.3 kB 20%]                           40.5 kB/s 3s[0m[33m
+96% [26 icons-48x48 8,866 B/43.3 kB 20%]                           40.5 kB/s 3s[0m[33m
+97% [26 icons-48x48 42.4 kB/43.3 kB 98%]                           40.5 kB/s 2s[0m[33m
+97% [Waiting for headers]                                          40.5 kB/s 2s[0m
+                                                                               
+Get:27 http://in.archive.ubuntu.com/ubuntu cosmic-updates/universe DEP-11 64x64 Icons [104 kB]
+[33m
+98% [27 icons-64x64 41.4 kB/104 kB 40%]                            40.5 kB/s 1s[0m[33m
+                                                                               
+98% [26 icons-48x48 store 0 B] [27 icons-64x64 41.4 kB/104 kB 40%][0m[33m
+98% [27 icons-64x64 41.4 kB/104 kB 40%]                            40.5 kB/s 1s[0m[33m
+98% [27 icons-64x64 65.8 kB/104 kB 63%]                            40.5 kB/s 1s[0m[33m
+99% [27 icons-64x64 90.3 kB/104 kB 87%]                            40.5 kB/s 0s[0m
+                                                                               
+Get:28 http://in.archive.ubuntu.com/ubuntu cosmic-updates/multiverse amd64 DEP-11 Metadata [2,464 B]
+[33m
+99% [28 Components-amd64 153 B/2,464 B 6%]                         40.5 kB/s 0s[0m[33m
+                                                                               
+99% [27 icons-64x64 store 0 B] [28 Components-amd64 153 B/2,464 B 6%][0m[33m
+100% [28 Components-amd64 153 B/2,464 B 6%]                        40.5 kB/s 0s[0m[33m
+100% [Waiting for headers]                                         40.5 kB/s 0s[0m
+                                                                               
+Get:29 http://in.archive.ubuntu.com/ubuntu cosmic-backports/universe amd64 DEP-11 Metadata [7,356 B]
+[33m
+100% [Working]                                                     40.5 kB/s 0s[0m[33m
+100% [28 Components-amd64 store 0 B]                               40.5 kB/s 0s[0m[33m
+100% [Working]                                                     40.5 kB/s 0s[0m[33m
+100% [29 Components-amd64 store 0 B]                               40.5 kB/s 0s[0m[33m
+100% [Working]                                                     40.5 kB/s 0s[0m
+                                                                               
+Fetched 3,108 kB in 1min 7s (46.2 kB/s)
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 3%
+
+Reading package lists... 3%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 40%
+
+Reading package lists... 40%
+
+Reading package lists... 61%
+
+Reading package lists... 71%
+
+Reading package lists... 71%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 91%
+
+Reading package lists... 91%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+326 packages can be upgraded. Run 'apt list --upgradable' to see them.
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sudo apt install -y qpa[K[K[Kapache2
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following packages were automatically installed and are no longer required:
+  libmessaging-menu0 linux-headers-4.18.0-10 linux-headers-4.18.0-10-generic
+  linux-image-4.18.0-10-generic linux-modules-4.18.0-10-generic
+  linux-modules-extra-4.18.0-10-generic
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+The following packages will be upgraded:
+  apache2 apache2-bin apache2-data apache2-utils
+4 upgraded, 0 newly installed, 0 to remove and 322 not upgraded.
+Need to get 0 B/1,433 kB of archives.
+After this operation, 3,072 B of additional disk space will be used.
+
+7[0;23r8[1A(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 238630 files and directories currently installed.)
+Preparing to unpack .../apache2_2.4.34-1ubuntu2.1_amd64.deb ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [  6%][49m[39m [###.......................................................] 8Unpacking apache2 (2.4.34-1ubuntu2.1) over (2.4.34-1ubuntu2) ...
+7[24;0f[42m[30mProgress: [ 12%][49m[39m [######....................................................] 8Preparing to unpack .../apache2-bin_2.4.34-1ubuntu2.1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 18%][49m[39m [##########................................................] 8Unpacking apache2-bin (2.4.34-1ubuntu2.1) over (2.4.34-1ubuntu2) ...
+7[24;0f[42m[30mProgress: [ 24%][49m[39m [#############.............................................] 8Preparing to unpack .../apache2-data_2.4.34-1ubuntu2.1_all.deb ...
+7[24;0f[42m[30mProgress: [ 29%][49m[39m [#################.........................................] 8Unpacking apache2-data (2.4.34-1ubuntu2.1) over (2.4.34-1ubuntu2) ...
+7[24;0f[42m[30mProgress: [ 35%][49m[39m [####################......................................] 8Preparing to unpack .../apache2-utils_2.4.34-1ubuntu2.1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 41%][49m[39m [#######################...................................] 8Unpacking apache2-utils (2.4.34-1ubuntu2.1) over (2.4.34-1ubuntu2) ...
+7[24;0f[42m[30mProgress: [ 47%][49m[39m [###########################...............................] 8Processing triggers for ufw (0.35-6) ...
+Setting up apache2-utils (2.4.34-1ubuntu2.1) ...
+7[24;0f[42m[30mProgress: [ 53%][49m[39m [##############################............................] 87[24;0f[42m[30mProgress: [ 59%][49m[39m [##################################........................] 8Setting up apache2-bin (2.4.34-1ubuntu2.1) ...
+7[24;0f[42m[30mProgress: [ 65%][49m[39m [#####################################.....................] 87[24;0f[42m[30mProgress: [ 71%][49m[39m [########################################..................] 8Setting up apache2-data (2.4.34-1ubuntu2.1) ...
+7[24;0f[42m[30mProgress: [ 76%][49m[39m [############################################..............] 87[24;0f[42m[30mProgress: [ 82%][49m[39m [###############################################...........] 8Processing triggers for systemd (239-7ubuntu10.6) ...
+Processing triggers for man-db (2.8.4-2) ...
+Setting up apache2 (2.4.34-1ubuntu2.1) ...
+7[24;0f[42m[30mProgress: [ 88%][49m[39m [###################################################.......] 87[24;0f[42m[30mProgress: [ 94%][49m[39m [######################################################....] 8
+7[0;24r8[1A[J]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sudo apt install -y apache2 update[Kftp cs17d47@14.139.189.217
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pudo apt update[K[K[K[K[K[K[K int[Kstall -y apache2 apache2-utils
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+apache2 is already the newest version (2.4.34-1ubuntu2.1).
+apache2-utils is already the newest version (2.4.34-1ubuntu2.1).
+apache2-utils set to manually installed.
+The following packages were automatically installed and are no longer required:
+  libmessaging-menu0 linux-headers-4.18.0-10 linux-headers-4.18.0-10-generic
+  linux-image-4.18.0-10-generic linux-modules-4.18.0-10-generic
+  linux-modules-extra-4.18.0-10-generic
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 322 not upgraded.
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ systemct1 status apache2
+
+Command 'systemct1' not found, did you mean:
+
+  command 'systemctl' from deb systemd
+
+Try: sudo apt install <deb name>
+
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ systemct1 status apache2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kl status apache2
+[?1h=
+[0;1;32m●[0m apache2.service - The Apache HTTP Server[m
+   Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: [m
+   Active: [0;1;32mactive (running)[0m since Thu 2019-04-25 10:09:58 IST; 4min 23s ago[m
+ Main PID: 5972 (apache2)[m
+    Tasks: 55 (limit: 4896)[m
+   Memory: 5.7M[m
+   CGroup: /system.slice/apache2.service[m
+           ├─5972 /usr/sbin/apache2 -k start[m
+           ├─5973 /usr/sbin/apache2 -k start[m
+           └─5975 /usr/sbin/apache2 -k start[m
+[m
+Apr 25 10:09:58 ceclab2 systemd[1]: Starting The Apache HTTP Server...[m
+Apr 25 10:09:58 ceclab2 apachectl[5955]: AH00558: apache2: Could not reliably de[m
+Apr 25 10:09:58 ceclab2 systemd[1]: Started The Apache HTTP Server.[m
+[7mlines 1-14/14 (END)[27m[K
+[K
+[K[7mlines 1-14/14 (END)[27m[K
+[K[?1l>
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ apche[K[K[Kache [K2 -v
+Server version: Apache/2.4.34 (Ubuntu)
+Server built:   2019-04-03T12:50:09
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sudo ufw allow http
+Rules updated
+Rules updated (v6)
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sudo apt install mariaf[Kdn[Kb-server mariadb-client
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following packages were automatically installed and are no longer required:
+  libmessaging-menu0 linux-headers-4.18.0-10 linux-headers-4.18.0-10-generic
+  linux-image-4.18.0-10-generic linux-modules-4.18.0-10-generic
+  linux-modules-extra-4.18.0-10-generic
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  galera-3 libconfig-inifiles-perl libdbd-mysql-perl libdbi-perl
+  libhtml-template-perl libterm-readkey-perl mariadb-client-10.1
+  mariadb-client-core-10.1 mariadb-common mariadb-server-10.1
+  mariadb-server-core-10.1 socat
+Suggested packages:
+  libmldbm-perl libnet-daemon-perl libsql-statement-perl
+  libipc-sharedcache-perl mailx tinyca
+The following NEW packages will be installed:
+  galera-3 libconfig-inifiles-perl libdbd-mysql-perl libdbi-perl
+  libhtml-template-perl libterm-readkey-perl mariadb-client
+  mariadb-client-10.1 mariadb-client-core-10.1 mariadb-common mariadb-server
+  mariadb-server-10.1 mariadb-server-core-10.1 socat
+0 upgraded, 14 newly installed, 0 to remove and 322 not upgraded.
+Need to get 22.6 MB of archives.
+After this operation, 178 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m
+0% [Working][0m[33m
+0% [Connecting to in.archive.ubuntu.com][0m[33m
+0% [Connecting to in.archive.ubuntu.com (91.189.88.152)][0m
+                                                        
+Get:1 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 mariadb-common all 1:10.1.29-6ubuntu2 [15.2 kB]
+[33m
+                                                        
+0% [1 mariadb-common 1,007 B/15.2 kB 7%][0m[33m
+                                        
+1% [Working][0m
+            
+Get:2 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 galera-3 amd64 25.3.23-1ubuntu1 [907 kB]
+[33m
+1% [2 galera-3 1,005 B/907 kB 0%][0m[33m
+2% [2 galera-3 48.7 kB/907 kB 5%][0m[33m
+2% [2 galera-3 97.6 kB/907 kB 11%][0m[33m
+                                  
+2% [2 galera-3 123 kB/907 kB 14%][0m[33m
+2% [2 galera-3 123 kB/907 kB 14%][0m[33m
+2% [2 galera-3 199 kB/907 kB 22%][0m[33m
+2% [2 galera-3 238 kB/907 kB 26%][0m[33m
+2% [2 galera-3 281 kB/907 kB 31%][0m[33m
+3% [2 galera-3 417 kB/907 kB 46%]                             72.0 kB/s 5min 8s[0m[33m
+3% [2 galera-3 480 kB/907 kB 53%]                             72.0 kB/s 5min 7s[0m[33m
+3% [2 galera-3 534 kB/907 kB 59%]                             72.0 kB/s 5min 6s[0m[33m
+4% [2 galera-3 595 kB/907 kB 66%]                             72.0 kB/s 5min 5s[0m[33m
+4% [2 galera-3 654 kB/907 kB 72%]                             72.0 kB/s 5min 4s[0m[33m
+4% [2 galera-3 713 kB/907 kB 79%]                             72.0 kB/s 5min 3s[0m[33m
+4% [2 galera-3 762 kB/907 kB 84%]                             72.0 kB/s 5min 3s[0m[33m
+4% [2 galera-3 810 kB/907 kB 89%]                             72.0 kB/s 5min 2s[0m[33m
+4% [2 galera-3 812 kB/907 kB 90%]                             72.0 kB/s 5min 2s[0m[33m
+6% [Waiting for headers]                                      72.0 kB/s 5min 1s[0m
+                                                                               
+Get:3 http://in.archive.ubuntu.com/ubuntu cosmic/main amd64 libdbi-perl amd64 1.641-1 [724 kB]
+[33m
+6% [3 libdbi-perl 134 B/724 kB 0%]                            72.0 kB/s 5min 1s[0m[33m
+6% [3 libdbi-perl 55.5 kB/724 kB 8%]                          72.0 kB/s 5min 0s[0m[33m
+7% [3 libdbi-perl 108 kB/724 kB 15%]                         72.0 kB/s 4min 59s[0m[33m
+7% [3 libdbi-perl 161 kB/724 kB 22%]                         72.0 kB/s 4min 58s[0m[33m
+7% [3 libdbi-perl 214 kB/724 kB 30%]                          110 kB/s 3min 14s[0m[33m
+7% [3 libdbi-perl 244 kB/724 kB 34%]                          110 kB/s 3min 14s[0m[33m
+7% [3 libdbi-perl 273 kB/724 kB 38%]                          110 kB/s 3min 14s[0m[33m
+7% [3 libdbi-perl 335 kB/724 kB 46%]                          110 kB/s 3min 13s[0m[33m
+8% [3 libdbi-perl 396 kB/724 kB 55%]                          110 kB/s 3min 12s[0m[33m
+8% [3 libdbi-perl 451 kB/724 kB 62%]                          110 kB/s 3min 12s[0m[33m
+8% [3 libdbi-perl 505 kB/724 kB 70%]                          110 kB/s 3min 11s[0m[33m
+8% [3 libdbi-perl 562 kB/724 kB 78%]                          110 kB/s 3min 11s[0m[33m
+8% [3 libdbi-perl 611 kB/724 kB 84%]                          110 kB/s 3min 11s[0m[33m
+8% [3 libdbi-perl 665 kB/724 kB 92%]                          110 kB/s 3min 10s[0m[33m
+9% [3 libdbi-perl 724 kB/724 kB 100%]                          110 kB/s 3min 9s[0m[33m
+10% [Waiting for headers]                                      110 kB/s 3min 9s[0m
+                                                                               
+Get:4 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 mariadb-client-core-10.1 amd64 1:10.1.29-6ubuntu2 [4,733 kB]
+[33m
+10% [4 mariadb-client-core-10.1 785 B/4,733 kB 0%]             110 kB/s 3min 9s[0m[33m
+10% [4 mariadb-client-core-10.1 71.6 kB/4,733 kB 2%]           110 kB/s 3min 9s[0m[33m
+11% [4 mariadb-client-core-10.1 135 kB/4,733 kB 3%]           107 kB/s 3min 14s[0m[33m
+11% [4 mariadb-client-core-10.1 191 kB/4,733 kB 4%]           107 kB/s 3min 14s[0m[33m
+11% [4 mariadb-client-core-10.1 243 kB/4,733 kB 5%]           107 kB/s 3min 13s[0m[33m
+11% [4 mariadb-client-core-10.1 315 kB/4,733 kB 7%]           107 kB/s 3min 13s[0m[33m
+11% [4 mariadb-client-core-10.1 381 kB/4,733 kB 8%]           107 kB/s 3min 12s[0m[33m
+12% [4 mariadb-client-core-10.1 439 kB/4,733 kB 9%]           107 kB/s 3min 11s[0m[33m
+12% [4 mariadb-client-core-10.1 489 kB/4,733 kB 10%]          107 kB/s 3min 11s[0m[33m
+12% [4 mariadb-client-core-10.1 573 kB/4,733 kB 12%]          107 kB/s 3min 10s[0m[33m
+12% [4 mariadb-client-core-10.1 654 kB/4,733 kB 14%]           107 kB/s 3min 9s[0m[33m
+13% [4 mariadb-client-core-10.1 729 kB/4,733 kB 15%]           107 kB/s 3min 9s[0m[33m
+13% [4 mariadb-client-core-10.1 806 kB/4,733 kB 17%]           107 kB/s 3min 8s[0m[33m
+13% [4 mariadb-client-core-10.1 887 kB/4,733 kB 19%]           107 kB/s 3min 7s[0m[33m
+14% [4 mariadb-client-core-10.1 975 kB/4,733 kB 21%]          139 kB/s 2min 23s[0m[33m
+14% [4 mariadb-client-core-10.1 1,067 kB/4,733 kB 23%]        139 kB/s 2min 22s[0m[33m
+14% [4 mariadb-client-core-10.1 1,160 kB/4,733 kB 25%]        139 kB/s 2min 21s[0m[33m
+14% [4 mariadb-client-core-10.1 1,239 kB/4,733 kB 26%]        139 kB/s 2min 21s[0m[33m
+15% [4 mariadb-client-core-10.1 1,338 kB/4,733 kB 28%]        139 kB/s 2min 20s[0m[33m
+15% [4 mariadb-client-core-10.1 1,434 kB/4,733 kB 30%]        139 kB/s 2min 19s[0m[33m
+16% [4 mariadb-client-core-10.1 1,528 kB/4,733 kB 32%]        139 kB/s 2min 19s[0m[33m
+16% [4 mariadb-client-core-10.1 1,617 kB/4,733 kB 34%]        139 kB/s 2min 18s[0m[33m
+16% [4 mariadb-client-core-10.1 1,716 kB/4,733 kB 36%]        139 kB/s 2min 17s[0m[33m
+17% [4 mariadb-client-core-10.1 1,805 kB/4,733 kB 38%]        139 kB/s 2min 17s[0m[33m
+17% [4 mariadb-client-core-10.1 1,884 kB/4,733 kB 40%]        139 kB/s 2min 16s[0m[33m
+17% [4 mariadb-client-core-10.1 1,961 kB/4,733 kB 41%]        139 kB/s 2min 16s[0m[33m
+17% [4 mariadb-client-core-10.1 2,041 kB/4,733 kB 43%]        177 kB/s 1min 46s[0m[33m
+18% [4 mariadb-client-core-10.1 2,108 kB/4,733 kB 45%]        177 kB/s 1min 46s[0m[33m
+18% [4 mariadb-client-core-10.1 2,259 kB/4,733 kB 48%]        177 kB/s 1min 45s[0m[33m
+18% [4 mariadb-client-core-10.1 2,335 kB/4,733 kB 49%]        177 kB/s 1min 45s[0m[33m
+19% [4 mariadb-client-core-10.1 2,404 kB/4,733 kB 51%]        177 kB/s 1min 44s[0m[33m
+19% [4 mariadb-client-core-10.1 2,503 kB/4,733 kB 53%]        177 kB/s 1min 44s[0m[33m
+19% [4 mariadb-client-core-10.1 2,591 kB/4,733 kB 55%]        177 kB/s 1min 43s[0m[33m
+20% [4 mariadb-client-core-10.1 2,664 kB/4,733 kB 56%]        177 kB/s 1min 43s[0m[33m
+20% [4 mariadb-client-core-10.1 2,766 kB/4,733 kB 58%]        177 kB/s 1min 42s[0m[33m
+20% [4 mariadb-client-core-10.1 2,883 kB/4,733 kB 61%]        177 kB/s 1min 42s[0m[33m
+20% [4 mariadb-client-core-10.1 2,930 kB/4,733 kB 62%]        177 kB/s 1min 41s[0m[33m
+21% [4 mariadb-client-core-10.1 2,983 kB/4,733 kB 63%]        177 kB/s 1min 41s[0m[33m
+21% [4 mariadb-client-core-10.1 3,074 kB/4,733 kB 65%]        171 kB/s 1min 44s[0m[33m
+21% [4 mariadb-client-core-10.1 3,172 kB/4,733 kB 67%]        171 kB/s 1min 43s[0m[33m
+22% [4 mariadb-client-core-10.1 3,250 kB/4,733 kB 69%]        171 kB/s 1min 43s[0m[33m
+22% [4 mariadb-client-core-10.1 3,337 kB/4,733 kB 70%]        171 kB/s 1min 42s[0m[33m
+22% [4 mariadb-client-core-10.1 3,462 kB/4,733 kB 73%]        171 kB/s 1min 42s[0m[33m
+23% [4 mariadb-client-core-10.1 3,583 kB/4,733 kB 76%]        171 kB/s 1min 41s[0m[33m
+23% [4 mariadb-client-core-10.1 3,710 kB/4,733 kB 78%]        171 kB/s 1min 40s[0m[33m
+24% [4 mariadb-client-core-10.1 3,817 kB/4,733 kB 81%]        171 kB/s 1min 39s[0m[33m
+24% [4 mariadb-client-core-10.1 3,911 kB/4,733 kB 83%]        171 kB/s 1min 39s[0m[33m
+24% [4 mariadb-client-core-10.1 3,983 kB/4,733 kB 84%]        171 kB/s 1min 38s[0m[33m
+24% [4 mariadb-client-core-10.1 4,005 kB/4,733 kB 85%]        171 kB/s 1min 38s[0m[33m
+25% [4 mariadb-client-core-10.1 4,182 kB/4,733 kB 88%]        171 kB/s 1min 37s[0m[33m
+25% [4 mariadb-client-core-10.1 4,285 kB/4,733 kB 91%]        201 kB/s 1min 22s[0m[33m
+26% [4 mariadb-client-core-10.1 4,362 kB/4,733 kB 92%]        201 kB/s 1min 22s[0m[33m
+26% [4 mariadb-client-core-10.1 4,441 kB/4,733 kB 94%]        201 kB/s 1min 22s[0m[33m
+26% [4 mariadb-client-core-10.1 4,478 kB/4,733 kB 95%]        201 kB/s 1min 21s[0m[33m
+26% [4 mariadb-client-core-10.1 4,491 kB/4,733 kB 95%]        201 kB/s 1min 21s[0m[33m
+27% [4 mariadb-client-core-10.1 4,647 kB/4,733 kB 98%]        201 kB/s 1min 21s[0m[33m
+28% [Waiting for headers]                                     201 kB/s 1min 20s[0m
+                                                                               
+Get:5 http://in.archive.ubuntu.com/ubuntu cosmic/main amd64 libconfig-inifiles-perl all 2.98-1 [40.9 kB]
+[33m
+28% [5 libconfig-inifiles-perl 36.6 kB/40.9 kB 89%]           201 kB/s 1min 20s[0m[33m
+30% [Working]                                                 201 kB/s 1min 20s[0m
+                                                                               
+Get:6 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 mariadb-client-10.1 amd64 1:10.1.29-6ubuntu2 [5,636 kB]
+[33m
+30% [6 mariadb-client-10.1 1,855 B/5,636 kB 0%]               201 kB/s 1min 20s[0m[33m
+30% [6 mariadb-client-10.1 45.6 kB/5,636 kB 1%]               201 kB/s 1min 20s[0m[33m
+30% [6 mariadb-client-10.1 160 kB/5,636 kB 3%]                201 kB/s 1min 19s[0m[33m
+30% [6 mariadb-client-10.1 163 kB/5,636 kB 3%]                201 kB/s 1min 19s[0m[33m
+31% [6 mariadb-client-10.1 199 kB/5,636 kB 4%]                201 kB/s 1min 19s[0m[33m
+31% [6 mariadb-client-10.1 384 kB/5,636 kB 7%]                201 kB/s 1min 18s[0m[33m
+32% [6 mariadb-client-10.1 487 kB/5,636 kB 9%]                201 kB/s 1min 18s[0m[33m
+32% [6 mariadb-client-10.1 588 kB/5,636 kB 10%]               167 kB/s 1min 33s[0m[33m
+32% [6 mariadb-client-10.1 672 kB/5,636 kB 12%]               167 kB/s 1min 33s[0m[33m
+32% [6 mariadb-client-10.1 699 kB/5,636 kB 12%]               167 kB/s 1min 32s[0m[33m
+33% [6 mariadb-client-10.1 763 kB/5,636 kB 14%]               167 kB/s 1min 32s[0m[33m
+33% [6 mariadb-client-10.1 852 kB/5,636 kB 15%]               167 kB/s 1min 32s[0m[33m
+33% [6 mariadb-client-10.1 945 kB/5,636 kB 17%]               167 kB/s 1min 31s[0m[33m
+34% [6 mariadb-client-10.1 1,039 kB/5,636 kB 18%]             167 kB/s 1min 30s[0m[33m
+34% [6 mariadb-client-10.1 1,140 kB/5,636 kB 20%]             167 kB/s 1min 30s[0m[33m
+34% [6 mariadb-client-10.1 1,229 kB/5,636 kB 22%]             167 kB/s 1min 29s[0m[33m
+35% [6 mariadb-client-10.1 1,345 kB/5,636 kB 24%]             167 kB/s 1min 29s[0m[33m
+35% [6 mariadb-client-10.1 1,450 kB/5,636 kB 26%]             167 kB/s 1min 28s[0m[33m
+35% [6 mariadb-client-10.1 1,517 kB/5,636 kB 27%]             167 kB/s 1min 28s[0m[33m
+35% [6 mariadb-client-10.1 1,575 kB/5,636 kB 28%]             164 kB/s 1min 29s[0m[33m
+35% [6 mariadb-client-10.1 1,575 kB/5,636 kB 28%]             164 kB/s 1min 29s[0m[33m
+35% [6 mariadb-client-10.1 1,589 kB/5,636 kB 28%]             164 kB/s 1min 29s[0m[33m
+36% [6 mariadb-client-10.1 1,754 kB/5,636 kB 31%]             164 kB/s 1min 28s[0m[33m
+36% [6 mariadb-client-10.1 1,836 kB/5,636 kB 33%]             164 kB/s 1min 27s[0m[33m
+36% [6 mariadb-client-10.1 1,836 kB/5,636 kB 33%]             164 kB/s 1min 27s[0m[33m
+37% [6 mariadb-client-10.1 1,922 kB/5,636 kB 34%]             164 kB/s 1min 27s[0m[33m
+37% [6 mariadb-client-10.1 1,982 kB/5,636 kB 35%]             164 kB/s 1min 26s[0m[33m
+37% [6 mariadb-client-10.1 2,063 kB/5,636 kB 37%]             164 kB/s 1min 26s[0m[33m
+37% [6 mariadb-client-10.1 2,143 kB/5,636 kB 38%]             164 kB/s 1min 25s[0m[33m
+37% [6 mariadb-client-10.1 2,143 kB/5,636 kB 38%]             164 kB/s 1min 25s[0m[33m
+38% [6 mariadb-client-10.1 2,194 kB/5,636 kB 39%]             164 kB/s 1min 25s[0m[33m
+38% [6 mariadb-client-10.1 2,194 kB/5,636 kB 39%]             103 kB/s 2min 15s[0m[33m
+38% [6 mariadb-client-10.1 2,194 kB/5,636 kB 39%]             103 kB/s 2min 15s[0m[33m
+38% [6 mariadb-client-10.1 2,271 kB/5,636 kB 40%]             103 kB/s 2min 15s[0m[33m
+38% [6 mariadb-client-10.1 2,365 kB/5,636 kB 42%]             103 kB/s 2min 14s[0m[33m
+38% [6 mariadb-client-10.1 2,439 kB/5,636 kB 43%]             103 kB/s 2min 13s[0m[33m
+39% [6 mariadb-client-10.1 2,474 kB/5,636 kB 44%]             103 kB/s 2min 13s[0m[33m
+39% [6 mariadb-client-10.1 2,474 kB/5,636 kB 44%]             103 kB/s 2min 13s[0m[33m
+39% [6 mariadb-client-10.1 2,556 kB/5,636 kB 45%]             103 kB/s 2min 12s[0m[33m
+39% [6 mariadb-client-10.1 2,650 kB/5,636 kB 47%]             103 kB/s 2min 11s[0m[33m
+39% [6 mariadb-client-10.1 2,650 kB/5,636 kB 47%]             103 kB/s 2min 11s[0m[33m
+39% [6 mariadb-client-10.1 2,696 kB/5,636 kB 48%]             103 kB/s 2min 11s[0m[33m
+40% [6 mariadb-client-10.1 2,796 kB/5,636 kB 50%]             103 kB/s 2min 10s[0m[33m
+40% [6 mariadb-client-10.1 2,808 kB/5,636 kB 50%]             102 kB/s 2min 11s[0m[33m
+40% [6 mariadb-client-10.1 2,883 kB/5,636 kB 51%]             102 kB/s 2min 10s[0m[33m
+41% [6 mariadb-client-10.1 3,043 kB/5,636 kB 54%]              102 kB/s 2min 8s[0m[33m
+41% [6 mariadb-client-10.1 3,130 kB/5,636 kB 56%]              102 kB/s 2min 8s[0m[33m
+41% [6 mariadb-client-10.1 3,204 kB/5,636 kB 57%]              102 kB/s 2min 7s[0m[33m
+42% [6 mariadb-client-10.1 3,295 kB/5,636 kB 58%]              102 kB/s 2min 6s[0m[33m
+42% [6 mariadb-client-10.1 3,375 kB/5,636 kB 60%]              102 kB/s 2min 5s[0m[33m
+42% [6 mariadb-client-10.1 3,470 kB/5,636 kB 62%]              102 kB/s 2min 4s[0m[33m
+43% [6 mariadb-client-10.1 3,590 kB/5,636 kB 64%]              102 kB/s 2min 3s[0m[33m
+43% [6 mariadb-client-10.1 3,691 kB/5,636 kB 65%]              102 kB/s 2min 2s[0m[33m
+43% [6 mariadb-client-10.1 3,780 kB/5,636 kB 67%]              102 kB/s 2min 1s[0m[33m
+44% [6 mariadb-client-10.1 3,870 kB/5,636 kB 69%]              102 kB/s 2min 0s[0m[33m
+44% [6 mariadb-client-10.1 3,962 kB/5,636 kB 70%]              192 kB/s 1min 3s[0m[33m
+44% [6 mariadb-client-10.1 4,042 kB/5,636 kB 72%]              192 kB/s 1min 3s[0m[33m
+44% [6 mariadb-client-10.1 4,122 kB/5,636 kB 73%]              192 kB/s 1min 2s[0m[33m
+45% [6 mariadb-client-10.1 4,211 kB/5,636 kB 75%]              192 kB/s 1min 2s[0m[33m
+45% [6 mariadb-client-10.1 4,272 kB/5,636 kB 76%]              192 kB/s 1min 2s[0m[33m
+45% [6 mariadb-client-10.1 4,287 kB/5,636 kB 76%]              192 kB/s 1min 2s[0m[33m
+45% [6 mariadb-client-10.1 4,326 kB/5,636 kB 77%]              192 kB/s 1min 1s[0m[33m
+45% [6 mariadb-client-10.1 4,382 kB/5,636 kB 78%]              192 kB/s 1min 1s[0m[33m
+46% [6 mariadb-client-10.1 4,489 kB/5,636 kB 80%]              192 kB/s 1min 1s[0m[33m
+46% [6 mariadb-client-10.1 4,489 kB/5,636 kB 80%]              192 kB/s 1min 1s[0m[33m
+46% [6 mariadb-client-10.1 4,570 kB/5,636 kB 81%]                  192 kB/s 60s[0m[33m
+47% [6 mariadb-client-10.1 4,716 kB/5,636 kB 84%]                  192 kB/s 59s[0m[33m
+47% [6 mariadb-client-10.1 4,809 kB/5,636 kB 85%]             140 kB/s 1min 21s[0m[33m
+47% [6 mariadb-client-10.1 4,914 kB/5,636 kB 87%]             140 kB/s 1min 20s[0m[33m
+48% [6 mariadb-client-10.1 4,989 kB/5,636 kB 89%]             140 kB/s 1min 20s[0m[33m
+48% [6 mariadb-client-10.1 5,074 kB/5,636 kB 90%]             140 kB/s 1min 19s[0m[33m
+48% [6 mariadb-client-10.1 5,153 kB/5,636 kB 91%]             140 kB/s 1min 18s[0m[33m
+48% [6 mariadb-client-10.1 5,229 kB/5,636 kB 93%]             140 kB/s 1min 18s[0m[33m
+48% [6 mariadb-client-10.1 5,258 kB/5,636 kB 93%]             140 kB/s 1min 18s[0m[33m
+49% [6 mariadb-client-10.1 5,320 kB/5,636 kB 94%]             140 kB/s 1min 17s[0m[33m
+49% [6 mariadb-client-10.1 5,395 kB/5,636 kB 96%]             140 kB/s 1min 17s[0m[33m
+49% [6 mariadb-client-10.1 5,469 kB/5,636 kB 97%]             140 kB/s 1min 16s[0m[33m
+50% [6 mariadb-client-10.1 5,557 kB/5,636 kB 99%]             140 kB/s 1min 15s[0m[33m
+51% [Waiting for headers]                                     140 kB/s 1min 15s[0m[33m
+51% [Waiting for headers]                                     138 kB/s 1min 16s[0m
+                                                                               
+Get:7 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 mariadb-server-core-10.1 amd64 1:10.1.29-6ubuntu2 [4,926 kB]
+[33m
+51% [7 mariadb-server-core-10.1 2,291 B/4,926 kB 0%]          138 kB/s 1min 16s[0m[33m
+51% [7 mariadb-server-core-10.1 38.4 kB/4,926 kB 1%]          138 kB/s 1min 16s[0m[33m
+52% [7 mariadb-server-core-10.1 118 kB/4,926 kB 2%]           138 kB/s 1min 15s[0m[33m
+52% [7 mariadb-server-core-10.1 184 kB/4,926 kB 4%]           138 kB/s 1min 15s[0m[33m
+52% [7 mariadb-server-core-10.1 214 kB/4,926 kB 4%]           138 kB/s 1min 15s[0m[33m
+52% [7 mariadb-server-core-10.1 214 kB/4,926 kB 4%]           138 kB/s 1min 15s[0m[33m
+52% [7 mariadb-server-core-10.1 225 kB/4,926 kB 5%]           138 kB/s 1min 14s[0m[33m
+52% [7 mariadb-server-core-10.1 232 kB/4,926 kB 5%]           138 kB/s 1min 14s[0m[33m
+52% [7 mariadb-server-core-10.1 232 kB/4,926 kB 5%]           138 kB/s 1min 14s[0m[33m
+52% [7 mariadb-server-core-10.1 232 kB/4,926 kB 5%]           138 kB/s 1min 14s[0m[33m
+53% [7 mariadb-server-core-10.1 623 kB/4,926 kB 13%]          138 kB/s 1min 12s[0m[33m
+54% [7 mariadb-server-core-10.1 685 kB/4,926 kB 14%]          138 kB/s 1min 11s[0m[33m
+54% [7 mariadb-server-core-10.1 733 kB/4,926 kB 15%]          121 kB/s 1min 20s[0m[33m
+54% [7 mariadb-server-core-10.1 733 kB/4,926 kB 15%]          121 kB/s 1min 20s[0m[33m
+54% [7 mariadb-server-core-10.1 747 kB/4,926 kB 15%]          121 kB/s 1min 20s[0m[33m
+54% [7 mariadb-server-core-10.1 747 kB/4,926 kB 15%]          121 kB/s 1min 20s[0m[33m
+54% [7 mariadb-server-core-10.1 788 kB/4,926 kB 16%]          121 kB/s 1min 20s[0m[33m
+54% [7 mariadb-server-core-10.1 883 kB/4,926 kB 18%]          121 kB/s 1min 19s[0m[33m
+55% [7 mariadb-server-core-10.1 923 kB/4,926 kB 19%]          121 kB/s 1min 19s[0m[33m
+55% [7 mariadb-server-core-10.1 943 kB/4,926 kB 19%]          121 kB/s 1min 19s[0m[33m
+55% [7 mariadb-server-core-10.1 943 kB/4,926 kB 19%]          121 kB/s 1min 19s[0m[33m
+55% [7 mariadb-server-core-10.1 1,017 kB/4,926 kB 21%]        121 kB/s 1min 18s[0m[33m
+55% [7 mariadb-server-core-10.1 1,017 kB/4,926 kB 21%]        121 kB/s 1min 18s[0m[33m
+55% [7 mariadb-server-core-10.1 1,125 kB/4,926 kB 23%]        121 kB/s 1min 17s[0m[33m
+56% [7 mariadb-server-core-10.1 1,223 kB/4,926 kB 25%]       81.3 kB/s 1min 54s[0m[33m
+56% [7 mariadb-server-core-10.1 1,277 kB/4,926 kB 26%]       81.3 kB/s 1min 54s[0m[33m
+56% [7 mariadb-server-core-10.1 1,333 kB/4,926 kB 27%]       81.3 kB/s 1min 53s[0m[33m
+56% [7 mariadb-server-core-10.1 1,384 kB/4,926 kB 28%]       81.3 kB/s 1min 52s[0m[33m
+56% [7 mariadb-server-core-10.1 1,429 kB/4,926 kB 29%]       81.3 kB/s 1min 52s[0m[33m
+56% [7 mariadb-server-core-10.1 1,478 kB/4,926 kB 30%]       81.3 kB/s 1min 51s[0m[33m
+57% [7 mariadb-server-core-10.1 1,523 kB/4,926 kB 31%]       81.3 kB/s 1min 51s[0m[33m
+57% [7 mariadb-server-core-10.1 1,543 kB/4,926 kB 31%]       81.3 kB/s 1min 50s[0m[33m
+57% [7 mariadb-server-core-10.1 1,623 kB/4,926 kB 33%]       81.3 kB/s 1min 49s[0m[33m
+57% [7 mariadb-server-core-10.1 1,670 kB/4,926 kB 34%]       81.3 kB/s 1min 49s[0m[33m
+57% [7 mariadb-server-core-10.1 1,715 kB/4,926 kB 35%]       81.3 kB/s 1min 48s[0m[33m
+57% [7 mariadb-server-core-10.1 1,760 kB/4,926 kB 36%]       81.3 kB/s 1min 48s[0m[33m
+58% [7 mariadb-server-core-10.1 1,811 kB/4,926 kB 37%]       97.4 kB/s 1min 29s[0m[33m
+58% [7 mariadb-server-core-10.1 1,856 kB/4,926 kB 38%]       97.4 kB/s 1min 29s[0m[33m
+58% [7 mariadb-server-core-10.1 1,903 kB/4,926 kB 39%]       97.4 kB/s 1min 28s[0m[33m
+58% [7 mariadb-server-core-10.1 1,951 kB/4,926 kB 40%]       97.4 kB/s 1min 28s[0m[33m
+58% [7 mariadb-server-core-10.1 1,999 kB/4,926 kB 41%]       97.4 kB/s 1min 27s[0m[33m
+58% [7 mariadb-server-core-10.1 2,049 kB/4,926 kB 42%]       97.4 kB/s 1min 27s[0m[33m
+59% [7 mariadb-server-core-10.1 2,098 kB/4,926 kB 43%]       97.4 kB/s 1min 26s[0m[33m
+59% [7 mariadb-server-core-10.1 2,135 kB/4,926 kB 43%]       97.4 kB/s 1min 26s[0m[33m
+59% [7 mariadb-server-core-10.1 2,174 kB/4,926 kB 44%]       97.4 kB/s 1min 25s[0m[33m
+59% [7 mariadb-server-core-10.1 2,198 kB/4,926 kB 45%]       97.4 kB/s 1min 25s[0m[33m
+59% [7 mariadb-server-core-10.1 2,252 kB/4,926 kB 46%]       97.4 kB/s 1min 25s[0m[33m
+59% [7 mariadb-server-core-10.1 2,314 kB/4,926 kB 47%]       97.4 kB/s 1min 24s[0m[33m
+60% [7 mariadb-server-core-10.1 2,377 kB/4,926 kB 48%]       94.1 kB/s 1min 26s[0m[33m
+60% [7 mariadb-server-core-10.1 2,424 kB/4,926 kB 49%]       94.1 kB/s 1min 26s[0m[33m
+60% [7 mariadb-server-core-10.1 2,466 kB/4,926 kB 50%]       94.1 kB/s 1min 25s[0m[33m
+60% [7 mariadb-server-core-10.1 2,510 kB/4,926 kB 51%]       94.1 kB/s 1min 25s[0m[33m
+60% [7 mariadb-server-core-10.1 2,571 kB/4,926 kB 52%]       94.1 kB/s 1min 24s[0m[33m
+61% [7 mariadb-server-core-10.1 2,622 kB/4,926 kB 53%]       94.1 kB/s 1min 24s[0m[33m
+61% [7 mariadb-server-core-10.1 2,674 kB/4,926 kB 54%]       94.1 kB/s 1min 23s[0m[33m
+61% [7 mariadb-server-core-10.1 2,724 kB/4,926 kB 55%]       94.1 kB/s 1min 23s[0m[33m
+61% [7 mariadb-server-core-10.1 2,775 kB/4,926 kB 56%]       94.1 kB/s 1min 22s[0m[33m
+61% [7 mariadb-server-core-10.1 2,826 kB/4,926 kB 57%]       94.1 kB/s 1min 22s[0m[33m
+61% [7 mariadb-server-core-10.1 2,871 kB/4,926 kB 58%]       94.1 kB/s 1min 21s[0m[33m
+62% [7 mariadb-server-core-10.1 2,925 kB/4,926 kB 59%]       94.1 kB/s 1min 21s[0m[33m
+62% [7 mariadb-server-core-10.1 2,969 kB/4,926 kB 60%]       98.1 kB/s 1min 17s[0m[33m
+62% [7 mariadb-server-core-10.1 3,001 kB/4,926 kB 61%]       98.1 kB/s 1min 16s[0m[33m
+62% [7 mariadb-server-core-10.1 3,001 kB/4,926 kB 61%]       98.1 kB/s 1min 16s[0m[33m
+62% [7 mariadb-server-core-10.1 3,104 kB/4,926 kB 63%]       98.1 kB/s 1min 15s[0m[33m
+62% [7 mariadb-server-core-10.1 3,148 kB/4,926 kB 64%]       98.1 kB/s 1min 15s[0m[33m
+63% [7 mariadb-server-core-10.1 3,184 kB/4,926 kB 65%]       98.1 kB/s 1min 15s[0m[33m
+63% [7 mariadb-server-core-10.1 3,215 kB/4,926 kB 65%]       98.1 kB/s 1min 14s[0m[33m
+63% [7 mariadb-server-core-10.1 3,231 kB/4,926 kB 66%]       98.1 kB/s 1min 14s[0m[33m
+63% [7 mariadb-server-core-10.1 3,257 kB/4,926 kB 66%]       98.1 kB/s 1min 14s[0m[33m
+63% [7 mariadb-server-core-10.1 3,314 kB/4,926 kB 67%]       98.1 kB/s 1min 13s[0m[33m
+63% [7 mariadb-server-core-10.1 3,372 kB/4,926 kB 68%]       98.1 kB/s 1min 13s[0m[33m
+63% [7 mariadb-server-core-10.1 3,423 kB/4,926 kB 69%]       98.1 kB/s 1min 12s[0m[33m
+64% [7 mariadb-server-core-10.1 3,470 kB/4,926 kB 70%]       83.1 kB/s 1min 25s[0m[33m
+64% [7 mariadb-server-core-10.1 3,516 kB/4,926 kB 71%]       83.1 kB/s 1min 24s[0m[33m
+64% [7 mariadb-server-core-10.1 3,558 kB/4,926 kB 72%]       83.1 kB/s 1min 24s[0m[33m
+64% [7 mariadb-server-core-10.1 3,571 kB/4,926 kB 73%]       83.1 kB/s 1min 23s[0m[33m
+64% [7 mariadb-server-core-10.1 3,571 kB/4,926 kB 73%]       83.1 kB/s 1min 23s[0m[33m
+64% [7 mariadb-server-core-10.1 3,605 kB/4,926 kB 73%]       83.1 kB/s 1min 23s[0m[33m
+64% [7 mariadb-server-core-10.1 3,605 kB/4,926 kB 73%]       83.1 kB/s 1min 23s[0m[33m
+64% [7 mariadb-server-core-10.1 3,737 kB/4,926 kB 76%]       83.1 kB/s 1min 21s[0m[33m
+65% [7 mariadb-server-core-10.1 3,785 kB/4,926 kB 77%]       83.1 kB/s 1min 21s[0m[33m
+65% [7 mariadb-server-core-10.1 3,790 kB/4,926 kB 77%]       83.1 kB/s 1min 21s[0m[33m
+65% [7 mariadb-server-core-10.1 3,790 kB/4,926 kB 77%]       83.1 kB/s 1min 21s[0m[33m
+65% [7 mariadb-server-core-10.1 3,829 kB/4,926 kB 78%]       83.1 kB/s 1min 20s[0m[33m
+65% [7 mariadb-server-core-10.1 3,868 kB/4,926 kB 79%]       65.8 kB/s 1min 41s[0m[33m
+65% [7 mariadb-server-core-10.1 3,908 kB/4,926 kB 79%]       65.8 kB/s 1min 40s[0m[33m
+65% [7 mariadb-server-core-10.1 3,908 kB/4,926 kB 79%]       65.8 kB/s 1min 40s[0m[33m
+65% [7 mariadb-server-core-10.1 3,963 kB/4,926 kB 80%]       65.8 kB/s 1min 40s[0m[33m
+66% [7 mariadb-server-core-10.1 4,044 kB/4,926 kB 82%]       65.8 kB/s 1min 38s[0m[33m
+66% [7 mariadb-server-core-10.1 4,066 kB/4,926 kB 83%]       65.8 kB/s 1min 38s[0m[33m
+66% [7 mariadb-server-core-10.1 4,097 kB/4,926 kB 83%]       65.8 kB/s 1min 37s[0m[33m
+66% [7 mariadb-server-core-10.1 4,137 kB/4,926 kB 84%]       65.8 kB/s 1min 37s[0m[33m
+66% [7 mariadb-server-core-10.1 4,175 kB/4,926 kB 85%]       65.8 kB/s 1min 36s[0m[33m
+66% [7 mariadb-server-core-10.1 4,226 kB/4,926 kB 86%]       65.8 kB/s 1min 36s[0m[33m
+66% [7 mariadb-server-core-10.1 4,277 kB/4,926 kB 87%]       65.8 kB/s 1min 35s[0m[33m
+67% [7 mariadb-server-core-10.1 4,329 kB/4,926 kB 88%]       65.8 kB/s 1min 34s[0m[33m
+67% [7 mariadb-server-core-10.1 4,374 kB/4,926 kB 89%]       83.4 kB/s 1min 14s[0m[33m
+67% [7 mariadb-server-core-10.1 4,407 kB/4,926 kB 89%]       83.4 kB/s 1min 13s[0m[33m
+67% [7 mariadb-server-core-10.1 4,442 kB/4,926 kB 90%]       83.4 kB/s 1min 13s[0m[33m
+67% [7 mariadb-server-core-10.1 4,473 kB/4,926 kB 91%]       83.4 kB/s 1min 12s[0m[33m
+67% [7 mariadb-server-core-10.1 4,474 kB/4,926 kB 91%]       83.4 kB/s 1min 12s[0m[33m
+67% [7 mariadb-server-core-10.1 4,562 kB/4,926 kB 93%]       83.4 kB/s 1min 11s[0m[33m
+68% [7 mariadb-server-core-10.1 4,612 kB/4,926 kB 94%]       83.4 kB/s 1min 11s[0m[33m
+68% [7 mariadb-server-core-10.1 4,660 kB/4,926 kB 95%]       83.4 kB/s 1min 10s[0m[33m
+68% [7 mariadb-server-core-10.1 4,698 kB/4,926 kB 95%]       83.4 kB/s 1min 10s[0m[33m
+68% [7 mariadb-server-core-10.1 4,731 kB/4,926 kB 96%]        83.4 kB/s 1min 9s[0m[33m
+68% [7 mariadb-server-core-10.1 4,760 kB/4,926 kB 97%]        83.4 kB/s 1min 9s[0m[33m
+68% [7 mariadb-server-core-10.1 4,760 kB/4,926 kB 97%]        83.4 kB/s 1min 9s[0m[33m
+68% [7 mariadb-server-core-10.1 4,844 kB/4,926 kB 98%]       77.9 kB/s 1min 13s[0m[33m
+69% [7 mariadb-server-core-10.1 4,895 kB/4,926 kB 99%]       77.9 kB/s 1min 12s[0m[33m
+69% [7 mariadb-server-core-10.1 4,925 kB/4,926 kB 100%]      77.9 kB/s 1min 12s[0m[33m
+70% [Connecting to in.archive.ubuntu.com (91.189.88.161)]    77.9 kB/s 1min 12s[0m[33m
+70% [Waiting for headers]                                    77.9 kB/s 1min 12s[0m
+                                                                               
+Get:8 http://in.archive.ubuntu.com/ubuntu cosmic/main amd64 socat amd64 1.7.3.2-2ubuntu2 [342 kB]
+[33m
+70% [8 socat 1,005 B/342 kB 0%]                              77.9 kB/s 1min 12s[0m[33m
+70% [8 socat 34.5 kB/342 kB 10%]                             77.9 kB/s 1min 11s[0m[33m
+70% [8 socat 74.4 kB/342 kB 22%]                             77.9 kB/s 1min 11s[0m[33m
+71% [8 socat 113 kB/342 kB 33%]                              77.9 kB/s 1min 10s[0m[33m
+71% [8 socat 126 kB/342 kB 37%]                              77.9 kB/s 1min 10s[0m[33m
+71% [8 socat 126 kB/342 kB 37%]                              77.9 kB/s 1min 10s[0m[33m
+71% [8 socat 166 kB/342 kB 49%]                              77.9 kB/s 1min 10s[0m[33m
+71% [8 socat 228 kB/342 kB 67%]                               77.9 kB/s 1min 9s[0m[33m
+71% [8 socat 257 kB/342 kB 75%]                               77.9 kB/s 1min 8s[0m[33m
+73% [Waiting for headers]                                     77.9 kB/s 1min 7s[0m
+                                                                               
+Get:9 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 mariadb-server-10.1 amd64 1:10.1.29-6ubuntu2 [5,090 kB]
+[33m
+73% [9 mariadb-server-10.1 1,003 B/5,090 kB 0%]              68.5 kB/s 1min 17s[0m[33m
+73% [9 mariadb-server-10.1 48.7 kB/5,090 kB 1%]              68.5 kB/s 1min 16s[0m[33m
+73% [9 mariadb-server-10.1 96.3 kB/5,090 kB 2%]              68.5 kB/s 1min 15s[0m[33m
+73% [9 mariadb-server-10.1 143 kB/5,090 kB 3%]               68.5 kB/s 1min 15s[0m[33m
+73% [9 mariadb-server-10.1 192 kB/5,090 kB 4%]               68.5 kB/s 1min 14s[0m[33m
+74% [9 mariadb-server-10.1 251 kB/5,090 kB 5%]               68.5 kB/s 1min 13s[0m[33m
+74% [9 mariadb-server-10.1 291 kB/5,090 kB 6%]               68.5 kB/s 1min 12s[0m[33m
+74% [9 mariadb-server-10.1 335 kB/5,090 kB 7%]               68.5 kB/s 1min 12s[0m[33m
+74% [9 mariadb-server-10.1 378 kB/5,090 kB 7%]               68.5 kB/s 1min 11s[0m[33m
+74% [9 mariadb-server-10.1 425 kB/5,090 kB 8%]               68.5 kB/s 1min 10s[0m[33m
+74% [9 mariadb-server-10.1 469 kB/5,090 kB 9%]               68.5 kB/s 1min 10s[0m[33m
+75% [9 mariadb-server-10.1 514 kB/5,090 kB 10%]               68.5 kB/s 1min 9s[0m[33m
+75% [9 mariadb-server-10.1 555 kB/5,090 kB 11%]                   91.9 kB/s 51s[0m[33m
+75% [9 mariadb-server-10.1 591 kB/5,090 kB 12%]                   91.9 kB/s 51s[0m[33m
+75% [9 mariadb-server-10.1 628 kB/5,090 kB 12%]                   91.9 kB/s 50s[0m[33m
+75% [9 mariadb-server-10.1 668 kB/5,090 kB 13%]                   91.9 kB/s 50s[0m[33m
+75% [9 mariadb-server-10.1 678 kB/5,090 kB 13%]                   91.9 kB/s 50s[0m[33m
+75% [9 mariadb-server-10.1 754 kB/5,090 kB 15%]                   91.9 kB/s 49s[0m[33m
+76% [9 mariadb-server-10.1 798 kB/5,090 kB 16%]                   91.9 kB/s 48s[0m[33m
+76% [9 mariadb-server-10.1 855 kB/5,090 kB 17%]                   91.9 kB/s 48s[0m[33m
+76% [9 mariadb-server-10.1 913 kB/5,090 kB 18%]                   91.9 kB/s 47s[0m[33m
+76% [9 mariadb-server-10.1 959 kB/5,090 kB 19%]                   91.9 kB/s 47s[0m[33m
+76% [9 mariadb-server-10.1 966 kB/5,090 kB 19%]                   91.9 kB/s 46s[0m[33m
+76% [9 mariadb-server-10.1 1,017 kB/5,090 kB 20%]                 91.9 kB/s 46s[0m[33m
+77% [9 mariadb-server-10.1 1,074 kB/5,090 kB 21%]                 86.2 kB/s 48s[0m[33m
+77% [9 mariadb-server-10.1 1,124 kB/5,090 kB 22%]                 86.2 kB/s 48s[0m[33m
+77% [9 mariadb-server-10.1 1,183 kB/5,090 kB 23%]                 86.2 kB/s 47s[0m[33m
+77% [9 mariadb-server-10.1 1,257 kB/5,090 kB 25%]                 86.2 kB/s 46s[0m[33m
+77% [9 mariadb-server-10.1 1,317 kB/5,090 kB 26%]                 86.2 kB/s 45s[0m[33m
+78% [9 mariadb-server-10.1 1,380 kB/5,090 kB 27%]                 86.2 kB/s 45s[0m[33m
+78% [9 mariadb-server-10.1 1,441 kB/5,090 kB 28%]                 86.2 kB/s 44s[0m[33m
+78% [9 mariadb-server-10.1 1,513 kB/5,090 kB 30%]                 86.2 kB/s 43s[0m[33m
+78% [9 mariadb-server-10.1 1,578 kB/5,090 kB 31%]                 86.2 kB/s 42s[0m[33m
+79% [9 mariadb-server-10.1 1,643 kB/5,090 kB 32%]                 86.2 kB/s 42s[0m[33m
+79% [9 mariadb-server-10.1 1,705 kB/5,090 kB 33%]                 86.2 kB/s 41s[0m[33m
+79% [9 mariadb-server-10.1 1,775 kB/5,090 kB 35%]                 86.2 kB/s 40s[0m[33m
+79% [9 mariadb-server-10.1 1,844 kB/5,090 kB 36%]                  128 kB/s 26s[0m[33m
+79% [9 mariadb-server-10.1 1,897 kB/5,090 kB 37%]                  128 kB/s 26s[0m[33m
+80% [9 mariadb-server-10.1 1,965 kB/5,090 kB 39%]                  128 kB/s 25s[0m[33m
+80% [9 mariadb-server-10.1 2,026 kB/5,090 kB 40%]                  128 kB/s 25s[0m[33m
+80% [9 mariadb-server-10.1 2,086 kB/5,090 kB 41%]                  128 kB/s 24s[0m[33m
+80% [9 mariadb-server-10.1 2,143 kB/5,090 kB 42%]                  128 kB/s 24s[0m[33m
+81% [9 mariadb-server-10.1 2,206 kB/5,090 kB 43%]                  128 kB/s 24s[0m[33m
+81% [9 mariadb-server-10.1 2,268 kB/5,090 kB 45%]                  128 kB/s 23s[0m[33m
+81% [9 mariadb-server-10.1 2,350 kB/5,090 kB 46%]                  128 kB/s 22s[0m[33m
+81% [9 mariadb-server-10.1 2,367 kB/5,090 kB 47%]                  128 kB/s 22s[0m[33m
+81% [9 mariadb-server-10.1 2,435 kB/5,090 kB 48%]                  128 kB/s 22s[0m[33m
+82% [9 mariadb-server-10.1 2,505 kB/5,090 kB 49%]                  128 kB/s 21s[0m[33m
+82% [9 mariadb-server-10.1 2,565 kB/5,090 kB 50%]                  119 kB/s 22s[0m[33m
+82% [9 mariadb-server-10.1 2,638 kB/5,090 kB 52%]                  119 kB/s 22s[0m[33m
+82% [9 mariadb-server-10.1 2,726 kB/5,090 kB 54%]                  119 kB/s 21s[0m[33m
+83% [9 mariadb-server-10.1 2,813 kB/5,090 kB 55%]                  119 kB/s 20s[0m[33m
+83% [9 mariadb-server-10.1 2,882 kB/5,090 kB 57%]                  119 kB/s 20s[0m[33m
+83% [9 mariadb-server-10.1 2,942 kB/5,090 kB 58%]                  119 kB/s 19s[0m[33m
+83% [9 mariadb-server-10.1 3,010 kB/5,090 kB 59%]                  119 kB/s 19s[0m[33m
+84% [9 mariadb-server-10.1 3,068 kB/5,090 kB 60%]                  119 kB/s 18s[0m[33m
+84% [9 mariadb-server-10.1 3,082 kB/5,090 kB 61%]                  119 kB/s 18s[0m[33m
+84% [9 mariadb-server-10.1 3,082 kB/5,090 kB 61%]                  119 kB/s 18s[0m[33m
+84% [9 mariadb-server-10.1 3,112 kB/5,090 kB 61%]                  119 kB/s 18s[0m[33m
+84% [9 mariadb-server-10.1 3,112 kB/5,090 kB 61%]                  119 kB/s 18s[0m[33m
+84% [9 mariadb-server-10.1 3,293 kB/5,090 kB 65%]                  120 kB/s 16s[0m[33m
+85% [9 mariadb-server-10.1 3,365 kB/5,090 kB 66%]                  120 kB/s 15s[0m[33m
+85% [9 mariadb-server-10.1 3,413 kB/5,090 kB 67%]                  120 kB/s 15s[0m[33m
+85% [9 mariadb-server-10.1 3,432 kB/5,090 kB 67%]                  120 kB/s 15s[0m[33m
+85% [9 mariadb-server-10.1 3,452 kB/5,090 kB 68%]                  120 kB/s 15s[0m[33m
+85% [9 mariadb-server-10.1 3,575 kB/5,090 kB 70%]                  120 kB/s 14s[0m[33m
+86% [9 mariadb-server-10.1 3,610 kB/5,090 kB 71%]                  120 kB/s 13s[0m[33m
+86% [9 mariadb-server-10.1 3,610 kB/5,090 kB 71%]                  120 kB/s 13s[0m[33m
+86% [9 mariadb-server-10.1 3,664 kB/5,090 kB 72%]                  120 kB/s 13s[0m[33m
+86% [9 mariadb-server-10.1 3,721 kB/5,090 kB 73%]                  120 kB/s 12s[0m[33m
+86% [9 mariadb-server-10.1 3,761 kB/5,090 kB 74%]                  120 kB/s 12s[0m[33m
+86% [9 mariadb-server-10.1 3,770 kB/5,090 kB 74%]                  120 kB/s 12s[0m[33m
+86% [9 mariadb-server-10.1 3,799 kB/5,090 kB 75%]                 83.8 kB/s 17s[0m[33m
+87% [9 mariadb-server-10.1 3,897 kB/5,090 kB 77%]                 83.8 kB/s 16s[0m[33m
+87% [9 mariadb-server-10.1 3,951 kB/5,090 kB 78%]                 83.8 kB/s 15s[0m[33m
+87% [9 mariadb-server-10.1 4,014 kB/5,090 kB 79%]                 83.8 kB/s 15s[0m[33m
+87% [9 mariadb-server-10.1 4,045 kB/5,090 kB 79%]                 83.8 kB/s 14s[0m[33m
+87% [9 mariadb-server-10.1 4,056 kB/5,090 kB 80%]                 83.8 kB/s 14s[0m[33m
+87% [9 mariadb-server-10.1 4,056 kB/5,090 kB 80%]                 83.8 kB/s 14s[0m[33m
+87% [9 mariadb-server-10.1 4,058 kB/5,090 kB 80%]                 83.8 kB/s 14s[0m[33m
+87% [9 mariadb-server-10.1 4,106 kB/5,090 kB 81%]                 83.8 kB/s 14s[0m[33m
+88% [9 mariadb-server-10.1 4,231 kB/5,090 kB 83%]                 83.8 kB/s 12s[0m[33m
+88% [9 mariadb-server-10.1 4,277 kB/5,090 kB 84%]                 83.8 kB/s 11s[0m[33m
+88% [9 mariadb-server-10.1 4,352 kB/5,090 kB 86%]                 83.8 kB/s 11s[0m[33m
+88% [9 mariadb-server-10.1 4,418 kB/5,090 kB 87%]                   103 kB/s 8s[0m[33m
+88% [9 mariadb-server-10.1 4,452 kB/5,090 kB 87%]                   103 kB/s 8s[0m[33m
+89% [9 mariadb-server-10.1 4,487 kB/5,090 kB 88%]                   103 kB/s 7s[0m[33m
+89% [9 mariadb-server-10.1 4,508 kB/5,090 kB 89%]                   103 kB/s 7s[0m[33m
+89% [9 mariadb-server-10.1 4,515 kB/5,090 kB 89%]                   103 kB/s 7s[0m[33m
+89% [9 mariadb-server-10.1 4,642 kB/5,090 kB 91%]                   103 kB/s 6s[0m[33m
+89% [9 mariadb-server-10.1 4,705 kB/5,090 kB 92%]                   103 kB/s 5s[0m[33m
+90% [9 mariadb-server-10.1 4,774 kB/5,090 kB 94%]                   103 kB/s 4s[0m[33m
+90% [9 mariadb-server-10.1 4,823 kB/5,090 kB 95%]                   103 kB/s 4s[0m[33m
+90% [9 mariadb-server-10.1 4,867 kB/5,090 kB 96%]                   103 kB/s 4s[0m[33m
+90% [9 mariadb-server-10.1 4,908 kB/5,090 kB 96%]                   103 kB/s 3s[0m[33m
+90% [9 mariadb-server-10.1 4,929 kB/5,090 kB 97%]                   103 kB/s 3s[0m[33m
+90% [9 mariadb-server-10.1 4,929 kB/5,090 kB 97%]                  84.9 kB/s 4s[0m[33m
+90% [9 mariadb-server-10.1 4,946 kB/5,090 kB 97%]                  84.9 kB/s 3s[0m[33m
+90% [9 mariadb-server-10.1 4,989 kB/5,090 kB 98%]                  84.9 kB/s 3s[0m[33m
+91% [9 mariadb-server-10.1 5,019 kB/5,090 kB 99%]                  84.9 kB/s 3s[0m[33m
+91% [9 mariadb-server-10.1 5,019 kB/5,090 kB 99%]                  84.9 kB/s 3s[0m[33m
+92% [Working]                                                      84.9 kB/s 2s[0m[33m
+92% [Waiting for headers]                                          84.9 kB/s 2s[0m
+                                                                               
+Get:10 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libdbd-mysql-perl amd64 4.046-1 [82.0 kB]
+[33m
+92% [10 libdbd-mysql-perl 1,006 B/82.0 kB 1%]                      84.9 kB/s 2s[0m[33m
+92% [10 libdbd-mysql-perl 28.1 kB/82.0 kB 34%]                     84.9 kB/s 1s[0m[33m
+92% [10 libdbd-mysql-perl 56.4 kB/82.0 kB 69%]                     84.9 kB/s 1s[0m[33m
+94% [Waiting for headers]                                          84.9 kB/s 1s[0m
+                                                                               
+Get:11 http://in.archive.ubuntu.com/ubuntu cosmic/main amd64 libhtml-template-perl all 2.97-1 [59.0 kB]
+[33m
+94% [11 libhtml-template-perl 1,007 B/59.0 kB 2%]                  84.9 kB/s 1s[0m[33m
+94% [11 libhtml-template-perl 31.9 kB/59.0 kB 54%]                 84.9 kB/s 0s[0m[33m
+96% [Waiting for headers]                                          84.9 kB/s 0s[0m
+                                                                               
+Get:12 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 libterm-readkey-perl amd64 2.37-1build1 [24.4 kB]
+[33m
+96% [12 libterm-readkey-perl 1,007 B/24.4 kB 4%]                   84.9 kB/s 0s[0m[33m
+97% [Waiting for headers]                                          51.9 kB/s 0s[0m
+                                                                               
+Get:13 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 mariadb-client all 1:10.1.29-6ubuntu2 [12.8 kB]
+[33m
+97% [13 mariadb-client 1,007 B/12.8 kB 8%]                         51.9 kB/s 0s[0m[33m
+99% [Waiting for headers]                                          51.9 kB/s 0s[0m
+                                                                               
+Get:14 http://in.archive.ubuntu.com/ubuntu cosmic/universe amd64 mariadb-server all 1:10.1.29-6ubuntu2 [12.9 kB]
+[33m
+99% [14 mariadb-server 1,007 B/12.9 kB 8%]                         51.9 kB/s 0s[0m[33m
+100% [Working]                                                     51.9 kB/s 0s[0m
+                                                                               
+Fetched 22.6 MB in 3min 21s (112 kB/s)
+Preconfiguring packages ...
+
+7[0;23r8[1ASelecting previously unselected package mariadb-common.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 238630 files and directories currently installed.)
+Preparing to unpack .../0-mariadb-common_1%3a10.1.29-6ubuntu2_all.deb ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [  2%][49m[39m [#.........................................................] 8Unpacking mariadb-common (1:10.1.29-6ubuntu2) ...
+7[24;0f[42m[30mProgress: [  4%][49m[39m [##........................................................] 8Selecting previously unselected package galera-3.
+Preparing to unpack .../1-galera-3_25.3.23-1ubuntu1_amd64.deb ...
+7[24;0f[42m[30mProgress: [  5%][49m[39m [###.......................................................] 8Unpacking galera-3 (25.3.23-1ubuntu1) ...
+7[24;0f[42m[30mProgress: [  7%][49m[39m [####......................................................] 8Selecting previously unselected package libdbi-perl:amd64.
+Preparing to unpack .../2-libdbi-perl_1.641-1_amd64.deb ...
+7[24;0f[42m[30mProgress: [  9%][49m[39m [#####.....................................................] 8Unpacking libdbi-perl:amd64 (1.641-1) ...
+7[24;0f[42m[30mProgress: [ 11%][49m[39m [######....................................................] 8Selecting previously unselected package mariadb-client-core-10.1.
+Preparing to unpack .../3-mariadb-client-core-10.1_1%3a10.1.29-6ubuntu2_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 12%][49m[39m [#######...................................................] 8Unpacking mariadb-client-core-10.1 (1:10.1.29-6ubuntu2) ...
+7[24;0f[42m[30mProgress: [ 14%][49m[39m [########..................................................] 8Selecting previously unselected package libconfig-inifiles-perl.
+Preparing to unpack .../4-libconfig-inifiles-perl_2.98-1_all.deb ...
+7[24;0f[42m[30mProgress: [ 16%][49m[39m [#########.................................................] 8Unpacking libconfig-inifiles-perl (2.98-1) ...
+7[24;0f[42m[30mProgress: [ 18%][49m[39m [##########................................................] 8Selecting previously unselected package mariadb-client-10.1.
+Preparing to unpack .../5-mariadb-client-10.1_1%3a10.1.29-6ubuntu2_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 19%][49m[39m [###########...............................................] 8Unpacking mariadb-client-10.1 (1:10.1.29-6ubuntu2) ...
+7[24;0f[42m[30mProgress: [ 21%][49m[39m [############..............................................] 8Selecting previously unselected package mariadb-server-core-10.1.
+Preparing to unpack .../6-mariadb-server-core-10.1_1%3a10.1.29-6ubuntu2_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 23%][49m[39m [#############.............................................] 8Unpacking mariadb-server-core-10.1 (1:10.1.29-6ubuntu2) ...
+7[24;0f[42m[30mProgress: [ 25%][49m[39m [##############............................................] 8Selecting previously unselected package socat.
+Preparing to unpack .../7-socat_1.7.3.2-2ubuntu2_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 26%][49m[39m [###############...........................................] 8Unpacking socat (1.7.3.2-2ubuntu2) ...
+7[24;0f[42m[30mProgress: [ 28%][49m[39m [################..........................................] 8Setting up mariadb-common (1:10.1.29-6ubuntu2) ...
+7[24;0f[42m[30mProgress: [ 30%][49m[39m [#################.........................................] 8update-alternatives: using /etc/mysql/mariadb.cnf to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+7[24;0f[42m[30mProgress: [ 32%][49m[39m [##################........................................] 8Selecting previously unselected package mariadb-server-10.1.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 238983 files and directories currently installed.)
+Preparing to unpack .../0-mariadb-server-10.1_1%3a10.1.29-6ubuntu2_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 33%][49m[39m [###################.......................................] 8Unpacking mariadb-server-10.1 (1:10.1.29-6ubuntu2) ...
+7[24;0f[42m[30mProgress: [ 35%][49m[39m [####################......................................] 8Selecting previously unselected package libdbd-mysql-perl.
+Preparing to unpack .../1-libdbd-mysql-perl_4.046-1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 37%][49m[39m [#####################.....................................] 8Unpacking libdbd-mysql-perl (4.046-1) ...
+7[24;0f[42m[30mProgress: [ 39%][49m[39m [######################....................................] 8Selecting previously unselected package libhtml-template-perl.
+Preparing to unpack .../2-libhtml-template-perl_2.97-1_all.deb ...
+7[24;0f[42m[30mProgress: [ 40%][49m[39m [#######################...................................] 8Unpacking libhtml-template-perl (2.97-1) ...
+7[24;0f[42m[30mProgress: [ 42%][49m[39m [########################..................................] 8Selecting previously unselected package libterm-readkey-perl.
+Preparing to unpack .../3-libterm-readkey-perl_2.37-1build1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 44%][49m[39m [#########################.................................] 8Unpacking libterm-readkey-perl (2.37-1build1) ...
+7[24;0f[42m[30mProgress: [ 46%][49m[39m [##########################................................] 8Selecting previously unselected package mariadb-client.
+Preparing to unpack .../4-mariadb-client_1%3a10.1.29-6ubuntu2_all.deb ...
+7[24;0f[42m[30mProgress: [ 47%][49m[39m [###########################...............................] 8Unpacking mariadb-client (1:10.1.29-6ubuntu2) ...
+7[24;0f[42m[30mProgress: [ 49%][49m[39m [############################..............................] 8Selecting previously unselected package mariadb-server.
+Preparing to unpack .../5-mariadb-server_1%3a10.1.29-6ubuntu2_all.deb ...
+7[24;0f[42m[30mProgress: [ 51%][49m[39m [#############################.............................] 8Unpacking mariadb-server (1:10.1.29-6ubuntu2) ...
+7[24;0f[42m[30mProgress: [ 53%][49m[39m [##############################............................] 8Setting up libconfig-inifiles-perl (2.98-1) ...
+7[24;0f[42m[30mProgress: [ 54%][49m[39m [###############################...........................] 87[24;0f[42m[30mProgress: [ 56%][49m[39m [################################..........................] 8Setting up mariadb-server-core-10.1 (1:10.1.29-6ubuntu2) ...
+7[24;0f[42m[30mProgress: [ 58%][49m[39m [#################################.........................] 87[24;0f[42m[30mProgress: [ 60%][49m[39m [##################################........................] 8Setting up libhtml-template-perl (2.97-1) ...
+7[24;0f[42m[30mProgress: [ 61%][49m[39m [###################################.......................] 87[24;0f[42m[30mProgress: [ 63%][49m[39m [####################################......................] 8Setting up socat (1.7.3.2-2ubuntu2) ...
+7[24;0f[42m[30mProgress: [ 65%][49m[39m [#####################################.....................] 87[24;0f[42m[30mProgress: [ 67%][49m[39m [######################################....................] 8Setting up mariadb-client-core-10.1 (1:10.1.29-6ubuntu2) ...
+7[24;0f[42m[30mProgress: [ 68%][49m[39m [#######################################...................] 87[24;0f[42m[30mProgress: [ 70%][49m[39m [########################################..................] 8Setting up libterm-readkey-perl (2.37-1build1) ...
+7[24;0f[42m[30mProgress: [ 72%][49m[39m [#########################################.................] 87[24;0f[42m[30mProgress: [ 74%][49m[39m [##########################################................] 8Setting up galera-3 (25.3.23-1ubuntu1) ...
+7[24;0f[42m[30mProgress: [ 75%][49m[39m [###########################################...............] 87[24;0f[42m[30mProgress: [ 77%][49m[39m [############################################..............] 8Processing triggers for systemd (239-7ubuntu10.6) ...
+Processing triggers for man-db (2.8.4-2) ...
+Setting up libdbi-perl:amd64 (1.641-1) ...
+7[24;0f[42m[30mProgress: [ 79%][49m[39m [#############################################.............] 87[24;0f[42m[30mProgress: [ 81%][49m[39m [##############################################............] 8Setting up mariadb-client-10.1 (1:10.1.29-6ubuntu2) ...
+7[24;0f[42m[30mProgress: [ 82%][49m[39m [###############################################...........] 87[24;0f[42m[30mProgress: [ 84%][49m[39m [################################################..........] 8Setting up mariadb-client (1:10.1.29-6ubuntu2) ...
+7[24;0f[42m[30mProgress: [ 86%][49m[39m [#################################################.........] 87[24;0f[42m[30mProgress: [ 88%][49m[39m [##################################################........] 8Setting up mariadb-server-10.1 (1:10.1.29-6ubuntu2) ...
+7[24;0f[42m[30mProgress: [ 89%][49m[39m [###################################################.......] 8Created symlink /etc/systemd/system/mysql.service → /lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/mysqld.service → /lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/mariadb.service → /lib/systemd/system/mariadb.service.
+7[24;0f[42m[30mProgress: [ 91%][49m[39m [####################################################......] 8Setting up libdbd-mysql-perl (4.046-1) ...
+7[24;0f[42m[30mProgress: [ 93%][49m[39m [#####################################################.....] 87[24;0f[42m[30mProgress: [ 95%][49m[39m [######################################################....] 8Setting up mariadb-server (1:10.1.29-6ubuntu2) ...
+7[24;0f[42m[30mProgress: [ 96%][49m[39m [#######################################################...] 87[24;0f[42m[30mProgress: [ 98%][49m[39m [########################################################..] 8Processing triggers for systemd (239-7ubuntu10.6) ...
+
+7[0;24r8[1A[J]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ systemctl status mariadb
+[?1h=
+[0;1;32m●[0m mariadb.service - MariaDB database server[m
+   Loaded: loaded (/lib/systemd/system/mariadb.service; enabled; vendor preset: [m
+   Active: [0;1;32mactive (running)[0m since Thu 2019-04-25 10:20:32 IST; 1min 38s ago[m
+ Main PID: 8089 (mysqld)[m
+   Status: "Taking your SQL requests now..."[m
+    Tasks: 27 (limit: 4896)[m
+   Memory: 67.8M[m
+   CGroup: /system.slice/mariadb.service[m
+           └─8089 /usr/sbin/mysqld[m
+[m
+Apr 25 10:20:33 ceclab2 /etc/mysql/debian-start[8127]: [0;1;39m[0;1;31m[0;1;39mProcessing databases[0m[m
+Apr 25 10:20:33 ceclab2 /etc/mysql/debian-start[8127]: [0;1;39m[0;1;31m[0;1;39minformation_schema[0m[m
+Apr 25 10:20:33 ceclab2 /etc/mysql/debian-start[8127]: [0;1;39m[0;1;31m[0;1;39mmysql[0m[m
+Apr 25 10:20:33 ceclab2 /etc/mysql/debian-start[8127]: [0;1;39m[0;1;31m[0;1;39mperformance_schema[0m[m
+Apr 25 10:20:33 ceclab2 /etc/mysql/debian-start[8127]: [0;1;39m[0;1;31m[0;1;39mPhase 6/7: Checking and u[m
+Apr 25 10:20:33 ceclab2 /etc/mysql/debian-start[8127]: [0;1;39m[0;1;31m[0;1;39mProcessing databases[0m[m
+Apr 25 10:20:33 ceclab2 /etc/mysql/debian-start[8127]: [0;1;39m[0;1;31m[0;1;39minformation_schema[0m[m
+Apr 25 10:20:33 ceclab2 /etc/mysql/debian-start[8127]: [0;1;39m[0;1;31m[0;1;39mperformance_schema[0m[m
+Apr 25 10:20:33 ceclab2 /etc/mysql/debian-start[8127]: [0;1;39m[0;1;31m[0;1;39mPhase 7/7: Running 'FLUSH[m
+Apr 25 10:20:33 ceclab2 /etc/mysql/debian-start[8127]: [0;1;39m[0;1;31m[0;1;39mOK[0m[m
+[7mlines 1-20/20 (END)[27m[K
+[K [KESCESC[KOO[KAA
+[K...skipping...
+[0;1;32m●[0m mariadb.service - MariaDB database server[m
+   Loaded: loaded (/lib/systemd/system/mariadb.service; enabled; vendor preset: [m
+   Active: [0;1;32mactive (running)[0m since Thu 2019-04-25 10:20:32 IST; 1min 38s ago[m
+ Main PID: 8089 (mysqld)[m
+   Status: "Taking your SQL requests now..."[m
+    Tasks: 27 (limit: 4896)[m
+   Memory: 67.8M[m
+   CGroup: /system.slice/mariadb.service[m
+           └─8089 /usr/sbin/mysqld[m
+[m
+Apr 25 10:20:33 ceclab2 /etc/mysql/debian-start[8127]: [0;1;39m[0;1;31m[0;1;39mProcessing databases[0m[m
+Apr 25 10:20:33 ceclab2 /etc/mysql/debian-start[8127]: [0;1;39m[0;1;31m[0;1;39minformation_schema[0m[m
+Apr 25 10:20:33 ceclab2 /etc/mysql/debian-start[8127]: [0;1;39m[0;1;31m[0;1;39mmysql[0m[m
+Apr 25 10:20:33 ceclab2 /etc/mysql/debian-start[8127]: [0;1;39m[0;1;31m[0;1;39mperformance_schema[0m[m
+Apr 25 10:20:33 ceclab2 /etc/mysql/debian-start[8127]: [0;1;39m[0;1;31m[0;1;39mPhase 6/7: Checking and u[m
+Apr 25 10:20:33 ceclab2 /etc/mysql/debian-start[8127]: [0;1;39m[0;1;31m[0;1;39mProcessing databases[0m[m
+Apr 25 10:20:33 ceclab2 /etc/mysql/debian-start[8127]: [0;1;39m[0;1;31m[0;1;39minformation_schema[0m[m
+Apr 25 10:20:33 ceclab2 /etc/mysql/debian-start[8127]: [0;1;39m[0;1;31m[0;1;39mperformance_schema[0m[m
+Apr 25 10:20:33 ceclab2 /etc/mysql/debian-start[8127]: [0;1;39m[0;1;31m[0;1;39mPhase 7/7: Running 'FLUSH[m
+Apr 25 10:20:33 ceclab2 /etc/mysql/debian-start[8127]: [0;1;39m[0;1;31m[0;1;39mOK[0m[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-20/20 (END)[27m[K
+[K[?1l>
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sudo systemctl start mariadb
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sudo systemctl enable apache2
+Synchronizing state of apache2.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable apache2
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sudo mysql-server[K[K[K[K[K[K[K_server_installation
+sudo: mysql_server_installation: command not found
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sudo mysql_server_installation[K[K[K[K[K[K[K[K[K[K[K[K[K-[C[1Pserver--server-[C[C[C[C[C[C[Ci[K[K[K[K[K[K[Kecure-installation
+sudo: mysql-secure-installation: command not found
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sudo mysql-secure-installation[1Pinstallation_installation[1Psecure_installation_secure_installation
+
+NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
+      SERVERS IN PRODUCTION USE!  PLEASE READ EACH STEP CAREFULLY!
+
+In order to log into MariaDB to secure it, we'll need the current
+password for the root user.  If you've just installed MariaDB, and
+you haven't set the root password yet, the password will be blank,
+so you should just press enter here.
+
+Enter current password for root (enter for none): 
+OK, successfully used password, moving on...
+
+Setting the root password ensures that nobody can log into the MariaDB
+root user without the proper authorisation.
+
+You already have a root password set, so you can safely answer 'n'.
+
+Change the root password? [Y/n] y
+New password: 
+Re-enter new password: 
+Password updated successfully!
+Reloading privilege tables..
+ ... Success!
+
+
+By default, a MariaDB installation has an anonymous user, allowing anyone
+to log into MariaDB without having to have a user account created for
+them.  This is intended only for testing, and to make the installation
+go a bit smoother.  You should remove them before moving into a
+production environment.
+
+Remove anonymous users? [Y/n] y
+ ... Success!
+
+Normally, root should only be allowed to connect from 'localhost'.  This
+ensures that someone cannot guess at the root password from the network.
+
+Disallow root login remotely? [Y/n] n
+ ... skipping.
+
+By default, MariaDB comes with a database named 'test' that anyone can
+access.  This is also intended only for testing, and should be removed
+before moving into a production environment.
+
+Remove test database and access to it? [Y/n] n
+ ... skipping.
+
+Reloading the privilege tables will ensure that all changes made so far
+will take effect immediately.
+
+Reload privilege tables now? [Y/n] y
+ ... Success!
+
+Cleaning up...
+
+All done!  If you've completed all of the above steps, your MariaDB
+installation should now be secure.
+
+Thanks for using MariaDB!
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sudo mariadb -u root
+(B[0;1mWelcome to the MariaDB monitor.  Commands end with ; or \g.
+(B[m(B[0;1mYour MariaDB connection id is 46
+Server version: 10.1.29-MariaDB-6ubuntu2 Ubuntu 18.10
+
+(B[m(B[0;1mCopyright (c) 2000, 2017, Oracle, MariaDB Corporation Ab and others.
+
+(B[m(B[0;1mType 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+(B[m[?1034hMariaDB [(none)]> help
+(B[0;1m
+General information about MariaDB can be found at
+http://mariadb.org
+
+(B[m(B[0;1mList of all MySQL commands:
+(B[m(B[0;1mNote that all text commands must be first on line and end with ';'
+(B[m?         (\?) Synonym for `help'.
+clear     (\c) Clear the current input statement.
+connect   (\r) Reconnect to the server. Optional arguments are db and host.
+delimiter (\d) Set statement delimiter.
+edit      (\e) Edit command with $EDITOR.
+ego       (\G) Send command to mysql server, display result vertically.
+exit      (\q) Exit mysql. Same as quit.
+go        (\g) Send command to mysql server.
+help      (\h) Display this help.
+nopager   (\n) Disable pager, print to stdout.
+notee     (\t) Don't write into outfile.
+pager     (\P) Set PAGER [to_pager]. Print the query results via PAGER.
+print     (\p) Print current command.
+prompt    (\R) Change your mysql prompt.
+quit      (\q) Quit mysql.
+rehash    (\#) Rebuild completion hash.
+source    (\.) Execute an SQL script file. Takes a file name as an argument.
+status    (\s) Get status information from the server.
+system    (\!) Execute a system shell command.
+tee       (\T) Set outfile [to_outfile]. Append everything into given outfile.
+use       (\u) Use another database. Takes database name as argument.
+charset   (\C) Switch to another charset. Might be needed for processing binlog with multi-byte charsets.
+warnings  (\W) Show warnings after every statement.
+nowarning (\w) Don't show warnings after every statement.
+(B[0;1m
+For server side help, type 'help contents'
+
+(B[mMariaDB [(none)]> see
+    -> exit
+    -> Ctrl-C -- exit!
+(B[0;1mAborted
+(B[m]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ mariaadb[K[K[K[Kadb --version
+mariadb  Ver 15.1 Distrib 10.1.29-MariaDB, for debian-linux-gnu (x86_64) using readline 5.2
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ e[Ksudo apt install php7.2 libapache2-mod-php 72.2[K[K[K[K[K 2.[K[K72[K.2 php7.2-mysql p 
+hp-ommon php-2[K7.2-cli php7.2-common php7.2-s[Kjson php7.2-opcache php7.2-readline
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+Note, selecting 'php7.2-pdo-odbc' for regex '7.2'
+Note, selecting 'libghc-easy-file-prof-0.2.2-c742b:i386' for regex '7.2'
+Note, selecting 'libghc-http-api-data-prof-0.3.7.2-736bb:i386' for regex '7.2'
+Note, selecting 'libghc-ghc-events-prof-0.7.2-b44f8' for regex '7.2'
+Note, selecting 'libghc-stream-prof-0.4.7.2-0d5d4:i386' for regex '7.2'
+Note, selecting 'libss7-2.0' for regex '7.2'
+Note, selecting 'libghc-hopenpgp-dev-2.7.2-6570b' for regex '7.2'
+Note, selecting 'libghc-math-functions-dev-0.2.1.0-70287' for regex '7.2'
+Note, selecting 'libghc-stream-dev-0.4.7.2-0d5d4:i386' for regex '7.2'
+Note, selecting 'brdcp7025lpr' for regex '7.2'
+Note, selecting 'asterisk-moh-opsound-g722' for regex '7.2'
+Note, selecting 'python3.7-2to3' for regex '7.2'
+Note, selecting 'php7.2-imagick' for regex '7.2'
+Note, selecting 'libghc-easy-file-dev-0.2.2-c742b:i386' for regex '7.2'
+Note, selecting 'php7.2-redis' for regex '7.2'
+Note, selecting 'asterisk-core-sounds-ru-g722' for regex '7.2'
+Note, selecting 'libghc-twitter-types-lens-prof-0.7.2-38846' for regex '7.2'
+Note, selecting 'libghc-stream-prof-0.4.7.2-38226' for regex '7.2'
+Note, selecting 'php7.2-bz2' for regex '7.2'
+Note, selecting 'php7.2-mongodb' for regex '7.2'
+Note, selecting 'libghc-stream-dev-0.4.7.2-38226' for regex '7.2'
+Note, selecting 'php7.2-common' for regex '7.2'
+Note, selecting 'php7.2-cgi' for regex '7.2'
+Note, selecting 'libmgl-glut7.2.0' for regex '7.2'
+Note, selecting 'php7.2-cli' for regex '7.2'
+Note, selecting 'libghc-unix-prof-2.7.2.2-e0eab:i386' for regex '7.2'
+Note, selecting 'libghc-path-io-prof-1.3.3-26792:i386' for regex '7.2'
+Note, selecting 'libghc-recaptcha-prof-0.1.0.4-78244:i386' for regex '7.2'
+Note, selecting 'libaunit17.2017' for regex '7.2'
+Note, selecting 'libghc-text-show-dev-3.7.2-8ed52:i386' for regex '7.2'
+Note, selecting 'libghc-language-c-prof-0.7.2-212be' for regex '7.2'
+Note, selecting 'php7.2-dba' for regex '7.2'
+Note, selecting 'asterisk-core-sounds-es-g722' for regex '7.2'
+Note, selecting 'php7.2-dev' for regex '7.2'
+Note, selecting 'php7.2-smbclient' for regex '7.2'
+Note, selecting 'libghc-wai-app-static-prof-3.1.6.2-87d2e:i386' for regex '7.2'
+Note, selecting 'php7.2-dom' for regex '7.2'
+Note, selecting 'libqgisgrass7-2.18.22' for regex '7.2'
+Note, selecting 'libghc-crypto-pubkey-openssh-prof-0.2.7-e17e2' for regex '7.2'
+Note, selecting 'libmgl-wnd7.2.0' for regex '7.2'
+Note, selecting 'libphp7.2-embed' for regex '7.2'
+Note, selecting 'libghc-language-c-prof-0.7.2-c7980:i386' for regex '7.2'
+Note, selecting 'php7.2-bcmath' for regex '7.2'
+Note, selecting 'php7.2-oauth' for regex '7.2'
+Note, selecting 'libghc-twitter-types-dev-0.7.2.2-7cf9b:i386' for regex '7.2'
+Note, selecting 'php7.2-memcached' for regex '7.2'
+Note, selecting 'php7.2-pinba' for regex '7.2'
+Note, selecting 'libghc-http-api-data-dev-0.3.7.2-736bb:i386' for regex '7.2'
+Note, selecting 'libghc-hoauth2-dev-1.7.2-a1ea2' for regex '7.2'
+Note, selecting 'brmfc7420lpr' for regex '7.2'
+Note, selecting 'libghc-text-show-prof-3.7.2-0e796' for regex '7.2'
+Note, selecting 'php7.2-fpm' for regex '7.2'
+Note, selecting 'php7.2-ftp' for regex '7.2'
+Note, selecting 'php7.2-igbinary' for regex '7.2'
+Note, selecting 'php7.2-gmp' for regex '7.2'
+Note, selecting 'libghc-sha-dev-1.6.4.4-c7825:i386' for regex '7.2'
+Note, selecting 'libghc-path-io-dev-1.3.3-26792:i386' for regex '7.2'
+Note, selecting 'php7.2-sodium' for regex '7.2'
+Note, selecting 'libduppy-ocaml-fy792' for regex '7.2'
+Note, selecting 'libghc-unix-dev-2.7.2.2-1e3ca' for regex '7.2'
+Note, selecting 'libghc-jwt-prof-0.7.2-2caaf:i386' for regex '7.2'
+Note, selecting 'php7.2-apcu-bc' for regex '7.2'
+Note, selecting 'libghc-sha-prof-1.6.4.4-c7825:i386' for regex '7.2'
+Note, selecting 'libghc-twitter-types-dev-0.7.2.2-d1c84' for regex '7.2'
+Note, selecting 'libghc-prelude-extras-prof-0.4.0.3-22732' for regex '7.2'
+Note, selecting 'libghc-aeson-pretty-prof-0.8.7-37025' for regex '7.2'
+Note, selecting 'php7.2-mysql' for regex '7.2'
+Note, selecting 'libghc-twitter-conduit-prof-0.3.0-7a2ef' for regex '7.2'
+Note, selecting 'php7.2-memcache' for regex '7.2'
+Note, selecting 'libghc-clock-dev-0.7.2-1a555:i386' for regex '7.2'
+Note, selecting 'libghc-hashable-time-dev-0.2.0.1-7624e' for regex '7.2'
+Note, selecting 'libghc-http-api-data-prof-0.3.7.2-087a9' for regex '7.2'
+Note, selecting 'php7.2-uuid' for regex '7.2'
+Note, selecting 'libghc-configurator-dev-0.3.0.0-2d7e2' for regex '7.2'
+Note, selecting 'php7.2-sockets' for regex '7.2'
+Note, selecting 'libipe7.2.7' for regex '7.2'
+Note, selecting 'brmfc7225nlpr' for regex '7.2'
+Note, selecting 'libghc-hopenpgp-prof-2.7.2-5ea14:i386' for regex '7.2'
+Note, selecting 'librust-phf-shared-0.7.23-dev' for regex '7.2'
+Note, selecting 'php7.2-tidy' for regex '7.2'
+Note, selecting 'php7.2-mailparse' for regex '7.2'
+Note, selecting 'php7.2' for regex '7.2'
+Note, selecting 'php7.2-sysvmsg' for regex '7.2'
+Note, selecting 'libghc-text-show-dev-3.7.2-0e796' for regex '7.2'
+Note, selecting 'libghc-jwt-prof-0.7.2-f6bd4' for regex '7.2'
+Note, selecting 'libghc-memotrie-dev-0.6.9-67c21:i386' for regex '7.2'
+Note, selecting 'libavifile-0.7c2' for regex '7.2'
+Note, selecting 'php7.2-wddx' for regex '7.2'
+Note, selecting 'libghc-lambdahack-dev-0.8.3.0-87922' for regex '7.2'
+Note, selecting 'php7.2-sqlite3' for regex '7.2'
+Note, selecting 'libghc-numinstances-prof-1.4-7c2c5' for regex '7.2'
+Note, selecting 'libghc-aeson-pretty-dev-0.8.7-37025' for regex '7.2'
+Note, selecting 'asterisk-core-sounds-fr-g722' for regex '7.2'
+Note, selecting 'libghc-language-c-dev-0.7.2-212be' for regex '7.2'
+Note, selecting 'php7.2-pdo-pgsql' for regex '7.2'
+Note, selecting 'libghc-juicypixels-dev-3.2.9.5-7f29f' for regex '7.2'
+Note, selecting 'libghc-language-c-dev-0.7.2-c7980:i386' for regex '7.2'
+Note, selecting 'cupswrappermfc7225n' for regex '7.2'
+Note, selecting 'php7.2-calendar' for regex '7.2'
+Note, selecting 'libghc-hashable-time-prof-0.2.0.1-7624e' for regex '7.2'
+Note, selecting 'brmfc7220lpr' for regex '7.2'
+Note, selecting 'libghc-numinstances-dev-1.4-7c2c5' for regex '7.2'
+Note, selecting 'php7.2-fileinfo' for regex '7.2'
+Note, selecting 'libghc-http-api-data-dev-0.3.7.2-087a9' for regex '7.2'
+Note, selecting 'libghc-colour-prof-2.3.4-f7d2b' for regex '7.2'
+Note, selecting 'libtemplates-parser17.2' for regex '7.2'
+Note, selecting 'php7.2-pdo' for regex '7.2'
+Note, selecting 'php7.2-xmlwriter' for regex '7.2'
+Note, selecting 'php7.2-json' for regex '7.2'
+Note, selecting 'libaws17.2.2017' for regex '7.2'
+Note, selecting 'php7.2-opcache' for regex '7.2'
+Note, selecting 'php7.2-mysqli' for regex '7.2'
+Note, selecting 'php7.2-sass' for regex '7.2'
+Note, selecting 'php7.2-sysvsem' for regex '7.2'
+Note, selecting 'php7.2-sysvshm' for regex '7.2'
+Note, selecting 'php7.2-phar' for regex '7.2'
+Note, selecting 'libghc-wai-app-static-dev-3.1.6.2-87d2e:i386' for regex '7.2'
+Note, selecting 'libghc-ghc-events-dev-0.7.2-053eb:i386' for regex '7.2'
+Note, selecting 'libghc-relational-query-hdbc-prof-0.6.8.0-72287' for regex '7.2'
+Note, selecting 'libghc-reform-dev-0.2.7.2-f0189' for regex '7.2'
+Note, selecting 'librust-phf-shared-0.7.23+unicase-dev' for regex '7.2'
+Note, selecting 'libghc-ghc-events-prof-0.7.2-053eb:i386' for regex '7.2'
+Note, selecting 'php7.2-rrd' for regex '7.2'
+Note, selecting 'libghc-twitter-types-prof-0.7.2.2-7cf9b:i386' for regex '7.2'
+Note, selecting 'php7.2-sybase' for regex '7.2'
+Note, selecting 'libghc-nonce-dev-1.0.7-2c763' for regex '7.2'
+Note, selecting 'libghc-setenv-dev-0.1.1.3-47f2e:i386' for regex '7.2'
+Note, selecting 'libghc-twitter-types-lens-dev-0.7.2-58afd:i386' for regex '7.2'
+Note, selecting 'php7.2-curl' for regex '7.2'
+Note, selecting 'libduppy-ocaml-dev-fy792' for regex '7.2'
+Note, selecting 'php7.2-stomp' for regex '7.2'
+Note, selecting 'php7.2-msgpack' for regex '7.2'
+Note, selecting 'php7.2-ldap' for regex '7.2'
+Note, selecting 'libghc-hierarchical-clustering-prof-0.4.6-e7829:i386' for regex '7.2'
+Note, selecting 'asterisk-1fb7f5c06d7a2052e38d021b3d8ca151' for regex '7.2'
+Note, selecting 'libghc-twitter-types-prof-0.7.2.2-d1c84' for regex '7.2'
+Note, selecting 'php7.2-raphf' for regex '7.2'
+Note, selecting 'libghc-reform-dev-0.2.7.2-2d6b5:i386' for regex '7.2'
+Note, selecting 'libmgl-mpi7.2.0' for regex '7.2'
+Note, selecting 'libghc-hoauth2-prof-1.7.2-a1ea2' for regex '7.2'
+Note, selecting 'libmm-ocaml-me7h2:i386' for regex '7.2'
+Note, selecting 'brdcp7020lpr' for regex '7.2'
+Note, selecting 'libghc-xmonad-contrib-dev-0.13-712db' for regex '7.2'
+Note, selecting 'php7.2-phpdbg' for regex '7.2'
+Note, selecting 'php7.2-xmlreader' for regex '7.2'
+Note, selecting 'libmm-ocaml-dev-me7h2:i386' for regex '7.2'
+Note, selecting 'libcomedi-0.7.22' for regex '7.2'
+Note, selecting 'php7.2-imap' for regex '7.2'
+Note, selecting 'librust-phf-shared-0.7.23+default-dev' for regex '7.2'
+Note, selecting 'php7.2-gnupg' for regex '7.2'
+Note, selecting 'php7.2-radius' for regex '7.2'
+Note, selecting 'php7.2-uploadprogress' for regex '7.2'
+Note, selecting 'librust-phf-shared-0.7.23+core-dev' for regex '7.2'
+Note, selecting 'php7.2-posix' for regex '7.2'
+Note, selecting 'php7.2-iconv' for regex '7.2'
+Note, selecting 'php7.2-xml' for regex '7.2'
+Note, selecting 'asterisk-core-sounds-en-g722' for regex '7.2'
+Note, selecting 'libghc-twitter-types-lens-dev-0.7.2-38846' for regex '7.2'
+Note, selecting 'php7.2-xsl' for regex '7.2'
+Note, selecting 'libghc-recaptcha-dev-0.1.0.4-78244:i386' for regex '7.2'
+Note, selecting 'php7.2-intl' for regex '7.2'
+Note, selecting 'php7.2-yac' for regex '7.2'
+Note, selecting 'php7.2-zip' for regex '7.2'
+Note, selecting 'libghc-hoauth2-dev-1.7.2-95259:i386' for regex '7.2'
+Note, selecting 'php7.2-tokenizer' for regex '7.2'
+Note, selecting 'php7.2-zmq' for regex '7.2'
+Note, selecting 'cupswrappermfc7820n' for regex '7.2'
+Note, selecting 'php7.2-odbc' for regex '7.2'
+Note, selecting 'libghc-void-dev-0.7.2-0cf0c:i386' for regex '7.2'
+Note, selecting 'libmgl-wx7.2.0' for regex '7.2'
+Note, selecting 'libghc-jwt-dev-0.7.2-2caaf:i386' for regex '7.2'
+Note, selecting 'libaunit17.2017-dev' for regex '7.2'
+Note, selecting 'libghc-hopenpgp-dev-2.7.2-5ea14:i386' for regex '7.2'
+Note, selecting 'php7.2-mbstring' for regex '7.2'
+Note, selecting 'php7.2-readline' for regex '7.2'
+Note, selecting 'php7.2-ds' for regex '7.2'
+Note, selecting 'php7.2-gd' for regex '7.2'
+Note, selecting 'libmgl-fltk7.2.0' for regex '7.2'
+Note, selecting 'php7.2-ps' for regex '7.2'
+Note, selecting 'libghc-configurator-prof-0.3.0.0-2d7e2' for regex '7.2'
+Note, selecting 'libmgl7.2.0' for regex '7.2'
+Note, selecting 'asterisk-core-sounds-it-g722' for regex '7.2'
+Note, selecting 'php7.2-interbase' for regex '7.2'
+Note, selecting 'libghc-unix-dev-2.7.2.2-e0eab:i386' for regex '7.2'
+Note, selecting 'libghc-lambdahack-prof-0.8.3.0-87922' for regex '7.2'
+Note, selecting 'php7.2-yaml' for regex '7.2'
+Note, selecting 'libghc-unix-prof-2.7.2.2-1e3ca' for regex '7.2'
+Note, selecting 'php7.2-snmp' for regex '7.2'
+Note, selecting 'php7.2-pdo-mysql' for regex '7.2'
+Note, selecting 'libghc-hopenpgp-prof-2.7.2-6570b' for regex '7.2'
+Note, selecting 'php7.2-mysqlnd' for regex '7.2'
+Note, selecting 'php7.2-xmlrpc' for regex '7.2'
+Note, selecting 'libghc-setenv-prof-0.1.1.3-47f2e:i386' for regex '7.2'
+Note, selecting 'libghc-hierarchical-clustering-dev-0.4.6-e7829:i386' for regex '7.2'
+Note, selecting 'libghc-monadcryptorandom-prof-0.7.2.1-ae494:i386' for regex '7.2'
+Note, selecting 'php7.2-soap' for regex '7.2'
+Note, selecting 'libghc-jwt-dev-0.7.2-f6bd4' for regex '7.2'
+Note, selecting 'php7.2-solr' for regex '7.2'
+Note, selecting 'libghc-clock-prof-0.7.2-b00b3' for regex '7.2'
+Note, selecting 'libghc-void-dev-0.7.2-5d64d' for regex '7.2'
+Note, selecting 'libghc-colour-dev-2.3.4-f7d2b' for regex '7.2'
+Note, selecting 'libghc-memotrie-prof-0.6.9-67c21:i386' for regex '7.2'
+Note, selecting 'librust-utf-8-0.7.2-dev' for regex '7.2'
+Note, selecting 'libghc-reform-prof-0.2.7.2-f0189' for regex '7.2'
+Note, selecting 'libghc-monadcryptorandom-dev-0.7.2.1-ae494:i386' for regex '7.2'
+Note, selecting 'php7.2-simplexml' for regex '7.2'
+Note, selecting 'cupswrapperdcp7020' for regex '7.2'
+Note, selecting 'cupswrapperdcp7025' for regex '7.2'
+Note, selecting 'libghc-tabular-prof-0.2.2.7-a7f24' for regex '7.2'
+Note, selecting 'php7.2-ssh2' for regex '7.2'
+Note, selecting 'libghc-reform-prof-0.2.7.2-2d6b5:i386' for regex '7.2'
+Note, selecting 'cupswrappermfc7220' for regex '7.2'
+Note, selecting 'libghc-juicypixels-prof-3.2.9.5-7f29f' for regex '7.2'
+Note, selecting 'php7.2-pdo-sqlite' for regex '7.2'
+Note, selecting 'libzypp1702' for regex '7.2'
+Note, selecting 'libghc-prelude-extras-dev-0.4.0.3-22732' for regex '7.2'
+Note, selecting 'php7.2-pdo-dblib' for regex '7.2'
+Note, selecting 'libghc-hackage-security-dev-0.5.3.0-4e742:i386' for regex '7.2'
+Note, selecting 'libghc-ghc-events-dev-0.7.2-b44f8' for regex '7.2'
+Note, selecting 'cupswrappermfc7420' for regex '7.2'
+Note, selecting 'libghc-twitter-conduit-dev-0.3.0-7a2ef' for regex '7.2'
+Note, selecting 'php7.2-pspell' for regex '7.2'
+Note, selecting 'php7.2-amqp' for regex '7.2'
+Note, selecting 'php7.2-gmagick' for regex '7.2'
+Note, selecting 'php7.2-pgsql' for regex '7.2'
+Note, selecting 'brmfc7820nlpr' for regex '7.2'
+Note, selecting 'libghc-xmonad-contrib-prof-0.13-712db' for regex '7.2'
+Note, selecting 'libghc-monadcryptorandom-prof-0.7.2.1-81252' for regex '7.2'
+Note, selecting 'php7.2-enchant' for regex '7.2'
+Note, selecting 'php7.2-recode' for regex '7.2'
+Note, selecting 'php7.2-tideways' for regex '7.2'
+Note, selecting 'php7.2-shmop' for regex '7.2'
+Note, selecting 'php7.2-libsodium' for regex '7.2'
+Note, selecting 'php7.2-propro' for regex '7.2'
+Note, selecting 'librust-utf-8-0.7.2+default-dev' for regex '7.2'
+Note, selecting 'php7.2-gettext' for regex '7.2'
+Note, selecting 'libghc-math-functions-prof-0.2.1.0-70287' for regex '7.2'
+Note, selecting 'php7.2-apcu' for regex '7.2'
+Note, selecting 'libghc-void-prof-0.7.2-0cf0c:i386' for regex '7.2'
+Note, selecting 'libghc-monadcryptorandom-dev-0.7.2.1-81252' for regex '7.2'
+Note, selecting 'libghc-clock-dev-0.7.2-b00b3' for regex '7.2'
+Note, selecting 'php7.2-pdo-firebird' for regex '7.2'
+Note, selecting 'libghc-hoauth2-prof-1.7.2-95259:i386' for regex '7.2'
+Note, selecting 'php7.2-exif' for regex '7.2'
+Note, selecting 'libmgl-qt7.2.0' for regex '7.2'
+Note, selecting 'libapache2-mod-php7.2' for regex '7.2'
+Note, selecting 'libghc-twitter-types-lens-prof-0.7.2-58afd:i386' for regex '7.2'
+Note, selecting 'php7.2-ctype' for regex '7.2'
+Note, selecting 'libghc-crypto-pubkey-openssh-dev-0.2.7-e17e2' for regex '7.2'
+Note, selecting 'libghc-hackage-security-prof-0.5.3.0-4e742:i386' for regex '7.2'
+Note, selecting 'php7.2-http' for regex '7.2'
+Note, selecting 'libghc-relational-query-hdbc-dev-0.6.8.0-72287' for regex '7.2'
+Note, selecting 'libghc-nonce-prof-1.0.7-2c763' for regex '7.2'
+Note, selecting 'libghc-text-show-prof-3.7.2-8ed52:i386' for regex '7.2'
+Note, selecting 'libghc-tabular-dev-0.2.2.7-a7f24' for regex '7.2'
+Note, selecting 'libghc-void-prof-0.7.2-5d64d' for regex '7.2'
+Note, selecting 'php7.2-geoip' for regex '7.2'
+Note, selecting 'libghc-clock-prof-0.7.2-1a555:i386' for regex '7.2'
+Note, selecting 'php7.2-xdebug' for regex '7.2'
+Note, selecting 'php7.2-common' instead of 'php7.2-calendar'
+Note, selecting 'php7.2-common' instead of 'php7.2-ctype'
+Note, selecting 'php7.2-common' instead of 'php7.2-exif'
+Note, selecting 'php7.2-common' instead of 'php7.2-fileinfo'
+Note, selecting 'php7.2-common' instead of 'php7.2-ftp'
+Note, selecting 'php7.2-common' instead of 'php7.2-gettext'
+Note, selecting 'php7.2-common' instead of 'php7.2-iconv'
+Note, selecting 'php7.2-common' instead of 'php7.2-pdo'
+Note, selecting 'php7.2-common' instead of 'php7.2-phar'
+Note, selecting 'php7.2-common' instead of 'php7.2-posix'
+Note, selecting 'php7.2-common' instead of 'php7.2-shmop'
+Note, selecting 'php7.2-common' instead of 'php7.2-sockets'
+Note, selecting 'php7.2-common' instead of 'php7.2-sysvmsg'
+Note, selecting 'php7.2-common' instead of 'php7.2-sysvsem'
+Note, selecting 'php7.2-common' instead of 'php7.2-sysvshm'
+Note, selecting 'php7.2-common' instead of 'php7.2-tokenizer'
+Note, selecting 'php7.2-mysql' instead of 'php7.2-mysqli'
+Note, selecting 'php7.2-mysql' instead of 'php7.2-mysqlnd'
+Note, selecting 'php7.2-mysql' instead of 'php7.2-pdo-mysql'
+Note, selecting 'php7.2-odbc' instead of 'php7.2-pdo-odbc'
+Note, selecting 'php7.2-pgsql' instead of 'php7.2-pdo-pgsql'
+Note, selecting 'php7.2-sqlite3' instead of 'php7.2-pdo-sqlite'
+Note, selecting 'php7.2-xml' instead of 'php7.2-dom'
+Note, selecting 'php7.2-xml' instead of 'php7.2-simplexml'
+Note, selecting 'php7.2-xml' instead of 'php7.2-wddx'
+Note, selecting 'php7.2-xml' instead of 'php7.2-xmlreader'
+Note, selecting 'php7.2-xml' instead of 'php7.2-xmlwriter'
+Note, selecting 'asterisk' instead of 'asterisk-1fb7f5c06d7a2052e38d021b3d8ca151'
+Note, selecting 'ghc' instead of 'libghc-unix-dev-2.7.2.2-1e3ca'
+Note, selecting 'ghc-prof' instead of 'libghc-unix-prof-2.7.2.2-1e3ca'
+Note, selecting 'libduppy-ocaml' instead of 'libduppy-ocaml-fy792'
+Note, selecting 'libduppy-ocaml-dev' instead of 'libduppy-ocaml-dev-fy792'
+Note, selecting 'libghc-void-dev' instead of 'libghc-void-dev-0.7.2-5d64d'
+Note, selecting 'libghc-void-prof' instead of 'libghc-void-prof-0.7.2-5d64d'
+Note, selecting 'libghc-aeson-pretty-dev' instead of 'libghc-aeson-pretty-dev-0.8.7-37025'
+Note, selecting 'libghc-aeson-pretty-prof' instead of 'libghc-aeson-pretty-prof-0.8.7-37025'
+Note, selecting 'libghc-colour-dev' instead of 'libghc-colour-dev-2.3.4-f7d2b'
+Note, selecting 'libghc-colour-prof' instead of 'libghc-colour-prof-2.3.4-f7d2b'
+Note, selecting 'libghc-stream-dev' instead of 'libghc-stream-dev-0.4.7.2-38226'
+Note, selecting 'libghc-stream-prof' instead of 'libghc-stream-prof-0.4.7.2-38226'
+Note, selecting 'libghc-clock-dev' instead of 'libghc-clock-dev-0.7.2-b00b3'
+Note, selecting 'libghc-clock-prof' instead of 'libghc-clock-prof-0.7.2-b00b3'
+Note, selecting 'libghc-configurator-dev' instead of 'libghc-configurator-dev-0.3.0.0-2d7e2'
+Note, selecting 'libghc-configurator-prof' instead of 'libghc-configurator-prof-0.3.0.0-2d7e2'
+Note, selecting 'libghc-prelude-extras-dev' instead of 'libghc-prelude-extras-dev-0.4.0.3-22732'
+Note, selecting 'libghc-prelude-extras-prof' instead of 'libghc-prelude-extras-prof-0.4.0.3-22732'
+Note, selecting 'libghc-crypto-pubkey-openssh-dev' instead of 'libghc-crypto-pubkey-openssh-dev-0.2.7-e17e2'
+Note, selecting 'libghc-crypto-pubkey-openssh-prof' instead of 'libghc-crypto-pubkey-openssh-prof-0.2.7-e17e2'
+Note, selecting 'libghc-juicypixels-dev' instead of 'libghc-juicypixels-dev-3.2.9.5-7f29f'
+Note, selecting 'libghc-juicypixels-prof' instead of 'libghc-juicypixels-prof-3.2.9.5-7f29f'
+Note, selecting 'libghc-ghc-events-dev' instead of 'libghc-ghc-events-dev-0.7.2-b44f8'
+Note, selecting 'libghc-ghc-events-prof' instead of 'libghc-ghc-events-prof-0.7.2-b44f8'
+Note, selecting 'libghc-jwt-dev' instead of 'libghc-jwt-dev-0.7.2-f6bd4'
+Note, selecting 'libghc-jwt-prof' instead of 'libghc-jwt-prof-0.7.2-f6bd4'
+Note, selecting 'libghc-hashable-time-dev' instead of 'libghc-hashable-time-dev-0.2.0.1-7624e'
+Note, selecting 'libghc-hashable-time-prof' instead of 'libghc-hashable-time-prof-0.2.0.1-7624e'
+Note, selecting 'libghc-tabular-dev' instead of 'libghc-tabular-dev-0.2.2.7-a7f24'
+Note, selecting 'libghc-tabular-prof' instead of 'libghc-tabular-prof-0.2.2.7-a7f24'
+Note, selecting 'libghc-hoauth2-dev' instead of 'libghc-hoauth2-dev-1.7.2-a1ea2'
+Note, selecting 'libghc-hoauth2-prof' instead of 'libghc-hoauth2-prof-1.7.2-a1ea2'
+Note, selecting 'libghc-hopenpgp-dev' instead of 'libghc-hopenpgp-dev-2.7.2-6570b'
+Note, selecting 'libghc-hopenpgp-prof' instead of 'libghc-hopenpgp-prof-2.7.2-6570b'
+Note, selecting 'libghc-http-api-data-dev' instead of 'libghc-http-api-data-dev-0.3.7.2-087a9'
+Note, selecting 'libghc-http-api-data-prof' instead of 'libghc-http-api-data-prof-0.3.7.2-087a9'
+Note, selecting 'libghc-lambdahack-dev' instead of 'libghc-lambdahack-dev-0.8.3.0-87922'
+Note, selecting 'libghc-lambdahack-prof' instead of 'libghc-lambdahack-prof-0.8.3.0-87922'
+Note, selecting 'libghc-language-c-dev' instead of 'libghc-language-c-dev-0.7.2-212be'
+Note, selecting 'libghc-language-c-prof' instead of 'libghc-language-c-prof-0.7.2-212be'
+Note, selecting 'libghc-math-functions-dev' instead of 'libghc-math-functions-dev-0.2.1.0-70287'
+Note, selecting 'libghc-math-functions-prof' instead of 'libghc-math-functions-prof-0.2.1.0-70287'
+Note, selecting 'libghc-monadcryptorandom-dev' instead of 'libghc-monadcryptorandom-dev-0.7.2.1-81252'
+Note, selecting 'libghc-monadcryptorandom-prof' instead of 'libghc-monadcryptorandom-prof-0.7.2.1-81252'
+Note, selecting 'libghc-nonce-dev' instead of 'libghc-nonce-dev-1.0.7-2c763'
+Note, selecting 'libghc-nonce-prof' instead of 'libghc-nonce-prof-1.0.7-2c763'
+Note, selecting 'libghc-numinstances-dev' instead of 'libghc-numinstances-dev-1.4-7c2c5'
+Note, selecting 'libghc-numinstances-prof' instead of 'libghc-numinstances-prof-1.4-7c2c5'
+Note, selecting 'libghc-relational-query-hdbc-dev' instead of 'libghc-relational-query-hdbc-dev-0.6.8.0-72287'
+Note, selecting 'libghc-relational-query-hdbc-prof' instead of 'libghc-relational-query-hdbc-prof-0.6.8.0-72287'
+Note, selecting 'libghc-reform-dev' instead of 'libghc-reform-dev-0.2.7.2-f0189'
+Note, selecting 'libghc-reform-prof' instead of 'libghc-reform-prof-0.2.7.2-f0189'
+Note, selecting 'libghc-xmonad-contrib-dev' instead of 'libghc-xmonad-contrib-dev-0.13-712db'
+Note, selecting 'libghc-xmonad-contrib-prof' instead of 'libghc-xmonad-contrib-prof-0.13-712db'
+Note, selecting 'libghc-text-show-dev' instead of 'libghc-text-show-dev-3.7.2-0e796'
+Note, selecting 'libghc-text-show-prof' instead of 'libghc-text-show-prof-3.7.2-0e796'
+Note, selecting 'libghc-twitter-types-dev' instead of 'libghc-twitter-types-dev-0.7.2.2-d1c84'
+Note, selecting 'libghc-twitter-types-lens-dev' instead of 'libghc-twitter-types-lens-dev-0.7.2-38846'
+Note, selecting 'libghc-twitter-conduit-dev' instead of 'libghc-twitter-conduit-dev-0.3.0-7a2ef'
+Note, selecting 'libghc-twitter-types-prof' instead of 'libghc-twitter-types-prof-0.7.2.2-d1c84'
+Note, selecting 'libghc-twitter-types-lens-prof' instead of 'libghc-twitter-types-lens-prof-0.7.2-38846'
+Note, selecting 'libghc-twitter-conduit-prof' instead of 'libghc-twitter-conduit-prof-0.3.0-7a2ef'
+Note, selecting 'librust-phf-shared+unicase-dev' instead of 'librust-phf-shared-0.7.23+unicase-dev'
+Note, selecting 'librust-phf-shared-dev' instead of 'librust-phf-shared-0.7.23+core-dev'
+Note, selecting 'librust-phf-shared-dev' instead of 'librust-phf-shared-0.7.23+default-dev'
+Note, selecting 'librust-phf-shared-dev' instead of 'librust-phf-shared-0.7.23-dev'
+Note, selecting 'librust-utf-8-dev' instead of 'librust-utf-8-0.7.2+default-dev'
+Note, selecting 'librust-utf-8-dev' instead of 'librust-utf-8-0.7.2-dev'
+Note, selecting 'php-amqp' instead of 'php7.2-amqp'
+Note, selecting 'php-apcu' instead of 'php7.2-apcu'
+Note, selecting 'php-apcu-bc' instead of 'php7.2-apcu-bc'
+Note, selecting 'php-ds' instead of 'php7.2-ds'
+Note, selecting 'php-geoip' instead of 'php7.2-geoip'
+Note, selecting 'php-gmagick' instead of 'php7.2-gmagick'
+Note, selecting 'php-gnupg' instead of 'php7.2-gnupg'
+Note, selecting 'php-http' instead of 'php7.2-http'
+Note, selecting 'php-igbinary' instead of 'php7.2-igbinary'
+Note, selecting 'php-imagick' instead of 'php7.2-imagick'
+Note, selecting 'php-libsodium' instead of 'php7.2-libsodium'
+Note, selecting 'php-mailparse' instead of 'php7.2-mailparse'
+Note, selecting 'php-memcache' instead of 'php7.2-memcache'
+Note, selecting 'php-memcached' instead of 'php7.2-memcached'
+Note, selecting 'php-mongodb' instead of 'php7.2-mongodb'
+Note, selecting 'php-msgpack' instead of 'php7.2-msgpack'
+Note, selecting 'php-oauth' instead of 'php7.2-oauth'
+Note, selecting 'php-pinba' instead of 'php7.2-pinba'
+Note, selecting 'php-propro' instead of 'php7.2-propro'
+Note, selecting 'php-ps' instead of 'php7.2-ps'
+Note, selecting 'php-radius' instead of 'php7.2-radius'
+Note, selecting 'php-raphf' instead of 'php7.2-raphf'
+Note, selecting 'php-redis' instead of 'php7.2-redis'
+Note, selecting 'php-rrd' instead of 'php7.2-rrd'
+Note, selecting 'php-sass' instead of 'php7.2-sass'
+Note, selecting 'php-smbclient' instead of 'php7.2-smbclient'
+Note, selecting 'php-solr' instead of 'php7.2-solr'
+Note, selecting 'php-ssh2' instead of 'php7.2-ssh2'
+Note, selecting 'php-stomp' instead of 'php7.2-stomp'
+Note, selecting 'php-tideways' instead of 'php7.2-tideways'
+Note, selecting 'php-uploadprogress' instead of 'php7.2-uploadprogress'
+Note, selecting 'php-uuid' instead of 'php7.2-uuid'
+Note, selecting 'php-xdebug' instead of 'php7.2-xdebug'
+Note, selecting 'php-yac' instead of 'php7.2-yac'
+Note, selecting 'php-yaml' instead of 'php7.2-yaml'
+Note, selecting 'php-zmq' instead of 'php7.2-zmq'
+Note, selecting 'php7.2-interbase' instead of 'php7.2-pdo-firebird'
+Note, selecting 'php7.2-sybase' instead of 'php7.2-pdo-dblib'
+Note, selecting 'ghc:i386' instead of 'libghc-unix-dev-2.7.2.2-e0eab:i386'
+Note, selecting 'ghc-prof:i386' instead of 'libghc-unix-prof-2.7.2.2-e0eab:i386'
+Note, selecting 'libghc-void-dev:i386' instead of 'libghc-void-dev-0.7.2-0cf0c:i386'
+Note, selecting 'libghc-void-prof:i386' instead of 'libghc-void-prof-0.7.2-0cf0c:i386'
+Note, selecting 'libghc-stream-dev:i386' instead of 'libghc-stream-dev-0.4.7.2-0d5d4:i386'
+Note, selecting 'libghc-stream-prof:i386' instead of 'libghc-stream-prof-0.4.7.2-0d5d4:i386'
+Note, selecting 'libghc-sha-dev:i386' instead of 'libghc-sha-dev-1.6.4.4-c7825:i386'
+Note, selecting 'libghc-sha-prof:i386' instead of 'libghc-sha-prof-1.6.4.4-c7825:i386'
+Note, selecting 'libghc-setenv-dev:i386' instead of 'libghc-setenv-dev-0.1.1.3-47f2e:i386'
+Note, selecting 'libghc-setenv-prof:i386' instead of 'libghc-setenv-prof-0.1.1.3-47f2e:i386'
+Note, selecting 'libghc-clock-dev:i386' instead of 'libghc-clock-dev-0.7.2-1a555:i386'
+Note, selecting 'libghc-clock-prof:i386' instead of 'libghc-clock-prof-0.7.2-1a555:i386'
+Note, selecting 'libghc-easy-file-dev:i386' instead of 'libghc-easy-file-dev-0.2.2-c742b:i386'
+Note, selecting 'libghc-easy-file-prof:i386' instead of 'libghc-easy-file-prof-0.2.2-c742b:i386'
+Note, selecting 'libghc-ghc-events-dev:i386' instead of 'libghc-ghc-events-dev-0.7.2-053eb:i386'
+Note, selecting 'libghc-ghc-events-prof:i386' instead of 'libghc-ghc-events-prof-0.7.2-053eb:i386'
+Note, selecting 'libghc-hackage-security-dev:i386' instead of 'libghc-hackage-security-dev-0.5.3.0-4e742:i386'
+Note, selecting 'libghc-hackage-security-prof:i386' instead of 'libghc-hackage-security-prof-0.5.3.0-4e742:i386'
+Note, selecting 'libghc-wai-app-static-dev:i386' instead of 'libghc-wai-app-static-dev-3.1.6.2-87d2e:i386'
+Note, selecting 'libghc-wai-app-static-prof:i386' instead of 'libghc-wai-app-static-prof-3.1.6.2-87d2e:i386'
+Note, selecting 'libghc-jwt-dev:i386' instead of 'libghc-jwt-dev-0.7.2-2caaf:i386'
+Note, selecting 'libghc-jwt-prof:i386' instead of 'libghc-jwt-prof-0.7.2-2caaf:i386'
+Note, selecting 'libghc-hierarchical-clustering-dev:i386' instead of 'libghc-hierarchical-clustering-dev-0.4.6-e7829:i386'
+Note, selecting 'libghc-hierarchical-clustering-prof:i386' instead of 'libghc-hierarchical-clustering-prof-0.4.6-e7829:i386'
+Note, selecting 'libghc-hoauth2-dev:i386' instead of 'libghc-hoauth2-dev-1.7.2-95259:i386'
+Note, selecting 'libghc-hoauth2-prof:i386' instead of 'libghc-hoauth2-prof-1.7.2-95259:i386'
+Note, selecting 'libghc-hopenpgp-dev:i386' instead of 'libghc-hopenpgp-dev-2.7.2-5ea14:i386'
+Note, selecting 'libghc-hopenpgp-prof:i386' instead of 'libghc-hopenpgp-prof-2.7.2-5ea14:i386'
+Note, selecting 'libghc-http-api-data-dev:i386' instead of 'libghc-http-api-data-dev-0.3.7.2-736bb:i386'
+Note, selecting 'libghc-http-api-data-prof:i386' instead of 'libghc-http-api-data-prof-0.3.7.2-736bb:i386'
+Note, selecting 'libghc-language-c-dev:i386' instead of 'libghc-language-c-dev-0.7.2-c7980:i386'
+Note, selecting 'libghc-language-c-prof:i386' instead of 'libghc-language-c-prof-0.7.2-c7980:i386'
+Note, selecting 'libghc-memotrie-dev:i386' instead of 'libghc-memotrie-dev-0.6.9-67c21:i386'
+Note, selecting 'libghc-memotrie-prof:i386' instead of 'libghc-memotrie-prof-0.6.9-67c21:i386'
+Note, selecting 'libghc-monadcryptorandom-dev:i386' instead of 'libghc-monadcryptorandom-dev-0.7.2.1-ae494:i386'
+Note, selecting 'libghc-monadcryptorandom-prof:i386' instead of 'libghc-monadcryptorandom-prof-0.7.2.1-ae494:i386'
+Note, selecting 'libghc-path-io-dev:i386' instead of 'libghc-path-io-dev-1.3.3-26792:i386'
+Note, selecting 'libghc-path-io-prof:i386' instead of 'libghc-path-io-prof-1.3.3-26792:i386'
+Note, selecting 'libghc-recaptcha-dev:i386' instead of 'libghc-recaptcha-dev-0.1.0.4-78244:i386'
+Note, selecting 'libghc-recaptcha-prof:i386' instead of 'libghc-recaptcha-prof-0.1.0.4-78244:i386'
+Note, selecting 'libghc-reform-dev:i386' instead of 'libghc-reform-dev-0.2.7.2-2d6b5:i386'
+Note, selecting 'libghc-reform-prof:i386' instead of 'libghc-reform-prof-0.2.7.2-2d6b5:i386'
+Note, selecting 'libghc-text-show-dev:i386' instead of 'libghc-text-show-dev-3.7.2-8ed52:i386'
+Note, selecting 'libghc-text-show-prof:i386' instead of 'libghc-text-show-prof-3.7.2-8ed52:i386'
+Note, selecting 'libghc-twitter-types-dev:i386' instead of 'libghc-twitter-types-dev-0.7.2.2-7cf9b:i386'
+Note, selecting 'libghc-twitter-types-lens-dev:i386' instead of 'libghc-twitter-types-lens-dev-0.7.2-58afd:i386'
+Note, selecting 'libghc-twitter-types-prof:i386' instead of 'libghc-twitter-types-prof-0.7.2.2-7cf9b:i386'
+Note, selecting 'libghc-twitter-types-lens-prof:i386' instead of 'libghc-twitter-types-lens-prof-0.7.2-58afd:i386'
+Note, selecting 'libmm-ocaml:i386' instead of 'libmm-ocaml-me7h2:i386'
+Note, selecting 'libmm-ocaml-dev:i386' instead of 'libmm-ocaml-dev-me7h2:i386'
+E: Unable to locate package php-ommon
+E: Unable to locate package php-7.2-cli
+E: Couldn't find any package by glob 'php-7.2-cli'
+E: Couldn't find any package by regex 'php-7.2-cli'
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sudo apt install php7.2 libapache2-mod-php 7.2 php7.2-mysql ph
+hp-ommon php-7.2-cli php7.2-common php7.2-json php7.2-opcache php7.2-readline[C[1P[1@ [1P[A
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ mariadb --version[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo apt install php7.2 libapache2-mod-php 7.2 php7.2-mysql ph
+hp-ommon php7.2-cli php7.2-common php7.2-json php7.2-opcache php7.2-readline[A
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmariadb --version[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo apt install php7.2 libapache2-mod-php 7.2 php7.2-mysql ph
+hp-ommon php7.2-cli php7.2-common php7.2-json php7.2-opcache php7.2-readline
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7.2 php7.2-mysql php[1P[A
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+E: Unable to locate package php-ommon
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sudo apt install php7.2 libapache2-mod-php7.2 php7.2-mysql php
+p-ommon php7.2-cli php7.2-common php7.2-json php7.2-opcache php7.2-readline[1@c
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following packages were automatically installed and are no longer required:
+  libmessaging-menu0 linux-headers-4.18.0-10 linux-headers-4.18.0-10-generic
+  linux-image-4.18.0-10-generic linux-modules-4.18.0-10-generic
+  linux-modules-extra-4.18.0-10-generic
+Use 'sudo apt autoremove' to remove them.
+Suggested packages:
+  php-pear
+The following NEW packages will be installed:
+  libapache2-mod-php7.2 php-common php7.2 php7.2-cli php7.2-common php7.2-json
+  php7.2-mysql php7.2-opcache php7.2-readline
+0 upgraded, 9 newly installed, 0 to remove and 322 not upgraded.
+Need to get 4,059 kB of archives.
+After this operation, 17.9 MB of additional disk space will be used.
+[33m
+0% [Working][0m[33m
+0% [Connecting to in.archive.ubuntu.com (91.189.91.23)][0m[33m
+                                                       
+0% [Waiting for headers][0m
+                        
+Get:1 http://in.archive.ubuntu.com/ubuntu cosmic/main amd64 php-common all 1:62 [11.9 kB]
+[33m
+0% [1 php-common 2,295 B/11.9 kB 19%][0m[33m
+                                     
+2% [Working][0m
+            
+Get:2 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 php7.2-common amd64 7.2.17-0ubuntu0.18.10.1 [888 kB]
+[33m
+2% [2 php7.2-common 1,005 B/888 kB 0%][0m[33m
+3% [2 php7.2-common 44.8 kB/888 kB 5%][0m[33m
+5% [2 php7.2-common 122 kB/888 kB 14%][0m[33m
+7% [2 php7.2-common 225 kB/888 kB 25%][0m[33m
+11% [2 php7.2-common 422 kB/888 kB 48%][0m[33m
+14% [2 php7.2-common 610 kB/888 kB 69%][0m[33m
+17% [2 php7.2-common 718 kB/888 kB 81%][0m[33m
+17% [2 php7.2-common 718 kB/888 kB 81%][0m[33m
+18% [2 php7.2-common 806 kB/888 kB 91%][0m[33m
+18% [2 php7.2-common 812 kB/888 kB 91%]                            137 kB/s 23s[0m[33m
+18% [2 php7.2-common 812 kB/888 kB 91%]                            137 kB/s 23s[0m
+                                                                               
+Get:3 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 php7.2-json amd64 7.2.17-0ubuntu0.18.10.1 [18.9 kB]
+[33m
+22% [3 php7.2-json 1,288 B/18.9 kB 7%]                             137 kB/s 23s[0m[33m
+22% [3 php7.2-json 1,288 B/18.9 kB 7%]                             137 kB/s 23s[0m[33m
+22% [3 php7.2-json 1,288 B/18.9 kB 7%]                             137 kB/s 23s[0m
+                                                                               
+Get:4 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 php7.2-opcache amd64 7.2.17-0ubuntu0.18.10.1 [166 kB]
+[33m
+26% [4 php7.2-opcache 63.0 kB/166 kB 38%]                          137 kB/s 22s[0m[33m
+30% [Waiting for headers]                                          137 kB/s 21s[0m
+                                                                               
+Get:5 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 php7.2-readline amd64 7.2.17-0ubuntu0.18.10.1 [12.3 kB]
+[33m
+31% [5 php7.2-readline 12.3 kB/12.3 kB 100%]                       137 kB/s 21s[0m
+                                                                               
+Get:6 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 php7.2-cli amd64 7.2.17-0ubuntu0.18.10.1 [1,444 kB]
+[33m
+33% [6 php7.2-cli 25.7 kB/1,444 kB 2%]                             137 kB/s 21s[0m[33m
+33% [6 php7.2-cli 25.7 kB/1,444 kB 2%]                             137 kB/s 21s[0m[33m
+41% [6 php7.2-cli 407 kB/1,444 kB 28%]                             137 kB/s 18s[0m[33m
+41% [6 php7.2-cli 407 kB/1,444 kB 28%]                             137 kB/s 18s[0m[33m
+41% [6 php7.2-cli 407 kB/1,444 kB 28%]                             137 kB/s 18s[0m[33m
+44% [6 php7.2-cli 586 kB/1,444 kB 41%]                             137 kB/s 17s[0m[33m
+44% [6 php7.2-cli 586 kB/1,444 kB 41%]                             137 kB/s 17s[0m[33m
+46% [6 php7.2-cli 685 kB/1,444 kB 47%]                             137 kB/s 16s[0m[33m
+47% [6 php7.2-cli 724 kB/1,444 kB 50%]                             137 kB/s 16s[0m[33m
+48% [6 php7.2-cli 790 kB/1,444 kB 55%]                             166 kB/s 13s[0m[33m
+48% [6 php7.2-cli 790 kB/1,444 kB 55%]                             166 kB/s 13s[0m[33m
+51% [6 php7.2-cli 935 kB/1,444 kB 65%]                             166 kB/s 12s[0m[33m
+51% [6 php7.2-cli 935 kB/1,444 kB 65%]                             166 kB/s 12s[0m[33m
+51% [6 php7.2-cli 935 kB/1,444 kB 65%]                             166 kB/s 12s[0m[33m
+52% [6 php7.2-cli 994 kB/1,444 kB 69%]                             166 kB/s 11s[0m[33m
+54% [6 php7.2-cli 1,056 kB/1,444 kB 73%]                           166 kB/s 11s[0m[33m
+57% [6 php7.2-cli 1,209 kB/1,444 kB 84%]                           166 kB/s 10s[0m[33m
+59% [6 php7.2-cli 1,351 kB/1,444 kB 94%]                            166 kB/s 9s[0m[33m
+60% [6 php7.2-cli 1,368 kB/1,444 kB 95%]                            166 kB/s 9s[0m[33m
+60% [6 php7.2-cli 1,368 kB/1,444 kB 95%]                            166 kB/s 9s[0m[33m
+61% [6 php7.2-cli 1,415 kB/1,444 kB 98%]                            166 kB/s 9s[0m[33m
+63% [Waiting for headers]                                           166 kB/s 9s[0m
+                                                                               
+Get:7 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 libapache2-mod-php7.2 amd64 7.2.17-0ubuntu0.18.10.1 [1,388 kB]
+[33m
+65% [7 libapache2-mod-php7.2 65.5 kB/1,388 kB 5%]                   166 kB/s 8s[0m[33m
+66% [7 libapache2-mod-php7.2 150 kB/1,388 kB 11%]                  124 kB/s 11s[0m[33m
+67% [7 libapache2-mod-php7.2 200 kB/1,388 kB 14%]                  124 kB/s 10s[0m[33m
+67% [7 libapache2-mod-php7.2 200 kB/1,388 kB 14%]                  124 kB/s 10s[0m[33m
+69% [7 libapache2-mod-php7.2 294 kB/1,388 kB 21%]                   124 kB/s 9s[0m[33m
+70% [7 libapache2-mod-php7.2 357 kB/1,388 kB 26%]                   124 kB/s 9s[0m[33m
+71% [7 libapache2-mod-php7.2 361 kB/1,388 kB 26%]                   124 kB/s 9s[0m[33m
+73% [7 libapache2-mod-php7.2 508 kB/1,388 kB 37%]                   124 kB/s 8s[0m[33m
+77% [7 libapache2-mod-php7.2 695 kB/1,388 kB 50%]                   124 kB/s 6s[0m[33m
+79% [7 libapache2-mod-php7.2 789 kB/1,388 kB 57%]                   124 kB/s 5s[0m[33m
+81% [7 libapache2-mod-php7.2 870 kB/1,388 kB 63%]                   124 kB/s 5s[0m[33m
+83% [7 libapache2-mod-php7.2 979 kB/1,388 kB 71%]                   124 kB/s 4s[0m[33m
+84% [7 libapache2-mod-php7.2 1,057 kB/1,388 kB 76%]                 124 kB/s 3s[0m[33m
+85% [7 libapache2-mod-php7.2 1,096 kB/1,388 kB 79%]                 157 kB/s 2s[0m[33m
+85% [7 libapache2-mod-php7.2 1,096 kB/1,388 kB 79%]                 157 kB/s 2s[0m[33m
+86% [7 libapache2-mod-php7.2 1,152 kB/1,388 kB 83%]                 157 kB/s 2s[0m[33m
+87% [7 libapache2-mod-php7.2 1,189 kB/1,388 kB 86%]                 157 kB/s 2s[0m[33m
+88% [7 libapache2-mod-php7.2 1,266 kB/1,388 kB 91%]                 157 kB/s 1s[0m[33m
+93% [Waiting for headers]                                           157 kB/s 0s[0m
+                                                                               
+Get:8 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 php7.2 all 7.2.17-0ubuntu0.18.10.1 [9,244 B]
+[33m
+93% [8 php7.2 178 B/9,244 B 2%]                                     157 kB/s 0s[0m[33m
+95% [Waiting for headers]                                           157 kB/s 0s[0m
+                                                                               
+Get:9 http://in.archive.ubuntu.com/ubuntu cosmic-updates/main amd64 php7.2-mysql amd64 7.2.17-0ubuntu0.18.10.1 [119 kB]
+[33m
+95% [9 php7.2-mysql 955 B/119 kB 1%]                                157 kB/s 0s[0m[33m
+97% [9 php7.2-mysql 73.1 kB/119 kB 61%]                             157 kB/s 0s[0m[33m
+98% [9 php7.2-mysql 116 kB/119 kB 97%]                              157 kB/s 0s[0m[33m
+100% [Working]                                                      157 kB/s 0s[0m
+                                                                               
+Fetched 4,059 kB in 29s (141 kB/s)
+
+7[0;23r8[1ASelecting previously unselected package php-common.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 239156 files and directories currently installed.)
+Preparing to unpack .../0-php-common_1%3a62_all.deb ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [  3%][49m[39m [#.........................................................] 8Unpacking php-common (1:62) ...
+7[24;0f[42m[30mProgress: [  5%][49m[39m [###.......................................................] 8Selecting previously unselected package php7.2-common.
+Preparing to unpack .../1-php7.2-common_7.2.17-0ubuntu0.18.10.1_amd64.deb ...
+7[24;0f[42m[30mProgress: [  8%][49m[39m [####......................................................] 8Unpacking php7.2-common (7.2.17-0ubuntu0.18.10.1) ...
+7[24;0f[42m[30mProgress: [ 11%][49m[39m [######....................................................] 8Selecting previously unselected package php7.2-json.
+Preparing to unpack .../2-php7.2-json_7.2.17-0ubuntu0.18.10.1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 14%][49m[39m [#######...................................................] 8Unpacking php7.2-json (7.2.17-0ubuntu0.18.10.1) ...
+7[24;0f[42m[30mProgress: [ 16%][49m[39m [#########.................................................] 8Selecting previously unselected package php7.2-opcache.
+Preparing to unpack .../3-php7.2-opcache_7.2.17-0ubuntu0.18.10.1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 19%][49m[39m [##########................................................] 8Unpacking php7.2-opcache (7.2.17-0ubuntu0.18.10.1) ...
+7[24;0f[42m[30mProgress: [ 22%][49m[39m [############..............................................] 8Selecting previously unselected package php7.2-readline.
+Preparing to unpack .../4-php7.2-readline_7.2.17-0ubuntu0.18.10.1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 24%][49m[39m [##############............................................] 8Unpacking php7.2-readline (7.2.17-0ubuntu0.18.10.1) ...
+7[24;0f[42m[30mProgress: [ 27%][49m[39m [###############...........................................] 8Selecting previously unselected package php7.2-cli.
+Preparing to unpack .../5-php7.2-cli_7.2.17-0ubuntu0.18.10.1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 30%][49m[39m [#################.........................................] 8Unpacking php7.2-cli (7.2.17-0ubuntu0.18.10.1) ...
+7[24;0f[42m[30mProgress: [ 32%][49m[39m [##################........................................] 8Selecting previously unselected package libapache2-mod-php7.2.
+Preparing to unpack .../6-libapache2-mod-php7.2_7.2.17-0ubuntu0.18.10.1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 35%][49m[39m [####################......................................] 8Unpacking libapache2-mod-php7.2 (7.2.17-0ubuntu0.18.10.1) ...
+7[24;0f[42m[30mProgress: [ 38%][49m[39m [#####################.....................................] 8Selecting previously unselected package php7.2.
+Preparing to unpack .../7-php7.2_7.2.17-0ubuntu0.18.10.1_all.deb ...
+7[24;0f[42m[30mProgress: [ 41%][49m[39m [#######################...................................] 8Unpacking php7.2 (7.2.17-0ubuntu0.18.10.1) ...
+7[24;0f[42m[30mProgress: [ 43%][49m[39m [#########################.................................] 8Selecting previously unselected package php7.2-mysql.
+Preparing to unpack .../8-php7.2-mysql_7.2.17-0ubuntu0.18.10.1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 46%][49m[39m [##########################................................] 8Unpacking php7.2-mysql (7.2.17-0ubuntu0.18.10.1) ...
+7[24;0f[42m[30mProgress: [ 49%][49m[39m [############################..............................] 8Setting up php-common (1:62) ...
+7[24;0f[42m[30mProgress: [ 51%][49m[39m [#############################.............................] 8Created symlink /etc/systemd/system/timers.target.wants/phpsessionclean.timer → /lib/systemd/system/phpsessionclean.timer.
+7[24;0f[42m[30mProgress: [ 54%][49m[39m [###############################...........................] 8Processing triggers for man-db (2.8.4-2) ...
+Setting up php7.2-common (7.2.17-0ubuntu0.18.10.1) ...
+7[24;0f[42m[30mProgress: [ 57%][49m[39m [################################..........................] 8
+Creating config file /etc/php/7.2/mods-available/calendar.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/ctype.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/exif.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/fileinfo.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/ftp.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/gettext.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/iconv.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/pdo.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/phar.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/posix.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/shmop.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sockets.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sysvmsg.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sysvsem.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sysvshm.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/tokenizer.ini with new version
+7[24;0f[42m[30mProgress: [ 59%][49m[39m [##################################........................] 8Setting up php7.2-readline (7.2.17-0ubuntu0.18.10.1) ...
+7[24;0f[42m[30mProgress: [ 62%][49m[39m [####################################......................] 8
+Creating config file /etc/php/7.2/mods-available/readline.ini with new version
+7[24;0f[42m[30mProgress: [ 65%][49m[39m [#####################################.....................] 8Setting up php7.2-json (7.2.17-0ubuntu0.18.10.1) ...
+7[24;0f[42m[30mProgress: [ 68%][49m[39m [#######################################...................] 8
+Creating config file /etc/php/7.2/mods-available/json.ini with new version
+7[24;0f[42m[30mProgress: [ 70%][49m[39m [########################################..................] 8Setting up php7.2-opcache (7.2.17-0ubuntu0.18.10.1) ...
+7[24;0f[42m[30mProgress: [ 73%][49m[39m [##########################################................] 8
+Creating config file /etc/php/7.2/mods-available/opcache.ini with new version
+7[24;0f[42m[30mProgress: [ 76%][49m[39m [###########################################...............] 8Setting up php7.2-mysql (7.2.17-0ubuntu0.18.10.1) ...
+7[24;0f[42m[30mProgress: [ 78%][49m[39m [#############################################.............] 8
+Creating config file /etc/php/7.2/mods-available/mysqlnd.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/mysqli.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/pdo_mysql.ini with new version
+7[24;0f[42m[30mProgress: [ 81%][49m[39m [###############################################...........] 8Setting up php7.2-cli (7.2.17-0ubuntu0.18.10.1) ...
+7[24;0f[42m[30mProgress: [ 84%][49m[39m [################################################..........] 8update-alternatives: using /usr/bin/php7.2 to provide /usr/bin/php (php) in auto mode
+update-alternatives: using /usr/bin/phar7.2 to provide /usr/bin/phar (phar) in auto mode
+update-alternatives: using /usr/bin/phar.phar7.2 to provide /usr/bin/phar.phar (phar.phar) in auto mode
+
+Creating config file /etc/php/7.2/cli/php.ini with new version
+7[24;0f[42m[30mProgress: [ 86%][49m[39m [##################################################........] 8Setting up libapache2-mod-php7.2 (7.2.17-0ubuntu0.18.10.1) ...
+7[24;0f[42m[30mProgress: [ 89%][49m[39m [###################################################.......] 8
+Creating config file /etc/php/7.2/apache2/php.ini with new version
+Module mpm_event disabled.
+Enabling module mpm_prefork.
+apache2_switch_mpm Switch to prefork
+apache2_invoke: Enable module php7.2
+7[24;0f[42m[30mProgress: [ 92%][49m[39m [#####################################################.....] 8Setting up php7.2 (7.2.17-0ubuntu0.18.10.1) ...
+7[24;0f[42m[30mProgress: [ 95%][49m[39m [######################################################....] 87[24;0f[42m[30mProgress: [ 97%][49m[39m [########################################################..] 8
+7[0;24r8[1A[J]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sudo s2[K[Ka2enmod php7.2
+Considering dependency mpm_prefork for php7.2:
+Considering conflict mpm_event for mpm_prefork:
+Considering conflict mpm_worker for mpm_prefork:
+Module mpm_prefork already enabled
+Considering conflict php5 for php7.2:
+Module php7.2 already enabled
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sudo systemctl restart apache2
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ php --version
+PHP 7.2.17-0ubuntu0.18.10.1 (cli) (built: Apr 18 2019 14:09:30) ( NTS )
+Copyright (c) 1997-2018 The PHP Group
+Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
+    with Zend OPcache v7.2.17-0ubuntu0.18.10.1, Copyright (c) 1999-2018, by Zend Technologies
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sudo nano /var/www/html/info.php
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.8                /var/www/html/info.php                          [1;79H(B[m
+[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[22d[3d[39;49m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m
+[3d<[?12l[?25h[?25l/[?12l[?25h[?25l [?12l[?25h[?25l(B[0;1m[32m<?[39m(B[m[?12l[?25h[?25lp[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[32mphp[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l p[?12l[?25h[?25lh[?12l[?25h[?25lp[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lf[?12l[?25h[?25lo[?12l[?25h[?25l[7G[37mphpinfo([39m(B[m[?12l[?25h[?25l)[?12l[?25h[?25l;[?12l[?25h[?25l?[?12l[?25h[?25l?[?12l[?25h[?25l [?12l[?25h[?25l(B[0;1m[32m?>[39m(B[m[?12l[?25h[?25l
+[4d[?12l[?25h[?25l[22;15H(B[0;7m[ line 2/3 (66%), col 1/1 (100%), char 19/20 (95%) ](B[m
+[4d[?12l[?25h[?25l[22d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                   [23;1H Y(B[m Yes[K
+[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;63H[?12l[?25h[?25l
+[23d(B[0;7m^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File
+[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m To Files
+[22d(B[0;7mFile Name to Write: /var/www/html/info.php                   
+(B[m[22;43H[?12l[?25h[?25l
+[K[1;79H[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 2 lines ](B[m
+[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sudd[Ko a2dismod php7.2
+Module php7.2 disabled.
+To activate the new configuration, you need to run:
+  systemctl restart apache2
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sudo a2dismod php7.2nano /var/www/html/info.php
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pphp --versionsudo systemctl restart apache2[11Pa2enmod php7.2systemctl restart apache2
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sduo[K[K[Kudo apt install php7.2-fpm
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following packages were automatically installed and are no longer required:
+  libmessaging-menu0 linux-headers-4.18.0-10 linux-headers-4.18.0-10-generic
+  linux-image-4.18.0-10-generic linux-modules-4.18.0-10-generic
+  linux-modules-extra-4.18.0-10-generic
+Use 'sudo apt autoremove' to remove them.
+Suggested packages:
+  php-pear
+The following NEW packages will be installed:
+  php7.2-fpm
+0 upgraded, 1 newly installed, 0 to remove and 322 not upgraded.
+Need to get 1,449 kB of archives.
+After this operation, 5,082 kB of additional disk space will be used.
+[33m
+0% [Working][0m[33m
+0% [Connecting to in.archive.ubuntu.com][0m[33m
+0% [Connecting to in.archive.ubuntu.com (2001:67c:1360:8001::17)][0m[33m
+0% [Connecting to in.archive.ubuntu.com (2001:67c:1560:8001::11)][0m[33m
+0% [Connecting to in.archive.ubuntu.com (2001:67c:1560:8001::14)][0m[33m
+0% [Connecting to in.archive.ubuntu.com (2001:67c:1360:8001::21)][0m[33m
+                                                                 
+0% [Waiting for headers][0m
+                        
+Get:1 http://in.archive.ubuntu.com/ubuntu cosmic-updates/universe amd64 php7.2-fpm amd64 7.2.17-0ubuntu0.18.10.1 [1,449 kB]
+[33m
+0% [1 php7.2-fpm 1,063 B/1,449 kB 0%][0m[33m
+1% [1 php7.2-fpm 15.9 kB/1,449 kB 1%][0m[33m
+2% [1 php7.2-fpm 42.9 kB/1,449 kB 3%][0m[33m
+4% [1 php7.2-fpm 65.8 kB/1,449 kB 5%][0m[33m
+5% [1 php7.2-fpm 81.9 kB/1,449 kB 6%][0m[33m
+5% [1 php7.2-fpm 81.9 kB/1,449 kB 6%][0m[33m
+5% [1 php7.2-fpm 81.9 kB/1,449 kB 6%]                        13.1 kB/s 1min 44s[0m[33m
+5% [1 php7.2-fpm 81.9 kB/1,449 kB 6%]                        13.1 kB/s 1min 44s[0m[33m
+5% [1 php7.2-fpm 94.1 kB/1,449 kB 6%]                        13.1 kB/s 1min 43s[0m[33m
+9% [1 php7.2-fpm 163 kB/1,449 kB 11%]                        13.1 kB/s 1min 38s[0m[33m
+9% [1 php7.2-fpm 163 kB/1,449 kB 11%]                        13.1 kB/s 1min 38s[0m[33m
+10% [1 php7.2-fpm 180 kB/1,449 kB 12%]                       13.1 kB/s 1min 37s[0m[33m
+11% [1 php7.2-fpm 198 kB/1,449 kB 14%]                       13.1 kB/s 1min 35s[0m[33m
+11% [1 php7.2-fpm 198 kB/1,449 kB 14%]                       13.1 kB/s 1min 35s[0m[33m
+11% [1 php7.2-fpm 198 kB/1,449 kB 14%]                       13.1 kB/s 1min 35s[0m[33m
+11% [1 php7.2-fpm 198 kB/1,449 kB 14%]                       13.1 kB/s 1min 35s[0m[33m
+11% [1 php7.2-fpm 198 kB/1,449 kB 14%]                       13.1 kB/s 1min 35s[0m[33m
+11% [1 php7.2-fpm 198 kB/1,449 kB 14%]                       13.1 kB/s 1min 35s[0m[33m
+14% [1 php7.2-fpm 259 kB/1,449 kB 18%]                            29.2 kB/s 40s[0m[33m
+17% [1 php7.2-fpm 312 kB/1,449 kB 22%]                            29.2 kB/s 38s[0m[33m
+19% [1 php7.2-fpm 346 kB/1,449 kB 24%]                            29.2 kB/s 37s[0m[33m
+19% [1 php7.2-fpm 346 kB/1,449 kB 24%]                            29.2 kB/s 37s[0m[33m
+20% [1 php7.2-fpm 364 kB/1,449 kB 25%]                            29.2 kB/s 37s[0m[33m
+20% [1 php7.2-fpm 364 kB/1,449 kB 25%]                            29.2 kB/s 37s[0m[33m
+20% [1 php7.2-fpm 364 kB/1,449 kB 25%]                            29.2 kB/s 37s[0m[33m
+23% [1 php7.2-fpm 412 kB/1,449 kB 28%]                            29.2 kB/s 35s[0m[33m
+25% [1 php7.2-fpm 446 kB/1,449 kB 31%]                            29.2 kB/s 34s[0m[33m
+25% [1 php7.2-fpm 453 kB/1,449 kB 31%]                            29.2 kB/s 34s[0m[33m
+25% [1 php7.2-fpm 453 kB/1,449 kB 31%]                            29.2 kB/s 34s[0m[33m
+26% [1 php7.2-fpm 469 kB/1,449 kB 32%]                            29.2 kB/s 33s[0m[33m
+26% [1 php7.2-fpm 478 kB/1,449 kB 33%]                            36.5 kB/s 26s[0m[33m
+26% [1 php7.2-fpm 478 kB/1,449 kB 33%]                            36.5 kB/s 26s[0m[33m
+26% [1 php7.2-fpm 478 kB/1,449 kB 33%]                            36.5 kB/s 26s[0m[33m
+26% [1 php7.2-fpm 478 kB/1,449 kB 33%]                            36.5 kB/s 26s[0m[33m
+30% [1 php7.2-fpm 535 kB/1,449 kB 37%]                            36.5 kB/s 25s[0m[33m
+30% [1 php7.2-fpm 535 kB/1,449 kB 37%]                            36.5 kB/s 25s[0m[33m
+30% [1 php7.2-fpm 535 kB/1,449 kB 37%]                            36.5 kB/s 25s[0m[33m
+30% [1 php7.2-fpm 535 kB/1,449 kB 37%]                            36.5 kB/s 25s[0m[33m
+34% [1 php7.2-fpm 614 kB/1,449 kB 42%]                            36.5 kB/s 22s[0m[33m
+36% [1 php7.2-fpm 658 kB/1,449 kB 45%]                            36.5 kB/s 21s[0m[33m
+36% [1 php7.2-fpm 660 kB/1,449 kB 46%]                            36.5 kB/s 21s[0m[33m
+36% [1 php7.2-fpm 660 kB/1,449 kB 46%]                            36.5 kB/s 21s[0m[33m
+38% [1 php7.2-fpm 686 kB/1,449 kB 47%]                            34.5 kB/s 22s[0m[33m
+40% [1 php7.2-fpm 724 kB/1,449 kB 50%]                            34.5 kB/s 21s[0m[33m
+40% [1 php7.2-fpm 724 kB/1,449 kB 50%]                            34.5 kB/s 21s[0m[33m
+43% [1 php7.2-fpm 771 kB/1,449 kB 53%]                            34.5 kB/s 19s[0m[33m
+43% [1 php7.2-fpm 786 kB/1,449 kB 54%]                            34.5 kB/s 19s[0m[33m
+44% [1 php7.2-fpm 795 kB/1,449 kB 55%]                            34.5 kB/s 18s[0m[33m
+45% [1 php7.2-fpm 811 kB/1,449 kB 56%]                            34.5 kB/s 18s[0m[33m
+45% [1 php7.2-fpm 823 kB/1,449 kB 57%]                            34.5 kB/s 18s[0m[33m
+46% [1 php7.2-fpm 834 kB/1,449 kB 58%]                            34.5 kB/s 17s[0m[33m
+46% [1 php7.2-fpm 837 kB/1,449 kB 58%]                            34.5 kB/s 17s[0m[33m
+46% [1 php7.2-fpm 837 kB/1,449 kB 58%]                            34.5 kB/s 17s[0m[33m
+47% [1 php7.2-fpm 854 kB/1,449 kB 59%]                            34.5 kB/s 17s[0m[33m
+48% [1 php7.2-fpm 873 kB/1,449 kB 60%]                            31.1 kB/s 18s[0m[33m
+50% [1 php7.2-fpm 906 kB/1,449 kB 62%]                            31.1 kB/s 17s[0m[33m
+51% [1 php7.2-fpm 920 kB/1,449 kB 64%]                            31.1 kB/s 17s[0m[33m
+52% [1 php7.2-fpm 934 kB/1,449 kB 64%]                            31.1 kB/s 16s[0m[33m
+53% [1 php7.2-fpm 951 kB/1,449 kB 66%]                            31.1 kB/s 16s[0m[33m
+53% [1 php7.2-fpm 953 kB/1,449 kB 66%]                            31.1 kB/s 15s[0m[33m
+55% [1 php7.2-fpm 1,001 kB/1,449 kB 69%]                          31.1 kB/s 14s[0m[33m
+56% [1 php7.2-fpm 1,019 kB/1,449 kB 70%]                          31.1 kB/s 13s[0m[33m
+57% [1 php7.2-fpm 1,036 kB/1,449 kB 72%]                          31.1 kB/s 13s[0m[33m
+58% [1 php7.2-fpm 1,057 kB/1,449 kB 73%]                          31.1 kB/s 12s[0m[33m
+60% [1 php7.2-fpm 1,082 kB/1,449 kB 75%]                          31.1 kB/s 11s[0m[33m
+61% [1 php7.2-fpm 1,101 kB/1,449 kB 76%]                          31.1 kB/s 11s[0m[33m
+62% [1 php7.2-fpm 1,124 kB/1,449 kB 78%]                           41.6 kB/s 7s[0m[33m
+63% [1 php7.2-fpm 1,136 kB/1,449 kB 78%]                           41.6 kB/s 7s[0m[33m
+63% [1 php7.2-fpm 1,136 kB/1,449 kB 78%]                           41.6 kB/s 7s[0m[33m
+64% [1 php7.2-fpm 1,167 kB/1,449 kB 81%]                           41.6 kB/s 6s[0m[33m
+66% [1 php7.2-fpm 1,191 kB/1,449 kB 82%]                           41.6 kB/s 6s[0m[33m
+67% [1 php7.2-fpm 1,209 kB/1,449 kB 83%]                           41.6 kB/s 5s[0m[33m
+67% [1 php7.2-fpm 1,222 kB/1,449 kB 84%]                           41.6 kB/s 5s[0m[33m
+69% [1 php7.2-fpm 1,247 kB/1,449 kB 86%]                           41.6 kB/s 4s[0m[33m
+70% [1 php7.2-fpm 1,272 kB/1,449 kB 88%]                           41.6 kB/s 4s[0m[33m
+71% [1 php7.2-fpm 1,290 kB/1,449 kB 89%]                           41.6 kB/s 3s[0m[33m
+73% [1 php7.2-fpm 1,318 kB/1,449 kB 91%]                           41.6 kB/s 3s[0m[33m
+74% [1 php7.2-fpm 1,334 kB/1,449 kB 92%]                           41.6 kB/s 2s[0m[33m
+74% [1 php7.2-fpm 1,346 kB/1,449 kB 93%]                           36.9 kB/s 2s[0m[33m
+74% [1 php7.2-fpm 1,346 kB/1,449 kB 93%]                           36.9 kB/s 2s[0m[33m
+77% [1 php7.2-fpm 1,395 kB/1,449 kB 96%]                           36.9 kB/s 1s[0m[33m
+78% [1 php7.2-fpm 1,414 kB/1,449 kB 98%]                           36.9 kB/s 0s[0m[33m
+79% [1 php7.2-fpm 1,430 kB/1,449 kB 99%]                           36.9 kB/s 0s[0m[33m
+79% [1 php7.2-fpm 1,433 kB/1,449 kB 99%]                           36.9 kB/s 0s[0m[33m
+100% [Working]                                                     36.9 kB/s 0s[0m
+                                                                               
+Fetched 1,449 kB in 45s (32.0 kB/s)
+
+7[0;23r8[1ASelecting previously unselected package php7.2-fpm.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 239305 files and directories currently installed.)
+Preparing to unpack .../php7.2-fpm_7.2.17-0ubuntu0.18.10.1_amd64.deb ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [ 20%][49m[39m [###########...............................................] 8Unpacking php7.2-fpm (7.2.17-0ubuntu0.18.10.1) ...
+7[24;0f[42m[30mProgress: [ 40%][49m[39m [#######################...................................] 8Setting up php7.2-fpm (7.2.17-0ubuntu0.18.10.1) ...
+7[24;0f[42m[30mProgress: [ 60%][49m[39m [##################################........................] 8
+Creating config file /etc/php/7.2/fpm/php.ini with new version
+php_invoke: Enabled module exif for fpm sapi
+php_invoke: Enabled module tokenizer for fpm sapi
+php_invoke: Enabled module posix for fpm sapi
+php_invoke: Enabled module mysqlnd for fpm sapi
+php_invoke: Enabled module mysqli for fpm sapi
+php_invoke: Enabled module pdo_mysql for fpm sapi
+php_invoke: Enabled module ctype for fpm sapi
+php_invoke: Enabled module sockets for fpm sapi
+php_invoke: Enabled module pdo for fpm sapi
+php_invoke: Enabled module sysvshm for fpm sapi
+php_invoke: Enabled module json for fpm sapi
+php_invoke: Enabled module fileinfo for fpm sapi
+php_invoke: Enabled module readline for fpm sapi
+php_invoke: Enabled module phar for fpm sapi
+php_invoke: Enabled module iconv for fpm sapi
+php_invoke: Enabled module shmop for fpm sapi
+php_invoke: Enabled module sysvmsg for fpm sapi
+php_invoke: Enabled module gettext for fpm sapi
+php_invoke: Enabled module ftp for fpm sapi
+php_invoke: Enabled module sysvsem for fpm sapi
+php_invoke: Enabled module opcache for fpm sapi
+php_invoke: Enabled module calendar for fpm sapi
+NOTICE: Not enabling PHP 7.2 FPM by default.
+NOTICE: To enable PHP 7.2 FPM in Apache2 do:
+NOTICE: a2enmod proxy_fcgi setenvif
+NOTICE: a2enconf php7.2-fpm
+NOTICE: You are seeing this message because you have apache2 package installed.
+Created symlink /etc/systemd/system/multi-user.target.wants/php7.2-fpm.service → /lib/systemd/system/php7.2-fpm.service.
+7[24;0f[42m[30mProgress: [ 80%][49m[39m [##############################################............] 8Processing triggers for systemd (239-7ubuntu10.6) ...
+Processing triggers for man-db (2.8.4-2) ...
+
+7[0;24r8[1A[J]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sdu[K[Kudp[Ko a2enmod proxy_fcgi setenvif
+Considering dependency proxy for proxy_fcgi:
+Enabling module proxy.
+Enabling module proxy_fcgi.
+Module setenvif already enabled
+To activate the new configuration, you need to run:
+  systemctl restart apache2
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sudo a2enmod proxy_fcgi setenvif[5Ppt install php7.2-fpmsystemctl restart apache2
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sudo a2enconf php7.2-fpm
+Enabling conf php7.2-fpm.
+To activate the new configuration, you need to run:
+  systemctl reload apache2
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sudo a2enconf php7.2-fpmsystemctl restart apache2
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ sudo rm/var[K[K[K[K[K [K[Krm /var/www/html/info.php
+]0;ceclab2@ceclab2-Veriton-Series: ~[01;32mceclab2@ceclab2-Veriton-Series[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-04-25 11:12:01+05:30
+
